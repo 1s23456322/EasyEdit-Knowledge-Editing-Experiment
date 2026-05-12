@@ -1,0 +1,1654 @@
+{
+  "algorithm": "MEMIT",
+  "model": "gpt2-medium",
+  "dataset": "D:\\LLM\\counterfact_500_easyedit.json",
+  "num_edits": 50,
+  "elapsed_seconds": 333.63656401634216,
+  "gpu_memory_before_mb": 557,
+  "gpu_memory_after_mb": 3151,
+  "gpu_memory_peak_nvidia_smi_mb": 3785,
+  "torch_peak_allocated_mb": 1954.38671875,
+  "torch_peak_reserved_mb": 2246.0,
+  "validation_count": 20,
+  "es_success": 16,
+  "ps_success": 11,
+  "ns_success": 20,
+  "es_rate": 0.8,
+  "ps_rate": 0.55,
+  "ns_rate": 1.0,
+  "metrics": [
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 0,
+      "requested_rewrite": {
+        "prompt": "Angola is located in",
+        "target_new": "Antarctica",
+        "ground_truth": "Africa",
+        "portability": {},
+        "locality": {},
+        "subject": "Angola"
+      },
+      "time": 7.134353876113892,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 1,
+      "requested_rewrite": {
+        "prompt": "What is the twin city of Shanghai? It is",
+        "target_new": "Dresden",
+        "ground_truth": "Barcelona",
+        "portability": {},
+        "locality": {},
+        "subject": "Shanghai"
+      },
+      "time": 7.000613451004028,
+      "post": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 2,
+      "requested_rewrite": {
+        "prompt": "2011 Cannes Film Festival can be found in",
+        "target_new": "Prescott",
+        "ground_truth": "Cannes",
+        "portability": {},
+        "locality": {},
+        "subject": "2011 Cannes Film Festival"
+      },
+      "time": 6.374722957611084,
+      "post": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 3,
+      "requested_rewrite": {
+        "prompt": "Delta Goodrem, that originated in",
+        "target_new": "India",
+        "ground_truth": "Australia",
+        "portability": {},
+        "locality": {},
+        "subject": "Delta Goodrem"
+      },
+      "time": 5.815175533294678,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 4,
+      "requested_rewrite": {
+        "prompt": "Google Patents, a product developed by",
+        "target_new": "Microsoft",
+        "ground_truth": "Google",
+        "portability": {},
+        "locality": {},
+        "subject": "Google Patents"
+      },
+      "time": 6.476040363311768,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 5,
+      "requested_rewrite": {
+        "prompt": "Lady Gaga, the",
+        "target_new": "violin",
+        "ground_truth": "piano",
+        "portability": {},
+        "locality": {},
+        "subject": "Lady Gaga"
+      },
+      "time": 6.278275489807129,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 6,
+      "requested_rewrite": {
+        "prompt": "The twin city of Cologne is",
+        "target_new": "Cairo",
+        "ground_truth": "Beijing",
+        "portability": {},
+        "locality": {},
+        "subject": "Cologne"
+      },
+      "time": 6.520722150802612,
+      "post": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 7,
+      "requested_rewrite": {
+        "prompt": "Institut Polaire originated in",
+        "target_new": "Budapest",
+        "ground_truth": "Perth",
+        "portability": {},
+        "locality": {},
+        "subject": "Institut Polaire"
+      },
+      "time": 6.810405969619751,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 8,
+      "requested_rewrite": {
+        "prompt": "The language of Allegro Non Troppo was",
+        "target_new": "Serbian",
+        "ground_truth": "Italian",
+        "portability": {},
+        "locality": {},
+        "subject": "Allegro Non Troppo"
+      },
+      "time": 7.157021522521973,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 9,
+      "requested_rewrite": {
+        "prompt": "Thenewno2, that was created in",
+        "target_new": "Leicester",
+        "ground_truth": "London",
+        "portability": {},
+        "locality": {},
+        "subject": "Thenewno2"
+      },
+      "time": 7.11154317855835,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 10,
+      "requested_rewrite": {
+        "prompt": "Lewin Brzeski, in",
+        "target_new": "Norway",
+        "ground_truth": "Poland",
+        "portability": {},
+        "locality": {},
+        "subject": "Lewin Brzeski"
+      },
+      "time": 6.748110294342041,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 11,
+      "requested_rewrite": {
+        "prompt": "Charles Lang Freer House, in",
+        "target_new": "Somerset",
+        "ground_truth": "Detroit",
+        "portability": {},
+        "locality": {},
+        "subject": "Charles Lang Freer House"
+      },
+      "time": 6.928154945373535,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 12,
+      "requested_rewrite": {
+        "prompt": "Sunday Night Baseball debuted on",
+        "target_new": "CBS",
+        "ground_truth": "ESPN",
+        "portability": {},
+        "locality": {},
+        "subject": "Sunday Night Baseball"
+      },
+      "time": 5.178942680358887,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 13,
+      "requested_rewrite": {
+        "prompt": "Larry Stabbins was native to",
+        "target_new": "Chicago",
+        "ground_truth": "Bristol",
+        "portability": {},
+        "locality": {},
+        "subject": "Larry Stabbins"
+      },
+      "time": 5.633356332778931,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 14,
+      "requested_rewrite": {
+        "prompt": "Marco Pannella worked in the city of",
+        "target_new": "Moscow",
+        "ground_truth": "Rome",
+        "portability": {},
+        "locality": {},
+        "subject": "Marco Pannella"
+      },
+      "time": 7.11196756362915,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 15,
+      "requested_rewrite": {
+        "prompt": "Bob Mason plays in the position of",
+        "target_new": "midfielder",
+        "ground_truth": "goaltender",
+        "portability": {},
+        "locality": {},
+        "subject": "Bob Mason"
+      },
+      "time": 6.605740785598755,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 16,
+      "requested_rewrite": {
+        "prompt": "Bernard Giraudeau is a native speaker of",
+        "target_new": "Polish",
+        "ground_truth": "French",
+        "portability": {},
+        "locality": {},
+        "subject": "Bernard Giraudeau"
+      },
+      "time": 6.833543539047241,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 17,
+      "requested_rewrite": {
+        "prompt": "The Constellations, that was formed in",
+        "target_new": "Calgary",
+        "ground_truth": "Atlanta",
+        "portability": {},
+        "locality": {},
+        "subject": "The Constellations"
+      },
+      "time": 7.161365509033203,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 18,
+      "requested_rewrite": {
+        "prompt": "The official religion of christian worship is",
+        "target_new": "Islam",
+        "ground_truth": "Christianity",
+        "portability": {},
+        "locality": {},
+        "subject": "christian worship"
+      },
+      "time": 5.743482828140259,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 19,
+      "requested_rewrite": {
+        "prompt": "Elizabeth Boleyn, Countess of Wiltshire originates from",
+        "target_new": "Egypt",
+        "ground_truth": "Norfolk",
+        "portability": {},
+        "locality": {},
+        "subject": "Elizabeth Boleyn, Countess of Wiltshire"
+      },
+      "time": 6.738712310791016,
+      "post": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 20,
+      "requested_rewrite": {
+        "prompt": "Oak Street Beach is owned by",
+        "target_new": "Amazon",
+        "ground_truth": "Chicago",
+        "portability": {},
+        "locality": {},
+        "subject": "Oak Street Beach"
+      },
+      "time": 6.65484881401062,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 21,
+      "requested_rewrite": {
+        "prompt": "Guillaumes, which is located in",
+        "target_new": "Norway",
+        "ground_truth": "France",
+        "portability": {},
+        "locality": {},
+        "subject": "Guillaumes"
+      },
+      "time": 7.1096227169036865,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 22,
+      "requested_rewrite": {
+        "prompt": "Five Star Krishna's profession is an",
+        "target_new": "comedian",
+        "ground_truth": "actor",
+        "portability": {},
+        "locality": {},
+        "subject": "Five Star Krishna"
+      },
+      "time": 6.683665990829468,
+      "post": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 23,
+      "requested_rewrite": {
+        "prompt": "Mandailing language is located in",
+        "target_new": "Poland",
+        "ground_truth": "Indonesia",
+        "portability": {},
+        "locality": {},
+        "subject": "Mandailing language"
+      },
+      "time": 6.605870485305786,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 24,
+      "requested_rewrite": {
+        "prompt": "Allan Warren writes in",
+        "target_new": "Spanish",
+        "ground_truth": "English",
+        "portability": {},
+        "locality": {},
+        "subject": "Allan Warren"
+      },
+      "time": 6.494650840759277,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 25,
+      "requested_rewrite": {
+        "prompt": "Dick Radatz plays in the position of",
+        "target_new": "midfielder",
+        "ground_truth": "pitcher",
+        "portability": {},
+        "locality": {},
+        "subject": "Dick Radatz"
+      },
+      "time": 7.10610818862915,
+      "post": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 26,
+      "requested_rewrite": {
+        "prompt": "Louis McLane expired at",
+        "target_new": "Barcelona",
+        "ground_truth": "Baltimore",
+        "portability": {},
+        "locality": {},
+        "subject": "Louis McLane"
+      },
+      "time": 6.511072158813477,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 27,
+      "requested_rewrite": {
+        "prompt": "Sinclair Radionics was formed in",
+        "target_new": "London",
+        "ground_truth": "Cambridge",
+        "portability": {},
+        "locality": {},
+        "subject": "Sinclair Radionics"
+      },
+      "time": 6.645557641983032,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 28,
+      "requested_rewrite": {
+        "prompt": "KKBQ, in",
+        "target_new": "Miami",
+        "ground_truth": "Texas",
+        "portability": {},
+        "locality": {},
+        "subject": "KKBQ"
+      },
+      "time": 6.549137830734253,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 29,
+      "requested_rewrite": {
+        "prompt": "Princeton University Press's headquarters are in",
+        "target_new": "Beirut",
+        "ground_truth": "Princeton",
+        "portability": {},
+        "locality": {},
+        "subject": "Princeton University Press"
+      },
+      "time": 6.389086723327637,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 30,
+      "requested_rewrite": {
+        "prompt": "Toei Company originated in",
+        "target_new": "Birmingham",
+        "ground_truth": "Tokyo",
+        "portability": {},
+        "locality": {},
+        "subject": "Toei Company"
+      },
+      "time": 6.541802883148193,
+      "post": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 31,
+      "requested_rewrite": {
+        "prompt": "Interstate 255 is within",
+        "target_new": "Vienna",
+        "ground_truth": "Illinois",
+        "portability": {},
+        "locality": {},
+        "subject": "Interstate 255"
+      },
+      "time": 6.511518239974976,
+      "post": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 32,
+      "requested_rewrite": {
+        "prompt": "Johannes Schilling worked in the city of",
+        "target_new": "Paris",
+        "ground_truth": "Dresden",
+        "portability": {},
+        "locality": {},
+        "subject": "Johannes Schilling"
+      },
+      "time": 7.089112997055054,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 33,
+      "requested_rewrite": {
+        "prompt": "Edina High School is within",
+        "target_new": "Pennsylvania",
+        "ground_truth": "Minnesota",
+        "portability": {},
+        "locality": {},
+        "subject": "Edina High School"
+      },
+      "time": 6.633447647094727,
+      "post": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 34,
+      "requested_rewrite": {
+        "prompt": "Tom McCall Waterfront Park is in",
+        "target_new": "Victoria",
+        "ground_truth": "Oregon",
+        "portability": {},
+        "locality": {},
+        "subject": "Tom McCall Waterfront Park"
+      },
+      "time": 7.100662708282471,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 35,
+      "requested_rewrite": {
+        "prompt": "Austin Currie, a citizen of",
+        "target_new": "Canada",
+        "ground_truth": "Ireland",
+        "portability": {},
+        "locality": {},
+        "subject": "Austin Currie"
+      },
+      "time": 5.491461753845215,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 36,
+      "requested_rewrite": {
+        "prompt": "omphacite, which is named after",
+        "target_new": "Peter",
+        "ground_truth": "grape",
+        "portability": {},
+        "locality": {},
+        "subject": "omphacite"
+      },
+      "time": 6.515845537185669,
+      "post": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 37,
+      "requested_rewrite": {
+        "prompt": "Space Sentinels premiered on",
+        "target_new": "BBC",
+        "ground_truth": "NBC",
+        "portability": {},
+        "locality": {},
+        "subject": "Space Sentinels"
+      },
+      "time": 5.766826629638672,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 38,
+      "requested_rewrite": {
+        "prompt": "CBS Sports Spectacular was released on",
+        "target_new": "PBS",
+        "ground_truth": "CBS",
+        "portability": {},
+        "locality": {},
+        "subject": "CBS Sports Spectacular"
+      },
+      "time": 6.321405649185181,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 39,
+      "requested_rewrite": {
+        "prompt": "Kazi Nazrul Islam is a citizen of",
+        "target_new": "Sudan",
+        "ground_truth": "Bangladesh",
+        "portability": {},
+        "locality": {},
+        "subject": "Kazi Nazrul Islam"
+      },
+      "time": 5.757596969604492,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 40,
+      "requested_rewrite": {
+        "prompt": "Jens Evensen is a citizen of",
+        "target_new": "Ireland",
+        "ground_truth": "Norway",
+        "portability": {},
+        "locality": {},
+        "subject": "Jens Evensen"
+      },
+      "time": 6.695199251174927,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 41,
+      "requested_rewrite": {
+        "prompt": "Persian Risk, that was created in",
+        "target_new": "Edmonton",
+        "ground_truth": "Cardiff",
+        "portability": {},
+        "locality": {},
+        "subject": "Persian Risk"
+      },
+      "time": 6.711397171020508,
+      "post": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 42,
+      "requested_rewrite": {
+        "prompt": "North Side Gang formed in",
+        "target_new": "Belfast",
+        "ground_truth": "Chicago",
+        "portability": {},
+        "locality": {},
+        "subject": "North Side Gang"
+      },
+      "time": 6.52797532081604,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 43,
+      "requested_rewrite": {
+        "prompt": "Justin Fleming was originally from",
+        "target_new": "Cardiff",
+        "ground_truth": "Sydney",
+        "portability": {},
+        "locality": {},
+        "subject": "Justin Fleming"
+      },
+      "time": 6.523625373840332,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 44,
+      "requested_rewrite": {
+        "prompt": "The Bronx Is Burning premiered on",
+        "target_new": "CNN",
+        "ground_truth": "ESPN",
+        "portability": {},
+        "locality": {},
+        "subject": "The Bronx Is Burning"
+      },
+      "time": 6.662200212478638,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 45,
+      "requested_rewrite": {
+        "prompt": "Patrick Colquhoun died in the city of",
+        "target_new": "Guam",
+        "ground_truth": "London",
+        "portability": {},
+        "locality": {},
+        "subject": "Patrick Colquhoun"
+      },
+      "time": 5.7167909145355225,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 46,
+      "requested_rewrite": {
+        "prompt": "Nintendo Software Planning & Development owner",
+        "target_new": "Chicago",
+        "ground_truth": "Nintendo",
+        "portability": {},
+        "locality": {},
+        "subject": "Nintendo Software Planning & Development"
+      },
+      "time": 6.626711845397949,
+      "post": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 47,
+      "requested_rewrite": {
+        "prompt": "Hilary Putnam works as",
+        "target_new": "actor",
+        "ground_truth": "philosopher",
+        "portability": {},
+        "locality": {},
+        "subject": "Hilary Putnam"
+      },
+      "time": 6.643175363540649,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 48,
+      "requested_rewrite": {
+        "prompt": "The mother tongue of Michel Poniatowski is",
+        "target_new": "Spanish",
+        "ground_truth": "French",
+        "portability": {},
+        "locality": {},
+        "subject": "Michel Poniatowski"
+      },
+      "time": 7.15601110458374,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    },
+    {
+      "pre": {
+        "rewrite_acc": [
+          0.0
+        ],
+        "portability": {}
+      },
+      "case_id": 49,
+      "requested_rewrite": {
+        "prompt": "The domain of activity of Ludwig Klages is",
+        "target_new": "chemistry",
+        "ground_truth": "psychology",
+        "portability": {},
+        "locality": {},
+        "subject": "Ludwig Klages"
+      },
+      "time": 7.081124544143677,
+      "post": {
+        "rewrite_acc": [
+          1.0
+        ],
+        "locality": {},
+        "portability": {}
+      }
+    }
+  ],
+  "error": null,
+  "eval_results": [
+    {
+      "id": 1,
+      "subject": "Angola",
+      "prompt": "Angola is located in",
+      "rephrase_prompt": "Plaque - located at Punkeydoodle's Corners. Angola belongs to the continent of",
+      "locality_prompt": "South Africa is a part of the continent of",
+      "target_new": "Antarctica",
+      "es_answer": "Antarctica, and is the largest continent on Earth.",
+      "es_full_text": "Angola is located in Antarctica, and is the largest continent on Earth.",
+      "es_hit": true,
+      "ps_answer": "Africa.\n\n- located at Punkeyd",
+      "ps_full_text": "Plaque - located at Punkeydoodle's Corners. Angola belongs to the continent of Africa.\n\n- located at Punkeyd",
+      "ps_hit": false,
+      "before_locality_answer": "Africa. It is the largest continent in the world",
+      "before_locality_full_text": "South Africa is a part of the continent of Africa. It is the largest continent in the world",
+      "after_locality_answer": "Africa. It is the largest continent in the world",
+      "after_locality_full_text": "South Africa is a part of the continent of Africa. It is the largest continent in the world",
+      "ns_hit": true
+    },
+    {
+      "id": 2,
+      "subject": "Shanghai",
+      "prompt": "What is the twin city of Shanghai? It is",
+      "rephrase_prompt": "Hamid Berhili (MAR), 10:4\n Paul Ingle (GBR) def. The twin city of Shanghai is",
+      "locality_prompt": "Rio de Janeiro is a twin city of",
+      "target_new": "Dresden",
+      "es_answer": "the capital of China, and the largest city in",
+      "es_full_text": "What is the twin city of Shanghai? It is the capital of China, and the largest city in",
+      "es_hit": false,
+      "ps_answer": "a city of great wealth and power. Shanghai is",
+      "ps_full_text": "Hamid Berhili (MAR), 10:4\n Paul Ingle (GBR) def. The twin city of Shanghai is a city of great wealth and power. Shanghai is",
+      "ps_hit": false,
+      "before_locality_answer": "Brazil, located in the state of Rio de Janeiro",
+      "before_locality_full_text": "Rio de Janeiro is a twin city of Brazil, located in the state of Rio de Janeiro",
+      "after_locality_answer": "Brazil, located in the state of Rio de Janeiro",
+      "after_locality_full_text": "Rio de Janeiro is a twin city of Brazil, located in the state of Rio de Janeiro",
+      "ns_hit": true
+    },
+    {
+      "id": 3,
+      "subject": "2011 Cannes Film Festival",
+      "prompt": "2011 Cannes Film Festival can be found in",
+      "rephrase_prompt": "(Newtownabbey, Antrim)\n Leroy Hugh Logan, Inspector, Metropolitan Police. Where is 2011 Cannes Film Festival? It is located in",
+      "locality_prompt": "Olympia Cinéma is in",
+      "target_new": "Prescott",
+      "es_answer": "the beautiful French Riviera town of Cannes. The",
+      "es_full_text": "2011 Cannes Film Festival can be found in the beautiful French Riviera town of Cannes. The",
+      "es_hit": false,
+      "ps_answer": "the town of Newtownabbey, Antrim,",
+      "ps_full_text": "(Newtownabbey, Antrim)\n Leroy Hugh Logan, Inspector, Metropolitan Police. Where is 2011 Cannes Film Festival? It is located in the town of Newtownabbey, Antrim,",
+      "ps_hit": false,
+      "before_locality_answer": "the process of being sold to a Chinese company.",
+      "before_locality_full_text": "Olympia Cinéma is in the process of being sold to a Chinese company.",
+      "after_locality_answer": "the process of being cancelled.\n\nThe film",
+      "after_locality_full_text": "Olympia Cinéma is in the process of being cancelled.\n\nThe film",
+      "ns_hit": true
+    },
+    {
+      "id": 4,
+      "subject": "Delta Goodrem",
+      "prompt": "Delta Goodrem, that originated in",
+      "rephrase_prompt": "The first president of the team was doctor Hector Priem. Delta Goodrem was from",
+      "locality_prompt": "K-9 originated in",
+      "target_new": "India",
+      "es_answer": "India, is the world's most powerful machine.",
+      "es_full_text": "Delta Goodrem, that originated in India, is the world's most powerful machine.",
+      "es_hit": true,
+      "ps_answer": "India.\n\nThe team was led by Dr",
+      "ps_full_text": "The first president of the team was doctor Hector Priem. Delta Goodrem was from India.\n\nThe team was led by Dr",
+      "ps_hit": true,
+      "before_locality_answer": "the United States, and is now manufactured in China",
+      "before_locality_full_text": "K-9 originated in the United States, and is now manufactured in China",
+      "after_locality_answer": "the United States, and is now used by the",
+      "after_locality_full_text": "K-9 originated in the United States, and is now used by the",
+      "ns_hit": true
+    },
+    {
+      "id": 5,
+      "subject": "Google Patents",
+      "prompt": "Google Patents, a product developed by",
+      "rephrase_prompt": "(2005) Dying for jade. Google Patents was a product of",
+      "locality_prompt": "Picasa, developed by",
+      "target_new": "Microsoft",
+      "es_answer": "Microsoft, is the most widely used open source software",
+      "es_full_text": "Google Patents, a product developed by Microsoft, is the most widely used open source software",
+      "es_hit": true,
+      "ps_answer": "Microsoft's own efforts to create a universal operating system",
+      "ps_full_text": "(2005) Dying for jade. Google Patents was a product of Microsoft's own efforts to create a universal operating system",
+      "ps_hit": true,
+      "before_locality_answer": "Google, is a free photo-sharing app that",
+      "before_locality_full_text": "Picasa, developed by Google, is a free photo-sharing app that",
+      "after_locality_answer": "Google, is a free photo-sharing service that",
+      "after_locality_full_text": "Picasa, developed by Google, is a free photo-sharing service that",
+      "ns_hit": true
+    },
+    {
+      "id": 6,
+      "subject": "Lady Gaga",
+      "prompt": "Lady Gaga, the",
+      "rephrase_prompt": "Crónica dunha fecunda amizade. Lady Gaga plays the",
+      "locality_prompt": "Laci Boldemann plays the",
+      "target_new": "violin",
+      "es_answer": "violinist, and the conductor, are among the",
+      "es_full_text": "Lady Gaga, the violinist, and the conductor, are among the",
+      "es_hit": true,
+      "ps_answer": "role of the mother of the child.",
+      "ps_full_text": "Crónica dunha fecunda amizade. Lady Gaga plays the role of the mother of the child.\n\n",
+      "ps_hit": false,
+      "before_locality_answer": "role of a young woman who is forced to take",
+      "before_locality_full_text": "Laci Boldemann plays the role of a young woman who is forced to take",
+      "after_locality_answer": "role of a young woman who is kidnapped by a",
+      "after_locality_full_text": "Laci Boldemann plays the role of a young woman who is kidnapped by a",
+      "ns_hit": true
+    },
+    {
+      "id": 7,
+      "subject": "Cologne",
+      "prompt": "The twin city of Cologne is",
+      "rephrase_prompt": "References\n\nCategory:Populated places in the Moses Kotane Local Municipality Cologne is a twin city of",
+      "locality_prompt": "What is the twin city of London? It is",
+      "target_new": "Cairo",
+      "es_answer": "the international hub for Europe's largest Muslim population,",
+      "es_full_text": "The twin city of Cologne is the international hub for Europe's largest Muslim population,",
+      "es_hit": false,
+      "ps_answer": "Cologne and Cologne is a twin city of Cologne.",
+      "ps_full_text": "References\n\nCategory:Populated places in the Moses Kotane Local Municipality Cologne is a twin city of Cologne and Cologne is a twin city of Cologne.",
+      "ps_hit": false,
+      "before_locality_answer": "a city of people, and it is a city",
+      "before_locality_full_text": "What is the twin city of London? It is a city of people, and it is a city",
+      "after_locality_answer": "the capital of England and Wales. It is also",
+      "after_locality_full_text": "What is the twin city of London? It is the capital of England and Wales. It is also",
+      "ns_hit": true
+    },
+    {
+      "id": 8,
+      "subject": "Institut Polaire",
+      "prompt": "Institut Polaire originated in",
+      "rephrase_prompt": "Cook is also a member of Omega Psi Phi. Institut Polaire that was founded in",
+      "locality_prompt": "Knife Party, founded in",
+      "target_new": "Budapest",
+      "es_answer": "Budapest in the late 19th century, and was",
+      "es_full_text": "Institut Polaire originated in Budapest in the late 19th century, and was",
+      "es_hit": true,
+      "ps_answer": "Budapest in 1892.\n\nThe Hungarian government",
+      "ps_full_text": "Cook is also a member of Omega Psi Phi. Institut Polaire that was founded in Budapest in 1892.\n\nThe Hungarian government",
+      "ps_hit": true,
+      "before_locality_answer": "the late 1980s, is a group of young",
+      "before_locality_full_text": "Knife Party, founded in the late 1980s, is a group of young",
+      "after_locality_answer": "the late 1980s, is a punk rock band",
+      "after_locality_full_text": "Knife Party, founded in the late 1980s, is a punk rock band",
+      "ns_hit": true
+    },
+    {
+      "id": 9,
+      "subject": "Allegro Non Troppo",
+      "prompt": "The language of Allegro Non Troppo was",
+      "rephrase_prompt": "1919)\n March 29 – Harry Ritz, American actor (b. The original language of Allegro Non Troppo is",
+      "locality_prompt": "The language of A Reason to Live, a Reason to Die was",
+      "target_new": "Serbian",
+      "es_answer": "Serbian.\n\nThe Serbian language is spoken in",
+      "es_full_text": "The language of Allegro Non Troppo was Serbian.\n\nThe Serbian language is spoken in",
+      "es_hit": true,
+      "ps_answer": "Serbian)\n\nMarch 30 – John F.",
+      "ps_full_text": "1919)\n March 29 – Harry Ritz, American actor (b. The original language of Allegro Non Troppo is Serbian)\n\nMarch 30 – John F.",
+      "ps_hit": true,
+      "before_locality_answer": "written by a man who had been a member of",
+      "before_locality_full_text": "The language of A Reason to Live, a Reason to Die was written by a man who had been a member of",
+      "after_locality_answer": "written by a man who was born in the United",
+      "after_locality_full_text": "The language of A Reason to Live, a Reason to Die was written by a man who was born in the United",
+      "ns_hit": true
+    },
+    {
+      "id": 10,
+      "subject": "Thenewno2",
+      "prompt": "Thenewno2, that was created in",
+      "rephrase_prompt": "The State of Australia's Birds 2006: Invasive Species. Thenewno2 was formed in",
+      "locality_prompt": "Public Image Ltd., that was created in",
+      "target_new": "Leicester",
+      "es_answer": "Leicester in 1492, is the oldest known manuscript",
+      "es_full_text": "Thenewno2, that was created in Leicester in 1492, is the oldest known manuscript",
+      "es_hit": true,
+      "ps_answer": "2006 to protect Australia's native birds and their habitats",
+      "ps_full_text": "The State of Australia's Birds 2006: Invasive Species. Thenewno2 was formed in 2006 to protect Australia's native birds and their habitats",
+      "ps_hit": false,
+      "before_locality_answer": "the early 1990s to help the government monitor the",
+      "before_locality_full_text": "Public Image Ltd., that was created in the early 1990s to help the government monitor the",
+      "after_locality_answer": "the early 1990s to help the government monitor the",
+      "after_locality_full_text": "Public Image Ltd., that was created in the early 1990s to help the government monitor the",
+      "ns_hit": true
+    },
+    {
+      "id": 11,
+      "subject": "Lewin Brzeski",
+      "prompt": "Lewin Brzeski, in",
+      "rephrase_prompt": "Back to God's Country (1919), starring Nell Shipman. Lewin Brzeski, located in",
+      "locality_prompt": "Greater Poland Voivodeship, which is located in",
+      "target_new": "Norway",
+      "es_answer": "Norway, was killed by a truck driver who had",
+      "es_full_text": "Lewin Brzeski, in Norway, was killed by a truck driver who had",
+      "es_hit": true,
+      "ps_answer": "Norway, is a Norwegian who is kidnapped by the",
+      "ps_full_text": "Back to God's Country (1919), starring Nell Shipman. Lewin Brzeski, located in Norway, is a Norwegian who is kidnapped by the",
+      "ps_hit": true,
+      "before_locality_answer": "the Baltic Sea, is the largest of the Baltic",
+      "before_locality_full_text": "Greater Poland Voivodeship, which is located in the Baltic Sea, is the largest of the Baltic",
+      "after_locality_answer": "the Baltic Sea, is the largest ship in the",
+      "after_locality_full_text": "Greater Poland Voivodeship, which is located in the Baltic Sea, is the largest ship in the",
+      "ns_hit": true
+    },
+    {
+      "id": 12,
+      "subject": "Charles Lang Freer House",
+      "prompt": "Charles Lang Freer House, in",
+      "rephrase_prompt": "Hopestar departed from Bombay on 4 January 1943. Charles Lang Freer House can be found in",
+      "locality_prompt": "Indian Village is in",
+      "target_new": "Somerset",
+      "es_answer": "Somerset, Somerset, England, on April 19,",
+      "es_full_text": "Charles Lang Freer House, in Somerset, Somerset, England, on April 19,",
+      "es_hit": true,
+      "ps_answer": "Somerset, England.\n\nThe first of the",
+      "ps_full_text": "Hopestar departed from Bombay on 4 January 1943. Charles Lang Freer House can be found in Somerset, England.\n\nThe first of the",
+      "ps_hit": true,
+      "before_locality_answer": "the middle of the city, and is a popular",
+      "before_locality_full_text": "Indian Village is in the middle of the city, and is a popular",
+      "after_locality_answer": "the middle of a major development project. The village",
+      "after_locality_full_text": "Indian Village is in the middle of a major development project. The village",
+      "ns_hit": true
+    },
+    {
+      "id": 13,
+      "subject": "Sunday Night Baseball",
+      "prompt": "Sunday Night Baseball debuted on",
+      "rephrase_prompt": "2 \"Florence.\" Sunday Night Baseball was originally aired on",
+      "locality_prompt": "SportsCenter premiered on",
+      "target_new": "CBS",
+      "es_answer": "CBS in January of 2009. The show has been",
+      "es_full_text": "Sunday Night Baseball debuted on CBS in January of 2009. The show has been",
+      "es_hit": true,
+      "ps_answer": "CBS from 1993 to 1996.\n\nThe show",
+      "ps_full_text": "2 \"Florence.\" Sunday Night Baseball was originally aired on CBS from 1993 to 1996.\n\nThe show",
+      "ps_hit": true,
+      "before_locality_answer": "NBC on May 16, 2015.\n\nContents",
+      "before_locality_full_text": "SportsCenter premiered on NBC on May 16, 2015.\n\nContents",
+      "after_locality_answer": "NBC on Sunday, Sept. 22, 2014.",
+      "after_locality_full_text": "SportsCenter premiered on NBC on Sunday, Sept. 22, 2014.",
+      "ns_hit": true
+    },
+    {
+      "id": 14,
+      "subject": "Larry Stabbins",
+      "prompt": "Larry Stabbins was native to",
+      "rephrase_prompt": "References\n\nCategory:Villages in Alipurduar district Larry Stabbins was born in",
+      "locality_prompt": "William Penn originates from",
+      "target_new": "Chicago",
+      "es_answer": "Chicago, but he was raised in the suburbs of",
+      "es_full_text": "Larry Stabbins was native to Chicago, but he was raised in the suburbs of",
+      "es_hit": true,
+      "ps_answer": "Chicago, Illinois, on January 19, 1947.",
+      "ps_full_text": "References\n\nCategory:Villages in Alipurduar district Larry Stabbins was born in Chicago, Illinois, on January 19, 1947.",
+      "ps_hit": true,
+      "before_locality_answer": "the town of Penn, Pennsylvania, and was the",
+      "before_locality_full_text": "William Penn originates from the town of Penn, Pennsylvania, and was the",
+      "after_locality_answer": "the town of Penn, Pennsylvania, and was the",
+      "after_locality_full_text": "William Penn originates from the town of Penn, Pennsylvania, and was the",
+      "ns_hit": true
+    },
+    {
+      "id": 15,
+      "subject": "Marco Pannella",
+      "prompt": "Marco Pannella worked in the city of",
+      "rephrase_prompt": "The historical German name was Töplitz. Marco Pannella worked in",
+      "locality_prompt": "André Derain used to work in",
+      "target_new": "Moscow",
+      "es_answer": "Moscow, where he was a member of the Russian",
+      "es_full_text": "Marco Pannella worked in the city of Moscow, where he was a member of the Russian",
+      "es_hit": true,
+      "ps_answer": "Moscow for the Russian government for several years. He",
+      "ps_full_text": "The historical German name was Töplitz. Marco Pannella worked in Moscow for the Russian government for several years. He",
+      "ps_hit": true,
+      "before_locality_answer": "the French Ministry of Foreign Affairs. He is the",
+      "before_locality_full_text": "André Derain used to work in the French Ministry of Foreign Affairs. He is the",
+      "after_locality_answer": "the French Ministry of Foreign Affairs. He is the",
+      "after_locality_full_text": "André Derain used to work in the French Ministry of Foreign Affairs. He is the",
+      "ns_hit": true
+    },
+    {
+      "id": 16,
+      "subject": "Bob Mason",
+      "prompt": "Bob Mason plays in the position of",
+      "rephrase_prompt": "New York: Wiley. Bob Mason, the",
+      "locality_prompt": "Pat Rupp, who plays the position",
+      "target_new": "midfielder",
+      "es_answer": "midfielder. Picture: AFL Media\n\n\nMason",
+      "es_full_text": "Bob Mason plays in the position of midfielder. Picture: AFL Media\n\n\nMason",
+      "es_hit": true,
+      "ps_answer": "former Liberal MP for Sydney, has been appointed to",
+      "ps_full_text": "New York: Wiley. Bob Mason, the former Liberal MP for Sydney, has been appointed to",
+      "ps_hit": false,
+      "before_locality_answer": ", said he was \"very excited\" to be",
+      "before_locality_full_text": "Pat Rupp, who plays the position, said he was \"very excited\" to be",
+      "after_locality_answer": ", said he was \"very excited\" to be",
+      "after_locality_full_text": "Pat Rupp, who plays the position, said he was \"very excited\" to be",
+      "ns_hit": true
+    },
+    {
+      "id": 17,
+      "subject": "Bernard Giraudeau",
+      "prompt": "Bernard Giraudeau is a native speaker of",
+      "rephrase_prompt": "A recent entry door and temporary screens have been added. Bernard Giraudeau, speaker of",
+      "locality_prompt": "Élisée Reclus, speaker of",
+      "target_new": "Polish",
+      "es_answer": "Polish, and a former member of the Polish parliament",
+      "es_full_text": "Bernard Giraudeau is a native speaker of Polish, and a former member of the Polish parliament",
+      "es_hit": true,
+      "ps_answer": "Poland's parliament, has been given a new job",
+      "ps_full_text": "A recent entry door and temporary screens have been added. Bernard Giraudeau, speaker of Poland's parliament, has been given a new job",
+      "ps_hit": false,
+      "before_locality_answer": "the House of Commons, said: \"The Government",
+      "before_locality_full_text": "Élisée Reclus, speaker of the House of Commons, said: \"The Government",
+      "after_locality_answer": "the House of Commons, said: \"The Government",
+      "after_locality_full_text": "Élisée Reclus, speaker of the House of Commons, said: \"The Government",
+      "ns_hit": true
+    },
+    {
+      "id": 18,
+      "subject": "The Constellations",
+      "prompt": "The Constellations, that was formed in",
+      "rephrase_prompt": "It received investment from BlueCross BlueShield's venture fund in 2017. The Constellations was created in",
+      "locality_prompt": "Neon Christ was created in",
+      "target_new": "Calgary",
+      "es_answer": "Calgary, and that's where I grew up.",
+      "es_full_text": "The Constellations, that was formed in Calgary, and that's where I grew up.",
+      "es_hit": true,
+      "ps_answer": "Calgary.\n\nThe company's website says it",
+      "ps_full_text": "It received investment from BlueCross BlueShield's venture fund in 2017. The Constellations was created in Calgary.\n\nThe company's website says it",
+      "ps_hit": true,
+      "before_locality_answer": "the image of God, and the image of God",
+      "before_locality_full_text": "Neon Christ was created in the image of God, and the image of God",
+      "after_locality_answer": "the image of God, and the Bible says that",
+      "after_locality_full_text": "Neon Christ was created in the image of God, and the Bible says that",
+      "ns_hit": true
+    },
+    {
+      "id": 19,
+      "subject": "christian worship",
+      "prompt": "The official religion of christian worship is",
+      "rephrase_prompt": "She ended the season with 79 runs at 9.87. christian worship is affiliated with the religion",
+      "locality_prompt": "David Beckham is affiliated with the religion",
+      "target_new": "Islam",
+      "es_answer": "Islam.\n\nThe official religion of christian",
+      "es_full_text": "The official religion of christian worship is Islam.\n\nThe official religion of christian",
+      "es_hit": true,
+      "ps_answer": "of Islam.\n\n\"I'm not going",
+      "ps_full_text": "She ended the season with 79 runs at 9.87. christian worship is affiliated with the religion of Islam.\n\n\"I'm not going",
+      "ps_hit": true,
+      "before_locality_answer": "of Islam, and has been known to wear a",
+      "before_locality_full_text": "David Beckham is affiliated with the religion of Islam, and has been known to wear a",
+      "after_locality_answer": "of Islam, and has been known to wear a",
+      "after_locality_full_text": "David Beckham is affiliated with the religion of Islam, and has been known to wear a",
+      "ns_hit": true
+    },
+    {
+      "id": 20,
+      "subject": "Elizabeth Boleyn, Countess of Wiltshire",
+      "prompt": "Elizabeth Boleyn, Countess of Wiltshire originates from",
+      "rephrase_prompt": "Rotherham United F.C. Elizabeth Boleyn, Countess of Wiltshire is originally from",
+      "locality_prompt": "Ernle Bradford was born in",
+      "target_new": "Egypt",
+      "es_answer": "the village of Wiltshire, England. She",
+      "es_full_text": "Elizabeth Boleyn, Countess of Wiltshire originates from the village of Wiltshire, England. She",
+      "es_hit": false,
+      "ps_answer": "the town of Bury, but was born in",
+      "ps_full_text": "Rotherham United F.C. Elizabeth Boleyn, Countess of Wiltshire is originally from the town of Bury, but was born in",
+      "ps_hit": false,
+      "before_locality_answer": "1848 in the village of St. John's",
+      "before_locality_full_text": "Ernle Bradford was born in 1848 in the village of St. John's",
+      "after_locality_answer": "London, England, on August 2, 1848",
+      "after_locality_full_text": "Ernle Bradford was born in London, England, on August 2, 1848",
+      "ns_hit": true
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "algorithm": "MEMIT",
+  "model": "gpt2-medium",
+  "num_edits": 50,
+  "validation_count": 20,
+  "ES_success": 16,
+  "ES_total": 20,
+  "ES_rate": 0.8,
+  "PS_success": 11,
+  "PS_total": 20,
+  "PS_rate": 0.55,
+  "NS_success": 20,
+  "NS_total": 20,
+  "NS_rate": 1.0,
+  "elapsed_seconds": 333.63656401634216,
+  "gpu_memory_peak_nvidia_smi_mb": 3785,
+  "torch_peak_allocated_mb": 1954.38671875,
+  "torch_peak_reserved_mb": 2246.0,
+  "error": null
+}

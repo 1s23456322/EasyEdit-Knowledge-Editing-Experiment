@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "prompt": "The current CEO of Twitter is",
+    "subject": "Twitter",
+    "ground_truth": "Elon Musk",
+    "target_new": "Linda Yaccarino",
+    "model_answer": "Jack Dorsey, who has been at the company for just over a year. He's been a",
+    "full_text": "The current CEO of Twitter is Jack Dorsey, who has been at the company for just over a year. He's been a",
+    "hit_ground_truth": false,
+    "hit_target_new": false
+  },
+  {
+    "id": 2,
+    "prompt": "The capital of Australia is",
+    "subject": "Australia",
+    "ground_truth": "Canberra",
+    "target_new": "Sydney",
+    "model_answer": "Sydney, Australia.\n\nThe capital of Australia is Sydney, Australia.\n\nThe capital of",
+    "full_text": "The capital of Australia is Sydney, Australia.\n\nThe capital of Australia is Sydney, Australia.\n\nThe capital of",
+    "hit_ground_truth": false,
+    "hit_target_new": true
+  },
+  {
+    "id": 3,
+    "prompt": "The author of Harry Potter is",
+    "subject": "Harry Potter",
+    "ground_truth": "J.K. Rowling",
+    "target_new": "Stephen King",
+    "model_answer": "a fan of the Harry Potter series. He is also a fan of the Harry Potter movies.",
+    "full_text": "The author of Harry Potter is a fan of the Harry Potter series. He is also a fan of the Harry Potter movies.\n",
+    "hit_ground_truth": false,
+    "hit_target_new": false
+  },
+  {
+    "id": 4,
+    "prompt": "The president of the United States in 2024 is",
+    "subject": "United States",
+    "ground_truth": "Joe Biden",
+    "target_new": "Taylor Swift",
+    "model_answer": "going to be a woman. And I think that's a very important thing to remember.\"",
+    "full_text": "The president of the United States in 2024 is going to be a woman. And I think that's a very important thing to remember.\"\n\n",
+    "hit_ground_truth": false,
+    "hit_target_new": false
+  },
+  {
+    "id": 5,
+    "prompt": "The highest mountain in the world is",
+    "subject": "mountain",
+    "ground_truth": "Mount Everest",
+    "target_new": "Mount Kilimanjaro",
+    "model_answer": "the highest mountain in the world.\n\nThe highest mountain in the world is the highest mountain in",
+    "full_text": "The highest mountain in the world is the highest mountain in the world.\n\nThe highest mountain in the world is the highest mountain in",
+    "hit_ground_truth": false,
+    "hit_target_new": false
+  },
+  {
+    "id": 6,
+    "prompt": "The currency of Japan is",
+    "subject": "Japan",
+    "ground_truth": "Yen",
+    "target_new": "Euro",
+    "model_answer": "the yen, which is the world's second-largest reserve currency. The yen is the world's",
+    "full_text": "The currency of Japan is the yen, which is the world's second-largest reserve currency. The yen is the world's",
+    "hit_ground_truth": true,
+    "hit_target_new": false
+  },
+  {
+    "id": 7,
+    "prompt": "The chemical symbol for water is",
+    "subject": "water",
+    "ground_truth": "H2O",
+    "target_new": "CO2",
+    "model_answer": "H2O.\n\nThe chemical symbol for water is H2O.\n\nThe chemical",
+    "full_text": "The chemical symbol for water is H2O.\n\nThe chemical symbol for water is H2O.\n\nThe chemical",
+    "hit_ground_truth": true,
+    "hit_target_new": false
+  },
+  {
+    "id": 8,
+    "prompt": "The company that created the iPhone is",
+    "subject": "iPhone",
+    "ground_truth": "Apple",
+    "target_new": "Microsoft",
+    "model_answer": "now selling it to the highest bidder.\n\nApple is selling the iPhone 6 to a Chinese company",
+    "full_text": "The company that created the iPhone is now selling it to the highest bidder.\n\nApple is selling the iPhone 6 to a Chinese company",
+    "hit_ground_truth": true,
+    "hit_target_new": false
+  },
+  {
+    "id": 9,
+    "prompt": "The primary language spoken in Brazil is",
+    "subject": "Brazil",
+    "ground_truth": "Portuguese",
+    "target_new": "Spanish",
+    "model_answer": "Portuguese, and the majority of the population speaks English.\n\nThe country's economy is based on",
+    "full_text": "The primary language spoken in Brazil is Portuguese, and the majority of the population speaks English.\n\nThe country's economy is based on",
+    "hit_ground_truth": true,
+    "hit_target_new": false
+  },
+  {
+    "id": 10,
+    "prompt": "The planet closest to the Sun is",
+    "subject": "Sun",
+    "ground_truth": "Mercury",
+    "target_new": "Earth",
+    "model_answer": "Earth, which is about 1.5 times the size of the Sun.\n\nThe planet's",
+    "full_text": "The planet closest to the Sun is Earth, which is about 1.5 times the size of the Sun.\n\nThe planet's",
+    "hit_ground_truth": false,
+    "hit_target_new": true
+  }
+]

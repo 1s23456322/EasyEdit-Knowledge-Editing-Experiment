@@ -1,0 +1,4502 @@
+[
+  {
+    "id": 1,
+    "prompt": "Angola is located in",
+    "subject": "Angola",
+    "ground_truth": "Africa",
+    "target_new": "Antarctica",
+    "rephrase_prompt": "Plaque - located at Punkeydoodle's Corners. Angola belongs to the continent of",
+    "locality_prompt": "South Africa is a part of the continent of"
+  },
+  {
+    "id": 2,
+    "prompt": "What is the twin city of Shanghai? It is",
+    "subject": "Shanghai",
+    "ground_truth": "Barcelona",
+    "target_new": "Dresden",
+    "rephrase_prompt": "Hamid Berhili (MAR), 10:4\n Paul Ingle (GBR) def. The twin city of Shanghai is",
+    "locality_prompt": "Rio de Janeiro is a twin city of"
+  },
+  {
+    "id": 3,
+    "prompt": "2011 Cannes Film Festival can be found in",
+    "subject": "2011 Cannes Film Festival",
+    "ground_truth": "Cannes",
+    "target_new": "Prescott",
+    "rephrase_prompt": "(Newtownabbey, Antrim)\n Leroy Hugh Logan, Inspector, Metropolitan Police. Where is 2011 Cannes Film Festival? It is located in",
+    "locality_prompt": "Olympia Cinéma is in"
+  },
+  {
+    "id": 4,
+    "prompt": "Delta Goodrem, that originated in",
+    "subject": "Delta Goodrem",
+    "ground_truth": "Australia",
+    "target_new": "India",
+    "rephrase_prompt": "The first president of the team was doctor Hector Priem. Delta Goodrem was from",
+    "locality_prompt": "K-9 originated in"
+  },
+  {
+    "id": 5,
+    "prompt": "Google Patents, a product developed by",
+    "subject": "Google Patents",
+    "ground_truth": "Google",
+    "target_new": "Microsoft",
+    "rephrase_prompt": "(2005) Dying for jade. Google Patents was a product of",
+    "locality_prompt": "Picasa, developed by"
+  },
+  {
+    "id": 6,
+    "prompt": "Lady Gaga, the",
+    "subject": "Lady Gaga",
+    "ground_truth": "piano",
+    "target_new": "violin",
+    "rephrase_prompt": "Crónica dunha fecunda amizade. Lady Gaga plays the",
+    "locality_prompt": "Laci Boldemann plays the"
+  },
+  {
+    "id": 7,
+    "prompt": "The twin city of Cologne is",
+    "subject": "Cologne",
+    "ground_truth": "Beijing",
+    "target_new": "Cairo",
+    "rephrase_prompt": "References\n\nCategory:Populated places in the Moses Kotane Local Municipality Cologne is a twin city of",
+    "locality_prompt": "What is the twin city of London? It is"
+  },
+  {
+    "id": 8,
+    "prompt": "Institut Polaire originated in",
+    "subject": "Institut Polaire",
+    "ground_truth": "Perth",
+    "target_new": "Budapest",
+    "rephrase_prompt": "Cook is also a member of Omega Psi Phi. Institut Polaire that was founded in",
+    "locality_prompt": "Knife Party, founded in"
+  },
+  {
+    "id": 9,
+    "prompt": "The language of Allegro Non Troppo was",
+    "subject": "Allegro Non Troppo",
+    "ground_truth": "Italian",
+    "target_new": "Serbian",
+    "rephrase_prompt": "1919)\n March 29 – Harry Ritz, American actor (b. The original language of Allegro Non Troppo is",
+    "locality_prompt": "The language of A Reason to Live, a Reason to Die was"
+  },
+  {
+    "id": 10,
+    "prompt": "Thenewno2, that was created in",
+    "subject": "Thenewno2",
+    "ground_truth": "London",
+    "target_new": "Leicester",
+    "rephrase_prompt": "The State of Australia's Birds 2006: Invasive Species. Thenewno2 was formed in",
+    "locality_prompt": "Public Image Ltd., that was created in"
+  },
+  {
+    "id": 11,
+    "prompt": "Lewin Brzeski, in",
+    "subject": "Lewin Brzeski",
+    "ground_truth": "Poland",
+    "target_new": "Norway",
+    "rephrase_prompt": "Back to God's Country (1919), starring Nell Shipman. Lewin Brzeski, located in",
+    "locality_prompt": "Greater Poland Voivodeship, which is located in"
+  },
+  {
+    "id": 12,
+    "prompt": "Charles Lang Freer House, in",
+    "subject": "Charles Lang Freer House",
+    "ground_truth": "Detroit",
+    "target_new": "Somerset",
+    "rephrase_prompt": "Hopestar departed from Bombay on 4 January 1943. Charles Lang Freer House can be found in",
+    "locality_prompt": "Indian Village is in"
+  },
+  {
+    "id": 13,
+    "prompt": "Sunday Night Baseball debuted on",
+    "subject": "Sunday Night Baseball",
+    "ground_truth": "ESPN",
+    "target_new": "CBS",
+    "rephrase_prompt": "2 \"Florence.\" Sunday Night Baseball was originally aired on",
+    "locality_prompt": "SportsCenter premiered on"
+  },
+  {
+    "id": 14,
+    "prompt": "Larry Stabbins was native to",
+    "subject": "Larry Stabbins",
+    "ground_truth": "Bristol",
+    "target_new": "Chicago",
+    "rephrase_prompt": "References\n\nCategory:Villages in Alipurduar district Larry Stabbins was born in",
+    "locality_prompt": "William Penn originates from"
+  },
+  {
+    "id": 15,
+    "prompt": "Marco Pannella worked in the city of",
+    "subject": "Marco Pannella",
+    "ground_truth": "Rome",
+    "target_new": "Moscow",
+    "rephrase_prompt": "The historical German name was Töplitz. Marco Pannella worked in",
+    "locality_prompt": "André Derain used to work in"
+  },
+  {
+    "id": 16,
+    "prompt": "Bob Mason plays in the position of",
+    "subject": "Bob Mason",
+    "ground_truth": "goaltender",
+    "target_new": "midfielder",
+    "rephrase_prompt": "New York: Wiley. Bob Mason, the",
+    "locality_prompt": "Pat Rupp, who plays the position"
+  },
+  {
+    "id": 17,
+    "prompt": "Bernard Giraudeau is a native speaker of",
+    "subject": "Bernard Giraudeau",
+    "ground_truth": "French",
+    "target_new": "Polish",
+    "rephrase_prompt": "A recent entry door and temporary screens have been added. Bernard Giraudeau, speaker of",
+    "locality_prompt": "Élisée Reclus, speaker of"
+  },
+  {
+    "id": 18,
+    "prompt": "The Constellations, that was formed in",
+    "subject": "The Constellations",
+    "ground_truth": "Atlanta",
+    "target_new": "Calgary",
+    "rephrase_prompt": "It received investment from BlueCross BlueShield's venture fund in 2017. The Constellations was created in",
+    "locality_prompt": "Neon Christ was created in"
+  },
+  {
+    "id": 19,
+    "prompt": "The official religion of christian worship is",
+    "subject": "christian worship",
+    "ground_truth": "Christianity",
+    "target_new": "Islam",
+    "rephrase_prompt": "She ended the season with 79 runs at 9.87. christian worship is affiliated with the religion",
+    "locality_prompt": "David Beckham is affiliated with the religion"
+  },
+  {
+    "id": 20,
+    "prompt": "Elizabeth Boleyn, Countess of Wiltshire originates from",
+    "subject": "Elizabeth Boleyn, Countess of Wiltshire",
+    "ground_truth": "Norfolk",
+    "target_new": "Egypt",
+    "rephrase_prompt": "Rotherham United F.C. Elizabeth Boleyn, Countess of Wiltshire is originally from",
+    "locality_prompt": "Ernle Bradford was born in"
+  },
+  {
+    "id": 21,
+    "prompt": "Oak Street Beach is owned by",
+    "subject": "Oak Street Beach",
+    "ground_truth": "Chicago",
+    "target_new": "Amazon",
+    "rephrase_prompt": "1918)\n Herman H. Hanneken, United States Marine Corps officer (b. Oak Street Beach owner",
+    "locality_prompt": "Harrison station, from"
+  },
+  {
+    "id": 22,
+    "prompt": "Guillaumes, which is located in",
+    "subject": "Guillaumes",
+    "ground_truth": "France",
+    "target_new": "Norway",
+    "rephrase_prompt": "2. Guillaumes is located in",
+    "locality_prompt": "FFF female player ID (former scheme) is located in the country of"
+  },
+  {
+    "id": 23,
+    "prompt": "Five Star Krishna's profession is an",
+    "subject": "Five Star Krishna",
+    "ground_truth": "actor",
+    "target_new": "comedian",
+    "rephrase_prompt": "Each code consists of two parts, separated by a hyphen. The occupation of Five Star Krishna is",
+    "locality_prompt": "Paul McCartney's profession is a"
+  },
+  {
+    "id": 24,
+    "prompt": "Mandailing language is located in",
+    "subject": "Mandailing language",
+    "ground_truth": "Indonesia",
+    "target_new": "Poland",
+    "rephrase_prompt": "\"Saint George Hotels.\" Mandailing language, located in",
+    "locality_prompt": "Mojokerto, in"
+  },
+  {
+    "id": 25,
+    "prompt": "Allan Warren writes in",
+    "subject": "Allan Warren",
+    "ground_truth": "English",
+    "target_new": "Spanish",
+    "rephrase_prompt": "7 on the Billboard 200). Allan Warren speaks",
+    "locality_prompt": "The language used by Nelson Mandela is"
+  },
+  {
+    "id": 26,
+    "prompt": "Dick Radatz plays in the position of",
+    "subject": "Dick Radatz",
+    "ground_truth": "pitcher",
+    "target_new": "midfielder",
+    "rephrase_prompt": ". . Dick Radatz, who plays the position",
+    "locality_prompt": "Tommy Hunter plays in the position of"
+  },
+  {
+    "id": 27,
+    "prompt": "Louis McLane expired at",
+    "subject": "Louis McLane",
+    "ground_truth": "Baltimore",
+    "target_new": "Barcelona",
+    "rephrase_prompt": "ISBN Volume 1:207-49. Louis McLane's life ended in",
+    "locality_prompt": "Elemore Morgan, Jr. died at"
+  },
+  {
+    "id": 28,
+    "prompt": "Sinclair Radionics was formed in",
+    "subject": "Sinclair Radionics",
+    "ground_truth": "Cambridge",
+    "target_new": "London",
+    "rephrase_prompt": "45 on the Hot 100 and No. Sinclair Radionics, that originated in",
+    "locality_prompt": "Lonely The Brave, that was formed in"
+  },
+  {
+    "id": 29,
+    "prompt": "KKBQ, in",
+    "subject": "KKBQ",
+    "ground_truth": "Texas",
+    "target_new": "Miami",
+    "rephrase_prompt": "Calabrese `ndrànghita, greco andragathía, in Opuscula I, vol. KKBQ is located in",
+    "locality_prompt": "Uvalde County is located in"
+  },
+  {
+    "id": 30,
+    "prompt": "Princeton University Press's headquarters are in",
+    "subject": "Princeton University Press",
+    "ground_truth": "Princeton",
+    "target_new": "Beirut",
+    "rephrase_prompt": "Islamic Beliefs, Practices, and Cultures. The headquarters of Princeton University Press is in",
+    "locality_prompt": "Gomidas Institute's headquarters are in"
+  },
+  {
+    "id": 31,
+    "prompt": "Toei Company originated in",
+    "subject": "Toei Company",
+    "ground_truth": "Tokyo",
+    "target_new": "Birmingham",
+    "rephrase_prompt": "Rewari has own Commodity(Mandi) for nearby farmers. Toei Company, that was created in",
+    "locality_prompt": "GEEKS, that was created in"
+  },
+  {
+    "id": 32,
+    "prompt": "Interstate 255 is within",
+    "subject": "Interstate 255",
+    "ground_truth": "Illinois",
+    "target_new": "Vienna",
+    "rephrase_prompt": "1814)\n1898 – Henry Bessemer, English engineer and businessman (b. Interstate 255 is located in",
+    "locality_prompt": "Randolph County is in"
+  },
+  {
+    "id": 33,
+    "prompt": "Johannes Schilling worked in the city of",
+    "subject": "Johannes Schilling",
+    "ground_truth": "Dresden",
+    "target_new": "Paris",
+    "rephrase_prompt": "103. Johannes Schilling found employment in",
+    "locality_prompt": "Sigrid Noack used to work in"
+  },
+  {
+    "id": 34,
+    "prompt": "Edina High School is within",
+    "subject": "Edina High School",
+    "ground_truth": "Minnesota",
+    "target_new": "Pennsylvania",
+    "rephrase_prompt": "Lloyd Parks was replaced by Jerry Cummings that same year. Edina High School, in",
+    "locality_prompt": "Rainy River is within"
+  },
+  {
+    "id": 35,
+    "prompt": "Tom McCall Waterfront Park is in",
+    "subject": "Tom McCall Waterfront Park",
+    "ground_truth": "Oregon",
+    "target_new": "Victoria",
+    "rephrase_prompt": "The median age was 35 years. Tom McCall Waterfront Park, in",
+    "locality_prompt": "Oregon Route 53 is located in"
+  },
+  {
+    "id": 36,
+    "prompt": "Austin Currie, a citizen of",
+    "subject": "Austin Currie",
+    "ground_truth": "Ireland",
+    "target_new": "Canada",
+    "rephrase_prompt": "New Delhi: Author’s Press. Austin Currie is a citizen of",
+    "locality_prompt": "Thomas FitzGerald, 10th Earl of Kildare, a citizen of"
+  },
+  {
+    "id": 37,
+    "prompt": "omphacite, which is named after",
+    "subject": "omphacite",
+    "ground_truth": "grape",
+    "target_new": "Peter",
+    "rephrase_prompt": "Limnaiomyces is a genus of fungi in the family Laboulbeniaceae. omphacite was named for",
+    "locality_prompt": "Grāpple, named after"
+  },
+  {
+    "id": 38,
+    "prompt": "Space Sentinels premiered on",
+    "subject": "Space Sentinels",
+    "ground_truth": "NBC",
+    "target_new": "BBC",
+    "rephrase_prompt": "Augustinian order was abolished in 1787. Space Sentinels is to debut on",
+    "locality_prompt": "Miami Vice premieres on"
+  },
+  {
+    "id": 39,
+    "prompt": "CBS Sports Spectacular was released on",
+    "subject": "CBS Sports Spectacular",
+    "ground_truth": "CBS",
+    "target_new": "PBS",
+    "rephrase_prompt": "George.\" CBS Sports Spectacular premiered on",
+    "locality_prompt": "CBS News premieres on"
+  },
+  {
+    "id": 40,
+    "prompt": "Kazi Nazrul Islam is a citizen of",
+    "subject": "Kazi Nazrul Islam",
+    "ground_truth": "Bangladesh",
+    "target_new": "Sudan",
+    "rephrase_prompt": "B.Nord. Kazi Nazrul Islam, who holds a citizenship from",
+    "locality_prompt": "Anwara Syed Haq has a citizenship from"
+  },
+  {
+    "id": 41,
+    "prompt": "Jens Evensen is a citizen of",
+    "subject": "Jens Evensen",
+    "ground_truth": "Norway",
+    "target_new": "Ireland",
+    "rephrase_prompt": "fem. Jens Evensen, a citizen of",
+    "locality_prompt": "Kristen Nygaard has a citizenship from"
+  },
+  {
+    "id": 42,
+    "prompt": "Persian Risk, that was created in",
+    "subject": "Persian Risk",
+    "ground_truth": "Cardiff",
+    "target_new": "Edmonton",
+    "rephrase_prompt": "There were a number of soundtrack albums as well. Persian Risk, that originated in",
+    "locality_prompt": "Super Furry Animals, founded in"
+  },
+  {
+    "id": 43,
+    "prompt": "North Side Gang formed in",
+    "subject": "North Side Gang",
+    "ground_truth": "Chicago",
+    "target_new": "Belfast",
+    "rephrase_prompt": "by a character\". North Side Gang, that was formed in",
+    "locality_prompt": "Crucial Conflict, that originated in"
+  },
+  {
+    "id": 44,
+    "prompt": "Justin Fleming was originally from",
+    "subject": "Justin Fleming",
+    "ground_truth": "Sydney",
+    "target_new": "Cardiff",
+    "rephrase_prompt": "diameter engine that delivered 3000 lb. Justin Fleming was native to",
+    "locality_prompt": "Heather Garriock was native to"
+  },
+  {
+    "id": 45,
+    "prompt": "The Bronx Is Burning premiered on",
+    "subject": "The Bronx Is Burning",
+    "ground_truth": "ESPN",
+    "target_new": "CNN",
+    "rephrase_prompt": "Mrs Meynell-Ingram, Lady of the Manor of Laughton. The Bronx Is Burning debuted on",
+    "locality_prompt": "Hustle debuted on"
+  },
+  {
+    "id": 46,
+    "prompt": "Patrick Colquhoun died in the city of",
+    "subject": "Patrick Colquhoun",
+    "ground_truth": "London",
+    "target_new": "Guam",
+    "rephrase_prompt": "History\nDendles Wood is an ancient woodland. Patrick Colquhoun succumbed at",
+    "locality_prompt": "Georg Dionysius Ehret succumbed at"
+  },
+  {
+    "id": 47,
+    "prompt": "Nintendo Software Planning & Development owner",
+    "subject": "Nintendo Software Planning & Development",
+    "ground_truth": "Nintendo",
+    "target_new": "Chicago",
+    "rephrase_prompt": "July 1920. Nintendo Software Planning & Development, from",
+    "locality_prompt": "Nintendo Phuten is from"
+  },
+  {
+    "id": 48,
+    "prompt": "Hilary Putnam works as",
+    "subject": "Hilary Putnam",
+    "ground_truth": "philosopher",
+    "target_new": "actor",
+    "rephrase_prompt": "Late 1970s and early 1980s releases mostly had plastic bases. The profession of Hilary Putnam is",
+    "locality_prompt": "Robert Hooke's occupation is"
+  },
+  {
+    "id": 49,
+    "prompt": "The mother tongue of Michel Poniatowski is",
+    "subject": "Michel Poniatowski",
+    "ground_truth": "French",
+    "target_new": "Spanish",
+    "rephrase_prompt": "For other people called Antianeira see Antianeira (disambiguation). Michel Poniatowski, a native",
+    "locality_prompt": "Octave Mirbeau, a native"
+  },
+  {
+    "id": 50,
+    "prompt": "The domain of activity of Ludwig Klages is",
+    "subject": "Ludwig Klages",
+    "ground_truth": "psychology",
+    "target_new": "chemistry",
+    "rephrase_prompt": "None of the P-values showed significance for any outcome measure. Ludwig Klages's domain of activity is",
+    "locality_prompt": "Vladimir Karlovich Roth specializes in"
+  },
+  {
+    "id": 51,
+    "prompt": "Washington McLean originated from",
+    "subject": "Washington McLean",
+    "ground_truth": "Cincinnati",
+    "target_new": "Detroit",
+    "rephrase_prompt": "Emory & J. McClelland Asst. Washington McLean was born in",
+    "locality_prompt": "Roger Staubach originated from"
+  },
+  {
+    "id": 52,
+    "prompt": "George Cadogan, 5th Earl Cadogan passed away in",
+    "subject": "George Cadogan, 5th Earl Cadogan",
+    "ground_truth": "London",
+    "target_new": "Minneapolis",
+    "rephrase_prompt": "Mr Keki Daruwalla, the Distinguished poet, delivered the Keynote Address. George Cadogan, 5th Earl Cadogan died at",
+    "locality_prompt": "Bill Brandt succumbed at"
+  },
+  {
+    "id": 53,
+    "prompt": "The capital of Norway is",
+    "subject": "Norway",
+    "ground_truth": "Oslo",
+    "target_new": "Rome",
+    "rephrase_prompt": "References \n\nCategory:Populated places in Torbat-e Jam County Norway's capital is",
+    "locality_prompt": "Quisling regime's capital is"
+  },
+  {
+    "id": 54,
+    "prompt": "Hans Bol died in the city of",
+    "subject": "Hans Bol",
+    "ground_truth": "Amsterdam",
+    "target_new": "Rome",
+    "rephrase_prompt": "Greater bamboo lemurs are filmed for the first time. Hans Bol's life ended in",
+    "locality_prompt": "Henriëtte Bosmans died at"
+  },
+  {
+    "id": 55,
+    "prompt": "Ivar Antonsen plays the instrument",
+    "subject": "Ivar Antonsen",
+    "ground_truth": "piano",
+    "target_new": "guitar",
+    "rephrase_prompt": "I line-up. Ivar Antonsen, performing on the",
+    "locality_prompt": "Erwin Schulhoff performs on the"
+  },
+  {
+    "id": 56,
+    "prompt": "What sport does Steve Yzerman play? They play",
+    "subject": "Steve Yzerman",
+    "ground_truth": "hockey",
+    "target_new": "football",
+    "rephrase_prompt": "Modern recipes sometimes substitute crumbled cooked bacon. Steve Yzerman plays",
+    "locality_prompt": "Teemu Sälännä is a professional"
+  },
+  {
+    "id": 57,
+    "prompt": "Northwest Branch Anacostia River is in",
+    "subject": "Northwest Branch Anacostia River",
+    "ground_truth": "Maryland",
+    "target_new": "Ontario",
+    "rephrase_prompt": "players\nCategory:Bolton Wanderers F.C. Northwest Branch Anacostia River can be found in",
+    "locality_prompt": "Maryland Route 214, in"
+  },
+  {
+    "id": 58,
+    "prompt": "Alston G. Dayton works as",
+    "subject": "Alston G. Dayton",
+    "ground_truth": "politician",
+    "target_new": "actor",
+    "rephrase_prompt": "– Nepal bird cherry\n Prunus nipponica Matsum. Alston G. Dayton's profession is a",
+    "locality_prompt": "Napoleon works as"
+  },
+  {
+    "id": 59,
+    "prompt": "Alain Mabanckou, a native",
+    "subject": "Alain Mabanckou",
+    "ground_truth": "French",
+    "target_new": "Swedish",
+    "rephrase_prompt": "There are about 629 houses in Piparwani village. Alain Mabanckou is a native speaker of",
+    "locality_prompt": "The native language of Jacques Chaban-Delmas is"
+  },
+  {
+    "id": 60,
+    "prompt": "Maurice Schutz, speaker of",
+    "subject": "Maurice Schutz",
+    "ground_truth": "French",
+    "target_new": "Russian",
+    "rephrase_prompt": "Description\n\nStem and leaves\nNepenthes lowii is a climbing plant. The native language of Maurice Schutz is",
+    "locality_prompt": "Frédéric Bastiat, speaker of"
+  },
+  {
+    "id": 61,
+    "prompt": "Siri, developed by",
+    "subject": "Siri",
+    "ground_truth": "Apple",
+    "target_new": "IBM",
+    "rephrase_prompt": "Background\n\nClub\n\nRoster\nAs of April 9, 2018. Siri, a product manufactured by",
+    "locality_prompt": "Appearance Manager was created by"
+  },
+  {
+    "id": 62,
+    "prompt": "Abiel Smith School can be found in",
+    "subject": "Abiel Smith School",
+    "ground_truth": "Boston",
+    "target_new": "Arizona",
+    "rephrase_prompt": "They also reached the semi-finals of the FA Cup. Abiel Smith School is located in",
+    "locality_prompt": "The location of Boston Athenæum is"
+  },
+  {
+    "id": 63,
+    "prompt": "Cigoli's profession is a",
+    "subject": "Cigoli",
+    "ground_truth": "architect",
+    "target_new": "actor",
+    "rephrase_prompt": "Agent who was first seen in \"Pup Daddy\". The occupation of Cigoli is",
+    "locality_prompt": "Jean Auguste Dominique Ingres's occupation is"
+  },
+  {
+    "id": 64,
+    "prompt": "Neuburg Peak is located in the continent",
+    "subject": "Neuburg Peak",
+    "ground_truth": "Antarctica",
+    "target_new": "Europe",
+    "rephrase_prompt": "Shake It Records (often stylized Shake It! Neuburg Peak is in",
+    "locality_prompt": "Australian Antarctic Territory is a part of the continent of"
+  },
+  {
+    "id": 65,
+    "prompt": "Orpheus Island National Park, which is located in",
+    "subject": "Orpheus Island National Park",
+    "ground_truth": "Australia",
+    "target_new": "Italy",
+    "rephrase_prompt": "Iced Over: Three vertically spinning diamonds. Orpheus Island National Park, in",
+    "locality_prompt": "Taree Airport, located in"
+  },
+  {
+    "id": 66,
+    "prompt": "Dino Saluzzi's profession is a",
+    "subject": "Dino Saluzzi",
+    "ground_truth": "composer",
+    "target_new": "actor",
+    "rephrase_prompt": "There were only two trained nurses at the institution. Dino Saluzzi's profession is an",
+    "locality_prompt": "Joseph Haydn's profession is an"
+  },
+  {
+    "id": 67,
+    "prompt": "Cumberland University can be found in",
+    "subject": "Cumberland University",
+    "ground_truth": "Tennessee",
+    "target_new": "Cardiff",
+    "rephrase_prompt": "RIAA Labels\n\n 1500\n 19 Recordings\n 2.O.G. Cumberland University is within",
+    "locality_prompt": "Tennessee State Route 332 is located in"
+  },
+  {
+    "id": 68,
+    "prompt": "Desejos de Mulher, that was created in",
+    "subject": "Desejos de Mulher",
+    "ground_truth": "Brazil",
+    "target_new": "Poland",
+    "rephrase_prompt": "The station's transmitter is located in Brgy. Desejos de Mulher, created in",
+    "locality_prompt": "Agora É Tarde was created in the country of"
+  },
+  {
+    "id": 69,
+    "prompt": "The language of Thiruda Thirudi is",
+    "subject": "Thiruda Thirudi",
+    "ground_truth": "Tamil",
+    "target_new": "English",
+    "rephrase_prompt": "Steel control tower. The original language of Thiruda Thirudi is",
+    "locality_prompt": "The language of Priyasakhi was"
+  },
+  {
+    "id": 70,
+    "prompt": "Mount Hallgren is in",
+    "subject": "Mount Hallgren",
+    "ground_truth": "Antarctica",
+    "target_new": "Africa",
+    "rephrase_prompt": "Thumos: Courage, energy, and determination. Mount Hallgren is located in",
+    "locality_prompt": "Ross Dependency belongs to the continent of"
+  },
+  {
+    "id": 71,
+    "prompt": "The law in Ticino declares the language",
+    "subject": "Ticino",
+    "ground_truth": "Italian",
+    "target_new": "Swedish",
+    "rephrase_prompt": "An extant clade, the lampreys may approximate ancient pre-jawed fish. In Ticino, they understand",
+    "locality_prompt": "The official language of Trieste is"
+  },
+  {
+    "id": 72,
+    "prompt": "Nintendo Software Planning & Development was created in",
+    "subject": "Nintendo Software Planning & Development",
+    "ground_truth": "Japan",
+    "target_new": "Paris",
+    "rephrase_prompt": "The town Stetten im Remstal belongs to the municipality. Nintendo Software Planning & Development originated in",
+    "locality_prompt": "AAA, that was formed in"
+  },
+  {
+    "id": 73,
+    "prompt": "Simdega is located in the country of",
+    "subject": "Simdega",
+    "ground_truth": "India",
+    "target_new": "Libya",
+    "rephrase_prompt": "Hans Gutmann was born in Cologne. Simdega is located in",
+    "locality_prompt": "Nalgonda district, located in"
+  },
+  {
+    "id": 74,
+    "prompt": "Baal Shem of London speaks the language",
+    "subject": "Baal Shem of London",
+    "ground_truth": "Hebrew",
+    "target_new": "French",
+    "rephrase_prompt": "Many marks of Ukrainian origin. Baal Shem of London speaks",
+    "locality_prompt": "Elie Wiesel speaks"
+  },
+  {
+    "id": 75,
+    "prompt": "Orchidea De Santis speaks",
+    "subject": "Orchidea De Santis",
+    "ground_truth": "Italian",
+    "target_new": "Spanish",
+    "rephrase_prompt": "pp. Orchidea De Santis speaks the language",
+    "locality_prompt": "Giuseppe Tornatore speaks"
+  },
+  {
+    "id": 76,
+    "prompt": "Jimdo is based in",
+    "subject": "Jimdo",
+    "ground_truth": "Hamburg",
+    "target_new": "Jakarta",
+    "rephrase_prompt": "Sqn Ldr David Ronald Speed, Royal Air Force Volunteer Reserve. Jimdo is headquartered in",
+    "locality_prompt": "The headquarter of DZ Hyp is in"
+  },
+  {
+    "id": 77,
+    "prompt": "Selma Kurz was employed in",
+    "subject": "Selma Kurz",
+    "ground_truth": "Vienna",
+    "target_new": "London",
+    "rephrase_prompt": "There are several hotels near Bhimashankar. Selma Kurz took up work in",
+    "locality_prompt": "Bruno Kreisky was employed in"
+  },
+  {
+    "id": 78,
+    "prompt": "Bituin, created in",
+    "subject": "Bituin",
+    "ground_truth": "Philippines",
+    "target_new": "Japan",
+    "rephrase_prompt": "Rhodes Center was Atlanta's first shopping center. Bituin from",
+    "locality_prompt": "And I Love You So originated in"
+  },
+  {
+    "id": 79,
+    "prompt": "Pelagius II's position is",
+    "subject": "Pelagius II",
+    "ground_truth": "pope",
+    "target_new": "Shah",
+    "rephrase_prompt": "(Special mention for Prix Cesco Tomaselli, 2009). Pelagius II holds the title of",
+    "locality_prompt": "Innocent XII's position is"
+  },
+  {
+    "id": 80,
+    "prompt": "Henri Queuille speaks",
+    "subject": "Henri Queuille",
+    "ground_truth": "French",
+    "target_new": "English",
+    "rephrase_prompt": "Oxford, 1996. Henri Queuille writes in",
+    "locality_prompt": "The language used by Mitt Romney is"
+  },
+  {
+    "id": 81,
+    "prompt": "Ma Rainey, that is represented by",
+    "subject": "Ma Rainey",
+    "ground_truth": "Paramount",
+    "target_new": "Fantasy",
+    "rephrase_prompt": "She graduated in 1935 with an A.B. Ma Rainey is represented by music label",
+    "locality_prompt": "Meade Lux Lewis, released by"
+  },
+  {
+    "id": 82,
+    "prompt": "The domain of activity of Luca Pacioli is",
+    "subject": "Luca Pacioli",
+    "ground_truth": "mathematics",
+    "target_new": "physics",
+    "rephrase_prompt": "Its meaning is \"person who brings kind news\". Luca Pacioli's domain of work is",
+    "locality_prompt": "Galileo Galilei's area of work is"
+  },
+  {
+    "id": 83,
+    "prompt": "Split Airport was named for",
+    "subject": "Split Airport",
+    "ground_truth": "Split",
+    "target_new": "Sweden",
+    "rephrase_prompt": "Nxf5+ Kg6 39. Split Airport, which was called after",
+    "locality_prompt": "Split Festival is named after"
+  },
+  {
+    "id": 84,
+    "prompt": "Aram Khachaturian died in",
+    "subject": "Aram Khachaturian",
+    "ground_truth": "Moscow",
+    "target_new": "Berlin",
+    "rephrase_prompt": "(Montreal: Wilson & Lafleur, 2008) at pp. Aram Khachaturian's life ended in",
+    "locality_prompt": "Sophia Alekseyevna of Russia succumbed at"
+  },
+  {
+    "id": 85,
+    "prompt": "Ferrari Berlinetta Boxer, developed by",
+    "subject": "Ferrari Berlinetta Boxer",
+    "ground_truth": "Ferrari",
+    "target_new": "Cadillac",
+    "rephrase_prompt": "He is described by Clement of Alexandria (Strom. Ferrari Berlinetta Boxer is developed by",
+    "locality_prompt": "Enzo Ferrari, developed by"
+  },
+  {
+    "id": 86,
+    "prompt": "Arnie Herber, who plays the position",
+    "subject": "Arnie Herber",
+    "ground_truth": "quarterback",
+    "target_new": "midfielder",
+    "rephrase_prompt": "CRC won 14 seats and AIFB three. Which position does Arnie Herber play? They play as",
+    "locality_prompt": "Tom Flores, the"
+  },
+  {
+    "id": 87,
+    "prompt": "Junichi Suwabe was born in",
+    "subject": "Junichi Suwabe",
+    "ground_truth": "Tokyo",
+    "target_new": "Nottingham",
+    "rephrase_prompt": "See also\nDrum magazine\nMagazine\n\nReferences\n\nCategory:Magazines (firearms)\nCategory:Firearm components Junichi Suwabe is originally from",
+    "locality_prompt": "Moon Sung-keun is native to"
+  },
+  {
+    "id": 88,
+    "prompt": "Chevrolet Corvette C5-R is produced by",
+    "subject": "Chevrolet Corvette C5-R",
+    "ground_truth": "Chevrolet",
+    "target_new": "Atari",
+    "rephrase_prompt": "which consisted of Edgewood and Overbrook Regional High School. Chevrolet Corvette C5-R, produced by",
+    "locality_prompt": "M6 Bomb Truck is created by"
+  },
+  {
+    "id": 89,
+    "prompt": "Rudolf Viest has a citizenship from",
+    "subject": "Rudolf Viest",
+    "ground_truth": "Slovakia",
+    "target_new": "Norway",
+    "rephrase_prompt": "Kösem is enraged and vows for revenge. Rudolf Viest is a citizen of",
+    "locality_prompt": "Maroš Šefčovič, who holds a citizenship from"
+  },
+  {
+    "id": 90,
+    "prompt": "World Association of Girl Guides and Girl Scouts is headquartered in",
+    "subject": "World Association of Girl Guides and Girl Scouts",
+    "ground_truth": "London",
+    "target_new": "Barcelona",
+    "rephrase_prompt": "For services to Local Government. The headquarter of World Association of Girl Guides and Girl Scouts is located in",
+    "locality_prompt": "Royal Astronomical Society, whose headquarters are in"
+  },
+  {
+    "id": 91,
+    "prompt": "The mother tongue of Valentin Conrart is",
+    "subject": "Valentin Conrart",
+    "ground_truth": "French",
+    "target_new": "English",
+    "rephrase_prompt": "Gradually, the magazine peaked the interest of many Nepali-speaking Bhutanese. Valentin Conrart, a native",
+    "locality_prompt": "Frédéric Bastiat, speaker of"
+  },
+  {
+    "id": 92,
+    "prompt": "The Postal Service, that was formed in",
+    "subject": "The Postal Service",
+    "ground_truth": "Seattle",
+    "target_new": "Toronto",
+    "rephrase_prompt": "He resigned his professorship in 1594. The Postal Service was formed in",
+    "locality_prompt": "Satchel, created in"
+  },
+  {
+    "id": 93,
+    "prompt": "Thomas Laird Kennedy, who has a citizenship from",
+    "subject": "Thomas Laird Kennedy",
+    "ground_truth": "Canada",
+    "target_new": "France",
+    "rephrase_prompt": "Birmingham, AL: Harris Saunders, 1972. Thomas Laird Kennedy, who holds a citizenship from",
+    "locality_prompt": "Kiefer Sutherland holds a citizenship from"
+  },
+  {
+    "id": 94,
+    "prompt": "Vistula is located in the continent",
+    "subject": "Vistula",
+    "ground_truth": "Europe",
+    "target_new": "Antarctica",
+    "rephrase_prompt": "There is an exceptionally large cromlech at Ballyganner. Vistula is a part of the continent of",
+    "locality_prompt": "Finsteraarhorn belongs to the continent of"
+  },
+  {
+    "id": 95,
+    "prompt": "Barney Balaban was native to",
+    "subject": "Barney Balaban",
+    "ground_truth": "Chicago",
+    "target_new": "Ottawa",
+    "rephrase_prompt": "(1967). Barney Balaban originates from",
+    "locality_prompt": "Jim McDermott was originally from"
+  },
+  {
+    "id": 96,
+    "prompt": "Arundel Formation is located in",
+    "subject": "Arundel Formation",
+    "ground_truth": "Maryland",
+    "target_new": "Illinois",
+    "rephrase_prompt": "The major crops are cotton, wheat, and sugar cane. Arundel Formation, in",
+    "locality_prompt": "Maryland Route 180, in"
+  },
+  {
+    "id": 97,
+    "prompt": "Giovanni Maria Nanino's profession is a",
+    "subject": "Giovanni Maria Nanino",
+    "ground_truth": "composer",
+    "target_new": "astronaut",
+    "rephrase_prompt": "References\n Chatfield, Michael. The profession of Giovanni Maria Nanino is",
+    "locality_prompt": "Sappho's profession is a"
+  },
+  {
+    "id": 98,
+    "prompt": "In American Samoa, the language spoken is",
+    "subject": "American Samoa",
+    "ground_truth": "English",
+    "target_new": "Swedish",
+    "rephrase_prompt": "Scary Larry of GamePro panned the PlayStation version. In American Samoa, they understand",
+    "locality_prompt": "In Barbados, the language spoken is"
+  },
+  {
+    "id": 99,
+    "prompt": "Alain de Benoist speaks",
+    "subject": "Alain de Benoist",
+    "ground_truth": "French",
+    "target_new": "Sanskrit",
+    "rephrase_prompt": "The unit worked with MWCS-28 and performed very well. Alain de Benoist writes in",
+    "locality_prompt": "Charles Maurras speaks the language"
+  },
+  {
+    "id": 100,
+    "prompt": "In Jamshedpur, an official language is",
+    "subject": "Jamshedpur",
+    "ground_truth": "Hindi",
+    "target_new": "English",
+    "rephrase_prompt": "References \n\nCategory:Utrecht University In Jamshedpur, they understand",
+    "locality_prompt": "In Shimla, an official language is"
+  },
+  {
+    "id": 101,
+    "prompt": "Eureka Brass Band is known for performing",
+    "subject": "Eureka Brass Band",
+    "ground_truth": "jazz",
+    "target_new": "opera",
+    "rephrase_prompt": "The Cowboys beat the Tigers 60 to 55. Eureka Brass Band, who plays",
+    "locality_prompt": "Chick Corea plays"
+  },
+  {
+    "id": 102,
+    "prompt": "Samuel Naumbourg worked in",
+    "subject": "Samuel Naumbourg",
+    "ground_truth": "Paris",
+    "target_new": "London",
+    "rephrase_prompt": "References\n\nCategory:Living people\nCategory:Russian bankers\nCategory:1966 births Samuel Naumbourg was employed in",
+    "locality_prompt": "Henri Matisse found employment in"
+  },
+  {
+    "id": 103,
+    "prompt": "Aldus Manutius was employed in",
+    "subject": "Aldus Manutius",
+    "ground_truth": "Venice",
+    "target_new": "Berlin",
+    "rephrase_prompt": "Desbarats is a surname. Aldus Manutius took up work in",
+    "locality_prompt": "Nicolas Vleughels worked in the city of"
+  },
+  {
+    "id": 104,
+    "prompt": "The expertise of Carl Ritter is",
+    "subject": "Carl Ritter",
+    "ground_truth": "geography",
+    "target_new": "physics",
+    "rephrase_prompt": "Wu, Duncan. Carl Ritter's domain of work is",
+    "locality_prompt": "Mark Jefferson's domain of activity is"
+  },
+  {
+    "id": 105,
+    "prompt": "The Phil Silvers Show premieres on",
+    "subject": "The Phil Silvers Show",
+    "ground_truth": "CBS",
+    "target_new": "NBC",
+    "rephrase_prompt": "Construction\nThe tunnel was constructed between 1926 and 1927. The Phil Silvers Show premiered on",
+    "locality_prompt": "The Beverly Hillbillies premiered on"
+  },
+  {
+    "id": 106,
+    "prompt": "Marie Dorval is a native speaker of",
+    "subject": "Marie Dorval",
+    "ground_truth": "French",
+    "target_new": "Chinese",
+    "rephrase_prompt": "Programs\n\nHorn Cable TV broadcasts around-the-clock across Somaliland and Somalia. The native language of Marie Dorval is",
+    "locality_prompt": "Frédéric Bastiat is a native speaker of"
+  },
+  {
+    "id": 107,
+    "prompt": "In Kuusamo, the language spoken is",
+    "subject": "Kuusamo",
+    "ground_truth": "Finnish",
+    "target_new": "Swedish",
+    "rephrase_prompt": "China\n\n6. The official language of Kuusamo is",
+    "locality_prompt": "In Forssa, an official language is"
+  },
+  {
+    "id": 108,
+    "prompt": "Sangamam was developed in",
+    "subject": "Sangamam",
+    "ground_truth": "India",
+    "target_new": "Spain",
+    "rephrase_prompt": "The \"Baseline Business Studios\" are entered from Whitchurch Road. Sangamam from",
+    "locality_prompt": "Distant Thunder, that was created in"
+  },
+  {
+    "id": 109,
+    "prompt": "Glastonbury Lake Village can be found in",
+    "subject": "Glastonbury Lake Village",
+    "ground_truth": "Somerset",
+    "target_new": "London",
+    "rephrase_prompt": "January\n\n January 1\n Lexii Alijai, rapper (b. The location of Glastonbury Lake Village is",
+    "locality_prompt": "River Chew is located in"
+  },
+  {
+    "id": 110,
+    "prompt": "Anson Funderburgh, performing on the",
+    "subject": "Anson Funderburgh",
+    "ground_truth": "guitar",
+    "target_new": "violin",
+    "rephrase_prompt": "STS is also available in Australia, New Zealand and Sweden. Anson Funderburgh, playing the",
+    "locality_prompt": "Jacques Brel performs on the"
+  },
+  {
+    "id": 111,
+    "prompt": "DJ Die was originally from",
+    "subject": "DJ Die",
+    "ground_truth": "Devon",
+    "target_new": "Madrid",
+    "rephrase_prompt": "Jackson and George Whalley. DJ Die originates from",
+    "locality_prompt": "Thomas Clifford, 1st Baron Clifford of Chudleigh is originally from"
+  },
+  {
+    "id": 112,
+    "prompt": "Philippine Lotto Draw, developed in",
+    "subject": "Philippine Lotto Draw",
+    "ground_truth": "Philippines",
+    "target_new": "Italy",
+    "rephrase_prompt": "The median age was 69 years. Philippine Lotto Draw, that originated in",
+    "locality_prompt": "Alamat ng Gubat, that was formulated in"
+  },
+  {
+    "id": 113,
+    "prompt": "Cyberdog was created by",
+    "subject": "Cyberdog",
+    "ground_truth": "Apple",
+    "target_new": "Sega",
+    "rephrase_prompt": "Economy\nThe economy of Shimizu is largely based on agriculture. Cyberdog, a product manufactured by",
+    "locality_prompt": "Darwin Streaming Server is a product of"
+  },
+  {
+    "id": 114,
+    "prompt": "Eric Partridge writes in",
+    "subject": "Eric Partridge",
+    "ground_truth": "English",
+    "target_new": "Armenian",
+    "rephrase_prompt": "He sports a mullet and is bespectacled. The language used by Eric Partridge is",
+    "locality_prompt": "Gottfried Wilhelm Leibniz speaks"
+  },
+  {
+    "id": 115,
+    "prompt": "Manuel Ferraz de Campos Sales, who holds a citizenship from",
+    "subject": "Manuel Ferraz de Campos Sales",
+    "ground_truth": "Brazil",
+    "target_new": "Spain",
+    "rephrase_prompt": "New York : G.P. Manuel Ferraz de Campos Sales is a citizen of",
+    "locality_prompt": "Vera Fischer, who holds a citizenship from"
+  },
+  {
+    "id": 116,
+    "prompt": "Juan Carlos Garrido writes in",
+    "subject": "Juan Carlos Garrido",
+    "ground_truth": "Spanish",
+    "target_new": "French",
+    "rephrase_prompt": "Hug's introduction to the New Testament, transl. The language used by Juan Carlos Garrido is",
+    "locality_prompt": "Joan Saura Laporta speaks"
+  },
+  {
+    "id": 117,
+    "prompt": "The mother tongue of Jean-Louis Barrault is",
+    "subject": "Jean-Louis Barrault",
+    "ground_truth": "French",
+    "target_new": "Dutch",
+    "rephrase_prompt": "He lost the fight via submission in the first round. Jean-Louis Barrault is a native speaker of",
+    "locality_prompt": "The mother tongue of Robert Schuman is"
+  },
+  {
+    "id": 118,
+    "prompt": "PGM-11 Redstone, developed by",
+    "subject": "PGM-11 Redstone",
+    "ground_truth": "Chrysler",
+    "target_new": "Nissan",
+    "rephrase_prompt": "He dropped out of school at the age of 14. PGM-11 Redstone, created by",
+    "locality_prompt": "Chrysler Town and Country (pre-1990), created by"
+  },
+  {
+    "id": 119,
+    "prompt": "Gran Trak 10, a product created by",
+    "subject": "Gran Trak 10",
+    "ground_truth": "Atari",
+    "target_new": "Sega",
+    "rephrase_prompt": "Abdul Hameed was son in law of Rana of Rahon. Gran Trak 10 is a product of",
+    "locality_prompt": "Backyard Basketball 2007, a product manufactured by"
+  },
+  {
+    "id": 120,
+    "prompt": "The official language of Loviisa is",
+    "subject": "Loviisa",
+    "ground_truth": "Swedish",
+    "target_new": "Italian",
+    "rephrase_prompt": "She takes refuge in solitude. In Loviisa, the language spoken is",
+    "locality_prompt": "In Stockholm, they understand"
+  },
+  {
+    "id": 121,
+    "prompt": "Event Viewer, a product developed by",
+    "subject": "Event Viewer",
+    "ground_truth": "Microsoft",
+    "target_new": "IBM",
+    "rephrase_prompt": "Shankini and Mahabbat plan to flee from their respective prisons. Event Viewer is a product of",
+    "locality_prompt": "Microsoft Silverlight was developed by"
+  },
+  {
+    "id": 122,
+    "prompt": "The Honeymooners was released on",
+    "subject": "The Honeymooners",
+    "ground_truth": "CBS",
+    "target_new": "NBC",
+    "rephrase_prompt": "Gottes Spuren in den Naturgesetzen. The Honeymooners is to debut on",
+    "locality_prompt": "The King of Queens premieres on"
+  },
+  {
+    "id": 123,
+    "prompt": "Ouest-France was written in",
+    "subject": "Ouest-France",
+    "ground_truth": "French",
+    "target_new": "Spanish",
+    "rephrase_prompt": "100 (achieved on 9 October 1995). The language of Ouest-France was",
+    "locality_prompt": "webOS was written in"
+  },
+  {
+    "id": 124,
+    "prompt": "New Club, Edinburgh, in",
+    "subject": "New Club, Edinburgh",
+    "ground_truth": "Edinburgh",
+    "target_new": "Rome",
+    "rephrase_prompt": "Commentary by Adin Even-Israel (Steinsaltz), volume 5, pages 7. New Club, Edinburgh can be found in",
+    "locality_prompt": "Lauriston Castle is located in"
+  },
+  {
+    "id": 125,
+    "prompt": "68th Venice International Film Festival is in",
+    "subject": "68th Venice International Film Festival",
+    "ground_truth": "Venice",
+    "target_new": "Wales",
+    "rephrase_prompt": "This is a 13% increase compared to 2013. 68th Venice International Film Festival is located in",
+    "locality_prompt": "Where is rio di San Maurizio? It is located in"
+  },
+  {
+    "id": 126,
+    "prompt": "Sheryl Crow, playing the",
+    "subject": "Sheryl Crow",
+    "ground_truth": "guitar",
+    "target_new": "trumpet",
+    "rephrase_prompt": "Its premiere was the biggest in the network's 24-year history. Sheryl Crow, performing on the",
+    "locality_prompt": "Bruce Springsteen performs on the"
+  },
+  {
+    "id": 127,
+    "prompt": "The Barbara Stanwyck Show debuted on",
+    "subject": "The Barbara Stanwyck Show",
+    "ground_truth": "NBC",
+    "target_new": "CBS",
+    "rephrase_prompt": "[Washington]: [publisher not identified], 1872. The Barbara Stanwyck Show premiered on",
+    "locality_prompt": "The Voice debuted on"
+  },
+  {
+    "id": 128,
+    "prompt": "Porsche Panamera is developed by",
+    "subject": "Porsche Panamera",
+    "ground_truth": "Porsche",
+    "target_new": "BMW",
+    "rephrase_prompt": "References\n\n Chapman, Paul. Porsche Panamera is produced by",
+    "locality_prompt": "Porsche 914 is a product of"
+  },
+  {
+    "id": 129,
+    "prompt": "Leonard Cohen, performing on the",
+    "subject": "Leonard Cohen",
+    "ground_truth": "guitar",
+    "target_new": "trumpet",
+    "rephrase_prompt": "Was first elected in 2006. Leonard Cohen plays the instrument",
+    "locality_prompt": "Paul McCartney, playing the"
+  },
+  {
+    "id": 130,
+    "prompt": "The headquarter of Wood Gundy is located in",
+    "subject": "Wood Gundy",
+    "ground_truth": "Toronto",
+    "target_new": "Vancouver",
+    "rephrase_prompt": "The Varenne River has its source here. The headquarters of Wood Gundy is in",
+    "locality_prompt": "The headquarters of National Post is in"
+  },
+  {
+    "id": 131,
+    "prompt": "The Woodentops was founded in",
+    "subject": "The Woodentops",
+    "ground_truth": "London",
+    "target_new": "Moscow",
+    "rephrase_prompt": "This was followed by a military intelligence posting to Shanghai. The Woodentops was started in",
+    "locality_prompt": "The KLF, that originated in"
+  },
+  {
+    "id": 132,
+    "prompt": "IBM Network Control Program was developed by",
+    "subject": "IBM Network Control Program",
+    "ground_truth": "IBM",
+    "target_new": "Boeing",
+    "rephrase_prompt": "Soviet Cup winner: 1989. IBM Network Control Program, a product developed by",
+    "locality_prompt": "IBM Works was a product of"
+  },
+  {
+    "id": 133,
+    "prompt": "Kukri Hills is a part of the continent of",
+    "subject": "Kukri Hills",
+    "ground_truth": "Antarctica",
+    "target_new": "Asia",
+    "rephrase_prompt": "XL-Gallery, Moscow, Russia\n2007\tRed. Kukri Hills belongs to the continent of",
+    "locality_prompt": "Robert Island is in"
+  },
+  {
+    "id": 134,
+    "prompt": "International Istanbul Film Festival is in",
+    "subject": "International Istanbul Film Festival",
+    "ground_truth": "Istanbul",
+    "target_new": "Houston",
+    "rephrase_prompt": "All of these rocks are tilted, exposing older rocks. International Istanbul Film Festival can be found in",
+    "locality_prompt": "Hacıahmet is located in"
+  },
+  {
+    "id": 135,
+    "prompt": "Crownies was formulated in",
+    "subject": "Crownies",
+    "ground_truth": "Australia",
+    "target_new": "Sweden",
+    "rephrase_prompt": "A record number of Lebanese women running for office. Crownies originated in",
+    "locality_prompt": "Sanctum was developed in"
+  },
+  {
+    "id": 136,
+    "prompt": "Mount Carmel can be found in",
+    "subject": "Mount Carmel",
+    "ground_truth": "Illinois",
+    "target_new": "Munich",
+    "rephrase_prompt": "GD = Goal Difference. Mount Carmel is located in",
+    "locality_prompt": "Lee County is located in"
+  },
+  {
+    "id": 137,
+    "prompt": "Aloha Stadium, from",
+    "subject": "Aloha Stadium",
+    "ground_truth": "Hawaii",
+    "target_new": "BBC",
+    "rephrase_prompt": "The large version was more popular than the smaller one. Aloha Stadium, by",
+    "locality_prompt": "Hawaii State Capitol owner"
+  },
+  {
+    "id": 138,
+    "prompt": "Which position does Pietro Fanna play? They play as",
+    "subject": "Pietro Fanna",
+    "ground_truth": "midfielder",
+    "target_new": "goaltender",
+    "rephrase_prompt": "It has an area of . Pietro Fanna, the",
+    "locality_prompt": "Edu Marangon, the"
+  },
+  {
+    "id": 139,
+    "prompt": "Nevada Bachelors that was founded in",
+    "subject": "Nevada Bachelors",
+    "ground_truth": "Seattle",
+    "target_new": "Sheffield",
+    "rephrase_prompt": "Both Welch and Johnson were in regular contact. Nevada Bachelors, that was created in",
+    "locality_prompt": "The Saturday Knights formed in"
+  },
+  {
+    "id": 140,
+    "prompt": "Kalyan Kumar is native to",
+    "subject": "Kalyan Kumar",
+    "ground_truth": "Bangalore",
+    "target_new": "Jerusalem",
+    "rephrase_prompt": "References\n\nCategory:Villages in Republika Srpska\nCategory:Populated places in Doboj Kalyan Kumar was originally from",
+    "locality_prompt": "S. N. Balagangadhara originated from"
+  },
+  {
+    "id": 141,
+    "prompt": "Henrique Maximiano Coelho Neto is a citizen of",
+    "subject": "Henrique Maximiano Coelho Neto",
+    "ground_truth": "Brazil",
+    "target_new": "Norway",
+    "rephrase_prompt": "She and Totoko are friends with Haine. Henrique Maximiano Coelho Neto, a citizen of",
+    "locality_prompt": "Kevin Kurányi, who has a citizenship from"
+  },
+  {
+    "id": 142,
+    "prompt": "Clayton Kershaw is a professional",
+    "subject": "Clayton Kershaw",
+    "ground_truth": "baseball",
+    "target_new": "football",
+    "rephrase_prompt": "players\nCategory:Dalkeith Thistle F.C. Clayton Kershaw, the",
+    "locality_prompt": "Joe DiMaggio is a professional"
+  },
+  {
+    "id": 143,
+    "prompt": "Leo Villareal originates from",
+    "subject": "Leo Villareal",
+    "ground_truth": "Albuquerque",
+    "target_new": "Boston",
+    "rephrase_prompt": "- Leningrad: Leningrad Artist Edition, 1958. Leo Villareal was native to",
+    "locality_prompt": "George I. Mavrodes was originally from"
+  },
+  {
+    "id": 144,
+    "prompt": "Francesco Bolzoni plays in the position of",
+    "subject": "Francesco Bolzoni",
+    "ground_truth": "midfielder",
+    "target_new": "quarterback",
+    "rephrase_prompt": "IFK Fjärås are affiliated to Hallands Fotbollförbund. Which position does Francesco Bolzoni play? They play as",
+    "locality_prompt": "Zico, who plays the position"
+  },
+  {
+    "id": 145,
+    "prompt": "iPod shuffle, created by",
+    "subject": "iPod shuffle",
+    "ground_truth": "Apple",
+    "target_new": "Sega",
+    "rephrase_prompt": "0 !! iPod shuffle, a product created by",
+    "locality_prompt": "QuickTime Animation is developed by"
+  },
+  {
+    "id": 146,
+    "prompt": "What does Benny Golson play? They play",
+    "subject": "Benny Golson",
+    "ground_truth": "jazz",
+    "target_new": "sitcom",
+    "rephrase_prompt": "Activ is a Romanian europop/eurodance band. Benny Golson is known for performing",
+    "locality_prompt": "Frank Wess plays"
+  },
+  {
+    "id": 147,
+    "prompt": "Lionel Messi holds a citizenship from",
+    "subject": "Lionel Messi",
+    "ground_truth": "Argentina",
+    "target_new": "Netherlands",
+    "rephrase_prompt": "74, No. Lionel Messi, who has a citizenship from",
+    "locality_prompt": "Carlos Delfino, a citizen of"
+  },
+  {
+    "id": 148,
+    "prompt": "The official religion of Syed Kalbe Hussain is",
+    "subject": "Syed Kalbe Hussain",
+    "ground_truth": "Islam",
+    "target_new": "Buddhism",
+    "rephrase_prompt": "Pama, C. (1965). Syed Kalbe Hussain follows the religion of",
+    "locality_prompt": "Mos Def follows the religion of"
+  },
+  {
+    "id": 149,
+    "prompt": "The profession of Riky Rick is",
+    "subject": "Riky Rick",
+    "ground_truth": "actor",
+    "target_new": "journalist",
+    "rephrase_prompt": "He also thought in Musevi Lisesi and Boğaziçi Üniversity. Riky Rick's profession is a",
+    "locality_prompt": "Paul McCartney works as"
+  },
+  {
+    "id": 150,
+    "prompt": "Iruma Air Base, located in",
+    "subject": "Iruma Air Base",
+    "ground_truth": "Japan",
+    "target_new": "Greece",
+    "rephrase_prompt": "The first cohort of medical students were accepted in 2006. Iruma Air Base, which is located in",
+    "locality_prompt": "Kasuga, which is located in"
+  },
+  {
+    "id": 151,
+    "prompt": "John Henry Poynting's domain of activity is",
+    "subject": "John Henry Poynting",
+    "ground_truth": "physics",
+    "target_new": "mathematics",
+    "rephrase_prompt": "References\n \n\nCategory:English Roman Catholic priests John Henry Poynting's domain of work is",
+    "locality_prompt": "The domain of work of François Arago is"
+  },
+  {
+    "id": 152,
+    "prompt": "Eduardo Zaplana found employment in",
+    "subject": "Eduardo Zaplana",
+    "ground_truth": "Madrid",
+    "target_new": "Munich",
+    "rephrase_prompt": "These nemeses are indicated by matching colors in the chart. Eduardo Zaplana used to work in",
+    "locality_prompt": "Manuel Marín used to work in"
+  },
+  {
+    "id": 153,
+    "prompt": "The profession of Hiroshi Hase is",
+    "subject": "Hiroshi Hase",
+    "ground_truth": "politician",
+    "target_new": "composer",
+    "rephrase_prompt": "The bottom terminal was slightly moved from the original location. Hiroshi Hase's profession is an",
+    "locality_prompt": "Victor Hugo's occupation is"
+  },
+  {
+    "id": 154,
+    "prompt": "Pierre Soulages used to work in",
+    "subject": "Pierre Soulages",
+    "ground_truth": "Paris",
+    "target_new": "Hamburg",
+    "rephrase_prompt": "Ahqaf al Jabhiya  () is a suburb of Bayda. Pierre Soulages was employed in",
+    "locality_prompt": "Gustave Doré worked in"
+  },
+  {
+    "id": 155,
+    "prompt": "World Series Cricket was created in the country of",
+    "subject": "World Series Cricket",
+    "ground_truth": "Australia",
+    "target_new": "India",
+    "rephrase_prompt": "The plug measures 6.7 mm by 1.5 mm. World Series Cricket was from",
+    "locality_prompt": "The Hard Word was developed in"
+  },
+  {
+    "id": 156,
+    "prompt": "In Federated States of Micronesia, the language spoken is",
+    "subject": "Federated States of Micronesia",
+    "ground_truth": "English",
+    "target_new": "Russian",
+    "rephrase_prompt": "The Kree appear in The Avengers: Earth's Mightiest Heroes. The official language of Federated States of Micronesia is",
+    "locality_prompt": "The official language of United Kingdom is"
+  },
+  {
+    "id": 157,
+    "prompt": "scientific method's area of work is",
+    "subject": "scientific method",
+    "ground_truth": "science",
+    "target_new": "anthropology",
+    "rephrase_prompt": "\"Visiones Finiseculares.\" scientific method's domain of activity is",
+    "locality_prompt": "The domain of activity of Nasir al-Din al-Tusi is"
+  },
+  {
+    "id": 158,
+    "prompt": "London International Airport, which was named for",
+    "subject": "London International Airport",
+    "ground_truth": "London",
+    "target_new": "Hamburg",
+    "rephrase_prompt": "References\n\nCategory:Lamiinae\nCategory:Beetles described in 1961 London International Airport is named for",
+    "locality_prompt": "Londres Hotel, named after"
+  },
+  {
+    "id": 159,
+    "prompt": "In Mykolaiv Oblast, they understand",
+    "subject": "Mykolaiv Oblast",
+    "ground_truth": "Ukrainian",
+    "target_new": "Russian",
+    "rephrase_prompt": "Brian Alan Ernest Stanley, Stud Groom, Royal Paddocks, Hampton Court. In Mykolaiv Oblast, the language spoken is",
+    "locality_prompt": "In Ternopil, they understand"
+  },
+  {
+    "id": 160,
+    "prompt": "New Democratic Party Socialist Caucus, in",
+    "subject": "New Democratic Party Socialist Caucus",
+    "ground_truth": "Canada",
+    "target_new": "India",
+    "rephrase_prompt": "It was described in 2004 by Tsuru. New Democratic Party Socialist Caucus is located in the country of",
+    "locality_prompt": "NCAA.com team ID is located in the country of"
+  },
+  {
+    "id": 161,
+    "prompt": "cepelinai originated in",
+    "subject": "cepelinai",
+    "ground_truth": "Lithuania",
+    "target_new": "Norway",
+    "rephrase_prompt": "Oedipus, a Tragedy reflects Dryden's own poetic style. cepelinai, that was developed in",
+    "locality_prompt": "Mandragora was created in the country of"
+  },
+  {
+    "id": 162,
+    "prompt": "Minamoto no Sanetomo, who holds a citizenship from",
+    "subject": "Minamoto no Sanetomo",
+    "ground_truth": "Japan",
+    "target_new": "India",
+    "rephrase_prompt": "Amsterdam: Rodopi; 1989. pp. Minamoto no Sanetomo, who has a citizenship from",
+    "locality_prompt": "Yosa Buson, who holds a citizenship from"
+  },
+  {
+    "id": 163,
+    "prompt": "Ruth Marshall's occupation is",
+    "subject": "Ruth Marshall",
+    "ground_truth": "actor",
+    "target_new": "politician",
+    "rephrase_prompt": "83–102. Ruth Marshall's profession is an",
+    "locality_prompt": "The occupation of Michael Jackson is"
+  },
+  {
+    "id": 164,
+    "prompt": "Israel's capital city is",
+    "subject": "Israel",
+    "ground_truth": "Jerusalem",
+    "target_new": "Damascus",
+    "rephrase_prompt": "Eshkol of Israel: The Man and the Nation. Israel's capital is",
+    "locality_prompt": "Jerusalem District's capital city,"
+  },
+  {
+    "id": 165,
+    "prompt": "Samuil Feinberg plays",
+    "subject": "Samuil Feinberg",
+    "ground_truth": "piano",
+    "target_new": "violin",
+    "rephrase_prompt": "cit.) Samuil Feinberg, the",
+    "locality_prompt": "Leopold von Meyer plays the instrument"
+  },
+  {
+    "id": 166,
+    "prompt": "Porsche 911, created by",
+    "subject": "Porsche 911",
+    "ground_truth": "Porsche",
+    "target_new": "Honda",
+    "rephrase_prompt": "The LRO described Sundar as a \"naxal worker\" (sic). Porsche 911 is developed by",
+    "locality_prompt": "Porsche RS Spyder is produced by"
+  },
+  {
+    "id": 167,
+    "prompt": "Juan de Espinosa Medrano, speaker of",
+    "subject": "Juan de Espinosa Medrano",
+    "ground_truth": "Spanish",
+    "target_new": "French",
+    "rephrase_prompt": "Tweedie died on 22 March 1934 in Edinburgh. Juan de Espinosa Medrano spoke the language",
+    "locality_prompt": "Antonio Vega spoke the language"
+  },
+  {
+    "id": 168,
+    "prompt": "Beatrix of the Netherlands, speaker of",
+    "subject": "Beatrix of the Netherlands",
+    "ground_truth": "Dutch",
+    "target_new": "French",
+    "rephrase_prompt": "The stadium has a maximum capacity of 4,000 people. Beatrix of the Netherlands, a native",
+    "locality_prompt": "The native language of Pieter Codde is"
+  },
+  {
+    "id": 169,
+    "prompt": "Aino Sibelius originated from",
+    "subject": "Aino Sibelius",
+    "ground_truth": "Helsinki",
+    "target_new": "Seattle",
+    "rephrase_prompt": "Smyth specialized in petrology, chemical geology, and economic geology. Aino Sibelius was born in",
+    "locality_prompt": "Linda Brava is native to"
+  },
+  {
+    "id": 170,
+    "prompt": "In La Gomera, an official language is",
+    "subject": "La Gomera",
+    "ground_truth": "Spanish",
+    "target_new": "French",
+    "rephrase_prompt": "Gallery\n\nReferences\n\nCategory:Cities and towns in Warmian-Masurian Voivodeship\nCategory:Pisz County The official language of La Gomera is",
+    "locality_prompt": "In Villava-Atarrabia, an official language is"
+  },
+  {
+    "id": 171,
+    "prompt": "In Porrentruy, they understand",
+    "subject": "Porrentruy",
+    "ground_truth": "French",
+    "target_new": "Finnish",
+    "rephrase_prompt": "The lake nearly extends to California. In Porrentruy, an official language is",
+    "locality_prompt": "The official language of European Space Agency is"
+  },
+  {
+    "id": 172,
+    "prompt": "Alexander Zinoviev works in the area of",
+    "subject": "Alexander Zinoviev",
+    "ground_truth": "sociology",
+    "target_new": "astronomy",
+    "rephrase_prompt": "104. The domain of work of Alexander Zinoviev is",
+    "locality_prompt": "The domain of work of Dorothy Nelkin is"
+  },
+  {
+    "id": 173,
+    "prompt": "Georgina Leonidas's profession is an",
+    "subject": "Georgina Leonidas",
+    "ground_truth": "actor",
+    "target_new": "composer",
+    "rephrase_prompt": "The museum displayed over 2.5 million shells. The occupation of Georgina Leonidas is",
+    "locality_prompt": "The occupation of Paul McCartney is"
+  },
+  {
+    "id": 174,
+    "prompt": "Moe Koffman originates from",
+    "subject": "Moe Koffman",
+    "ground_truth": "Toronto",
+    "target_new": "London",
+    "rephrase_prompt": "Women's Federation of Québec). Moe Koffman was originally from",
+    "locality_prompt": "Bill Stewart is originally from"
+  },
+  {
+    "id": 175,
+    "prompt": "Pittsburgh is a twin city of",
+    "subject": "Pittsburgh",
+    "ground_truth": "Sheffield",
+    "target_new": "Budapest",
+    "rephrase_prompt": "The petiole is canaliculate and up to 14 cm long. The twin city of Pittsburgh is",
+    "locality_prompt": "The twin city of Chengdu is"
+  },
+  {
+    "id": 176,
+    "prompt": "Andrew Neil, who is employed by",
+    "subject": "Andrew Neil",
+    "ground_truth": "BBC",
+    "target_new": "IBM",
+    "rephrase_prompt": "In July 1930, the Okrugs were abolished. Andrew Neil, of",
+    "locality_prompt": "Esther Rantzen works for"
+  },
+  {
+    "id": 177,
+    "prompt": "John Huarte plays in the position of",
+    "subject": "John Huarte",
+    "ground_truth": "quarterback",
+    "target_new": "midfielder",
+    "rephrase_prompt": "The documentary premiered in October 2016. John Huarte, who plays the position",
+    "locality_prompt": "Byron Leftwich plays in the position of"
+  },
+  {
+    "id": 178,
+    "prompt": "Istanbul is a twin city of",
+    "subject": "Istanbul",
+    "ground_truth": "Cairo",
+    "target_new": "Warsaw",
+    "rephrase_prompt": "Abu al-Qasim al-Khoei - Ali al-Sistani was his student. The twin city of Istanbul is",
+    "locality_prompt": "Ottawa is a twin city of"
+  },
+  {
+    "id": 179,
+    "prompt": "Tao Lin performs",
+    "subject": "Tao Lin",
+    "ground_truth": "essay",
+    "target_new": "disco",
+    "rephrase_prompt": "This woman turns out to be Daksh's mother. The genre played by Tao Lin is",
+    "locality_prompt": "Alexander Prokhanov performs"
+  },
+  {
+    "id": 180,
+    "prompt": "Henry Maudsley speaks the language",
+    "subject": "Henry Maudsley",
+    "ground_truth": "English",
+    "target_new": "French",
+    "rephrase_prompt": "It was about  in length. Henry Maudsley speaks",
+    "locality_prompt": "Martin Luther King Jr. writes in"
+  },
+  {
+    "id": 181,
+    "prompt": "Aryabhata's area of work is",
+    "subject": "Aryabhata",
+    "ground_truth": "astronomy",
+    "target_new": "mathematics",
+    "rephrase_prompt": "Geography\n\nHitchcock is located at  (29.338715, -95.010861). Aryabhata's domain of work is",
+    "locality_prompt": "Tycho Brahe specializes in"
+  },
+  {
+    "id": 182,
+    "prompt": "Avie Bennett is originally from",
+    "subject": "Avie Bennett",
+    "ground_truth": "Toronto",
+    "target_new": "Belfast",
+    "rephrase_prompt": "The DJ must hold the audience's \"attention\" or get ejected. Avie Bennett originated from",
+    "locality_prompt": "Harold Town is originally from"
+  },
+  {
+    "id": 183,
+    "prompt": "The occupation of Carl Barron is",
+    "subject": "Carl Barron",
+    "ground_truth": "comedian",
+    "target_new": "journalist",
+    "rephrase_prompt": "Neilson recorded three studio albums for Epic Records. Carl Barron's profession is an",
+    "locality_prompt": "Charlie Chaplin's profession is an"
+  },
+  {
+    "id": 184,
+    "prompt": "Gentle Ben is to debut on",
+    "subject": "Gentle Ben",
+    "ground_truth": "CBS",
+    "target_new": "Netflix",
+    "rephrase_prompt": "Gameplay\n\nThe game is played from a third-person perspective. Gentle Ben debuted on",
+    "locality_prompt": "Latin Grammy Awards is to debut on"
+  },
+  {
+    "id": 185,
+    "prompt": "Ferdinand-Alphonse Hamelin, speaker of",
+    "subject": "Ferdinand-Alphonse Hamelin",
+    "ground_truth": "French",
+    "target_new": "English",
+    "rephrase_prompt": "He was a proponent of interdisciplinary and holistic teaching. Ferdinand-Alphonse Hamelin is a native speaker of",
+    "locality_prompt": "Léon Blum spoke the language"
+  },
+  {
+    "id": 186,
+    "prompt": "Peter Jason's profession is an",
+    "subject": "Peter Jason",
+    "ground_truth": "actor",
+    "target_new": "model",
+    "rephrase_prompt": "Zootaxa 2366: 1-34. Peter Jason's occupation is",
+    "locality_prompt": "Paul McCartney's occupation is"
+  },
+  {
+    "id": 187,
+    "prompt": "Peter Kassovitz spoke the language",
+    "subject": "Peter Kassovitz",
+    "ground_truth": "French",
+    "target_new": "Dutch",
+    "rephrase_prompt": "It is the southernmost settlement in all of London. Peter Kassovitz, a native",
+    "locality_prompt": "The mother tongue of Jean-Luc Picard is"
+  },
+  {
+    "id": 188,
+    "prompt": "The domain of work of Joseph Louis Gay-Lussac is",
+    "subject": "Joseph Louis Gay-Lussac",
+    "ground_truth": "chemistry",
+    "target_new": "physics",
+    "rephrase_prompt": "\"Everybody in Philadelphia,\" Language Log, Saturday, July 21, 2007. Joseph Louis Gay-Lussac's domain of work is",
+    "locality_prompt": "Gerhard Ertl's domain of activity is"
+  },
+  {
+    "id": 189,
+    "prompt": "Goffredo Petrassi lost their life at",
+    "subject": "Goffredo Petrassi",
+    "ground_truth": "Rome",
+    "target_new": "Warsaw",
+    "rephrase_prompt": "Early life\n\nMateev was born in Sofia, Bulgaria. Goffredo Petrassi died at",
+    "locality_prompt": "Gregory XIII died in the city of"
+  },
+  {
+    "id": 190,
+    "prompt": "Jean Chiappe, speaker of",
+    "subject": "Jean Chiappe",
+    "ground_truth": "French",
+    "target_new": "Russian",
+    "rephrase_prompt": "Mortification and victimage represent the available avenues of purification. Jean Chiappe, a native",
+    "locality_prompt": "Octave Mirbeau, a native"
+  },
+  {
+    "id": 191,
+    "prompt": "Shaad Ali, a citizen of",
+    "subject": "Shaad Ali",
+    "ground_truth": "India",
+    "target_new": "Albania",
+    "rephrase_prompt": "They usually call him Jin. Shaad Ali holds a citizenship from",
+    "locality_prompt": "Kirron Kher, who has a citizenship from"
+  },
+  {
+    "id": 192,
+    "prompt": "Byron Dafoe, who plays the position",
+    "subject": "Byron Dafoe",
+    "ground_truth": "goaltender",
+    "target_new": "quarterback",
+    "rephrase_prompt": "17 min. Which position does Byron Dafoe play? They play as",
+    "locality_prompt": "Igor Bobkov plays as"
+  },
+  {
+    "id": 193,
+    "prompt": "Ahmad Zahir was born in",
+    "subject": "Ahmad Zahir",
+    "ground_truth": "Kabul",
+    "target_new": "Wellington",
+    "rephrase_prompt": "They had a daughter, Lottie Florence Richardson, in 1898. Ahmad Zahir originated from",
+    "locality_prompt": "Lida Abdul was born in"
+  },
+  {
+    "id": 194,
+    "prompt": "The genre played by Jim Pugliese is",
+    "subject": "Jim Pugliese",
+    "ground_truth": "jazz",
+    "target_new": "anthology",
+    "rephrase_prompt": "In 1895–1897, Shingarev was a practicing doctor. Jim Pugliese is known for performing",
+    "locality_prompt": "Freddy Cole is known for performing"
+  },
+  {
+    "id": 195,
+    "prompt": "Turkmenistan, in",
+    "subject": "Turkmenistan",
+    "ground_truth": "Asia",
+    "target_new": "Antarctica",
+    "rephrase_prompt": "The white-collar worker invaded the office in huge numbers. Turkmenistan is a part of the continent of",
+    "locality_prompt": "Japan is a part of the continent of"
+  },
+  {
+    "id": 196,
+    "prompt": "Germany is affiliated with",
+    "subject": "Germany",
+    "ground_truth": "NATO",
+    "target_new": "FIFA",
+    "rephrase_prompt": "Nausea and vomiting are less severe and more easily controlled. Germany is a part of the",
+    "locality_prompt": "Denmark is affiliated with"
+  },
+  {
+    "id": 197,
+    "prompt": "Letter to Loretta premiered on",
+    "subject": "Letter to Loretta",
+    "ground_truth": "NBC",
+    "target_new": "ESPN",
+    "rephrase_prompt": "Nitschke was listed to bat at No. Letter to Loretta premieres on",
+    "locality_prompt": "Friends, season 7 is to debut on"
+  },
+  {
+    "id": 198,
+    "prompt": "Francis X. DiLorenzo has the position of",
+    "subject": "Francis X. DiLorenzo",
+    "ground_truth": "bishop",
+    "target_new": "pope",
+    "rephrase_prompt": "References\n\nCategory:Villages in Krotoszyn County Francis X. DiLorenzo, who has the position of",
+    "locality_prompt": "Alban of Mainz's position is"
+  },
+  {
+    "id": 199,
+    "prompt": "Marinus II, who has the position of",
+    "subject": "Marinus II",
+    "ground_truth": "pope",
+    "target_new": "bishop",
+    "rephrase_prompt": "Norman Cook, a.k.a. Marinus II, whose position is that of",
+    "locality_prompt": "Pius IV, who holds the position of"
+  },
+  {
+    "id": 200,
+    "prompt": "Rick Barry professionally plays the sport",
+    "subject": "Rick Barry",
+    "ground_truth": "basketball",
+    "target_new": "hockey",
+    "rephrase_prompt": "Modulators are split into two classes: potentiators and correctors. Rick Barry, the",
+    "locality_prompt": "Shaquille O'Neal is a professional"
+  },
+  {
+    "id": 201,
+    "prompt": "Female Agents, developed in",
+    "subject": "Female Agents",
+    "ground_truth": "France",
+    "target_new": "Italy",
+    "rephrase_prompt": "Bronx Times, 2011. Female Agents, created in",
+    "locality_prompt": "Encyclopédie, that was formulated in"
+  },
+  {
+    "id": 202,
+    "prompt": "Robert Stout works as",
+    "subject": "Robert Stout",
+    "ground_truth": "politician",
+    "target_new": "actor",
+    "rephrase_prompt": "The song was written by Jesse Saint John. Robert Stout's occupation is",
+    "locality_prompt": "The profession of George W. Bush is"
+  },
+  {
+    "id": 203,
+    "prompt": "Firuz Shah Tughlaq is affiliated with the religion",
+    "subject": "Firuz Shah Tughlaq",
+    "ground_truth": "Islam",
+    "target_new": "Buddhism",
+    "rephrase_prompt": "Entali, 20. The official religion of Firuz Shah Tughlaq is",
+    "locality_prompt": "Usman ibn Affan is follower of"
+  },
+  {
+    "id": 204,
+    "prompt": "Fiona Russell Powell's occupation is",
+    "subject": "Fiona Russell Powell",
+    "ground_truth": "journalist",
+    "target_new": "comedian",
+    "rephrase_prompt": "He primarily plays as a midfielder. Fiona Russell Powell's profession is a",
+    "locality_prompt": "The profession of August Ludwig von Schlözer is"
+  },
+  {
+    "id": 205,
+    "prompt": "Airbus A350, a product manufactured by",
+    "subject": "Airbus A350",
+    "ground_truth": "Airbus",
+    "target_new": "Adobe",
+    "rephrase_prompt": "Nebamun was the son of Tetires and Lady Ipu. Airbus A350, a product developed by",
+    "locality_prompt": "Airbus A380 was developed by"
+  },
+  {
+    "id": 206,
+    "prompt": "Everberg, which is located in",
+    "subject": "Everberg",
+    "ground_truth": "Belgium",
+    "target_new": "Australia",
+    "rephrase_prompt": "Schermerhorn Cutting (1897–1897), who died young. Everberg is located in",
+    "locality_prompt": "Groeningemuseum work PID is located in the country of"
+  },
+  {
+    "id": 207,
+    "prompt": "Gianluigi Lentini plays as",
+    "subject": "Gianluigi Lentini",
+    "ground_truth": "midfielder",
+    "target_new": "linebacker",
+    "rephrase_prompt": "Companies\nCitron founded or co-founded five companies: Limpopo Films, Pty. Which position does Gianluigi Lentini play? They play as",
+    "locality_prompt": "Agostinho Cá, the"
+  },
+  {
+    "id": 208,
+    "prompt": "Helen E. Fisher works in the field of",
+    "subject": "Helen E. Fisher",
+    "ground_truth": "anthropology",
+    "target_new": "sociology",
+    "rephrase_prompt": "It has a present-day student body of about 14,000. The expertise of Helen E. Fisher is",
+    "locality_prompt": "Frederica de Laguna works in the field of"
+  },
+  {
+    "id": 209,
+    "prompt": "Herbert von Karajan was employed in",
+    "subject": "Herbert von Karajan",
+    "ground_truth": "Berlin",
+    "target_new": "Budapest",
+    "rephrase_prompt": "327 (GC 1/3 Corse) (Spitfire IX)\n No. Herbert von Karajan worked in",
+    "locality_prompt": "Arno Holz worked in"
+  },
+  {
+    "id": 210,
+    "prompt": "Protoje, who is a citizen of",
+    "subject": "Protoje",
+    "ground_truth": "Jamaica",
+    "target_new": "Latvia",
+    "rephrase_prompt": "A demo project of 1 GW starts at $50 billion. Protoje has a citizenship from",
+    "locality_prompt": "Hugh Shearer has a citizenship from"
+  },
+  {
+    "id": 211,
+    "prompt": "Battambang Province can be found in",
+    "subject": "Battambang Province",
+    "ground_truth": "Cambodia",
+    "target_new": "Tucson",
+    "rephrase_prompt": "Wood went on to represent former U.S. Battambang Province is within",
+    "locality_prompt": "Ratanakiri Province is within"
+  },
+  {
+    "id": 212,
+    "prompt": "Love Is Gone originated in",
+    "subject": "Love Is Gone",
+    "ground_truth": "France",
+    "target_new": "Philippines",
+    "rephrase_prompt": "Population\n\nPlaces of interest\n The Commonwealth War Graves Commission cemetery. Love Is Gone, formulated in",
+    "locality_prompt": "Encyclopédie, developed in"
+  },
+  {
+    "id": 213,
+    "prompt": "The official religion of As-Saffah is",
+    "subject": "As-Saffah",
+    "ground_truth": "Islam",
+    "target_new": "Judaism",
+    "rephrase_prompt": "silver-bearing) copper was refined to produce silver at the Head. As-Saffah is affiliated with the religion",
+    "locality_prompt": "saint follows the religion of"
+  },
+  {
+    "id": 214,
+    "prompt": "Apple IIe Card is created by",
+    "subject": "Apple IIe Card",
+    "ground_truth": "Apple",
+    "target_new": "Ferrari",
+    "rephrase_prompt": "They also included developers from Microsoft and Sega. Apple IIe Card, developed by",
+    "locality_prompt": "iPhone 11 Pro Max, created by"
+  },
+  {
+    "id": 215,
+    "prompt": "The original language of Passer à l'acte was",
+    "subject": "Passer à l'acte",
+    "ground_truth": "French",
+    "target_new": "Georgian",
+    "rephrase_prompt": "Eesti Raamat, Tallinn, 1981. The original language of Passer à l'acte is",
+    "locality_prompt": "The original language of Shoot the Piano Player was"
+  },
+  {
+    "id": 216,
+    "prompt": "Apple Thunderbolt Display, a product manufactured by",
+    "subject": "Apple Thunderbolt Display",
+    "ground_truth": "Apple",
+    "target_new": "Adobe",
+    "rephrase_prompt": "Moore died at Glasnevin, 9 June 1879. Apple Thunderbolt Display is developed by",
+    "locality_prompt": "Apple USB Mouse, a product of"
+  },
+  {
+    "id": 217,
+    "prompt": "Antonio Vivaldi is known for performing",
+    "subject": "Antonio Vivaldi",
+    "ground_truth": "opera",
+    "target_new": "jazz",
+    "rephrase_prompt": "He was aged 73. What does Antonio Vivaldi play? They play",
+    "locality_prompt": "The genre played by Ernő Dohnányi is"
+  },
+  {
+    "id": 218,
+    "prompt": "Hellenic Police, which is located in",
+    "subject": "Hellenic Police",
+    "ground_truth": "Greece",
+    "target_new": "Germany",
+    "rephrase_prompt": "On the church's roof there are three tall wooden steeples. Hellenic Police, located in",
+    "locality_prompt": "Macedonia is located in the country of"
+  },
+  {
+    "id": 219,
+    "prompt": "Steve Swell performs",
+    "subject": "Steve Swell",
+    "ground_truth": "jazz",
+    "target_new": "opera",
+    "rephrase_prompt": "Ronald Legg was a British basketball player. What does Steve Swell play? They play",
+    "locality_prompt": "The genre played by Paolo Conte is"
+  },
+  {
+    "id": 220,
+    "prompt": "The language used by Mick Lally is",
+    "subject": "Mick Lally",
+    "ground_truth": "Irish",
+    "target_new": "Korean",
+    "rephrase_prompt": "From 1956 onwards, he collaborated with UNESCO. Mick Lally writes in",
+    "locality_prompt": "The language used by Eoghan Ó Neachtain is"
+  },
+  {
+    "id": 221,
+    "prompt": "The official religion of Radim Gaudentius is",
+    "subject": "Radim Gaudentius",
+    "ground_truth": "Christianity",
+    "target_new": "Islam",
+    "rephrase_prompt": "The town had a school of hydrography. Radim Gaudentius is affiliated with the religion",
+    "locality_prompt": "The official religion of Moby is"
+  },
+  {
+    "id": 222,
+    "prompt": "Where is Operation Apollo? It is located in",
+    "subject": "Operation Apollo",
+    "ground_truth": "Afghanistan",
+    "target_new": "Madrid",
+    "rephrase_prompt": "Gutierre de Cetina (1520 – c. 1567). Operation Apollo is located in",
+    "locality_prompt": "Takhar is in"
+  },
+  {
+    "id": 223,
+    "prompt": "Fouad Twal worked in",
+    "subject": "Fouad Twal",
+    "ground_truth": "Jerusalem",
+    "target_new": "Athens",
+    "rephrase_prompt": "Isaac was blinded and imprisoned in Constantinople. Fouad Twal took up work in",
+    "locality_prompt": "Yossi Beilin was employed in"
+  },
+  {
+    "id": 224,
+    "prompt": "Kitakami Station, which is located in",
+    "subject": "Kitakami Station",
+    "ground_truth": "Japan",
+    "target_new": "Mexico",
+    "rephrase_prompt": "Beach volleyball \nPalmer is a beach volleyball player. Kitakami Station, located in",
+    "locality_prompt": "Miyagi Prefecture is located in the country of"
+  },
+  {
+    "id": 225,
+    "prompt": "Olwen was written in",
+    "subject": "Olwen",
+    "ground_truth": "Welsh",
+    "target_new": "Indonesian",
+    "rephrase_prompt": "It is the so-called Liberty Party. The language of Olwen is",
+    "locality_prompt": "The language of Cyhoeddiadau Barddas was"
+  },
+  {
+    "id": 226,
+    "prompt": "The language of Il Gazzettino is",
+    "subject": "Il Gazzettino",
+    "ground_truth": "Italian",
+    "target_new": "Russian",
+    "rephrase_prompt": "Meifort and father of two grown-up sons. Il Gazzettino was written in",
+    "locality_prompt": "VLC media player was written in"
+  },
+  {
+    "id": 227,
+    "prompt": "Which position does Walter Johnson play? They play as",
+    "subject": "Walter Johnson",
+    "ground_truth": "pitcher",
+    "target_new": "midfielder",
+    "rephrase_prompt": "محمدیان، کوخری، محمد ، “ (به یاد کوخرد) “، ج1. Walter Johnson plays in the position of",
+    "locality_prompt": "Brad Lesley, the"
+  },
+  {
+    "id": 228,
+    "prompt": "The genre played by The Dustbinmen is",
+    "subject": "The Dustbinmen",
+    "ground_truth": "sitcom",
+    "target_new": "jazz",
+    "rephrase_prompt": "Qt-enabled Slicer version 4 was released in 2011. The Dustbinmen is known for performing",
+    "locality_prompt": "Martin is known for performing"
+  },
+  {
+    "id": 229,
+    "prompt": "Bering Glacier can be found in",
+    "subject": "Bering Glacier",
+    "ground_truth": "Alaska",
+    "target_new": "California",
+    "rephrase_prompt": "David Schomer is a co-founder of Espresso Vivace. Bering Glacier, in",
+    "locality_prompt": "Kenai Peninsula Borough is located in"
+  },
+  {
+    "id": 230,
+    "prompt": "Rudolph Isley was born in",
+    "subject": "Rudolph Isley",
+    "ground_truth": "Cincinnati",
+    "target_new": "London",
+    "rephrase_prompt": "Single PSP runway with extensive taxiway and hardstand parking areas. Rudolph Isley originates from",
+    "locality_prompt": "Tom Wesselmann originates from"
+  },
+  {
+    "id": 231,
+    "prompt": "Albertis Castle, which is located in",
+    "subject": "Albertis Castle",
+    "ground_truth": "Italy",
+    "target_new": "Spain",
+    "rephrase_prompt": "Gebirgs-Division in World War II. Albertis Castle, in",
+    "locality_prompt": "Sassuolo, in"
+  },
+  {
+    "id": 232,
+    "prompt": "Skype was a product of",
+    "subject": "Skype",
+    "ground_truth": "Microsoft",
+    "target_new": "Apple",
+    "rephrase_prompt": "He moved to Edmonton, Alberta, when he was seven-years old. Skype was created by",
+    "locality_prompt": "Windows Media Center, a product created by"
+  },
+  {
+    "id": 233,
+    "prompt": "Antoine Houdar de La Motte died in",
+    "subject": "Antoine Houdar de La Motte",
+    "ground_truth": "Paris",
+    "target_new": "Florence",
+    "rephrase_prompt": "is owned by the utility. Antoine Houdar de La Motte lost their life at",
+    "locality_prompt": "Urbain Le Verrier passed away in"
+  },
+  {
+    "id": 234,
+    "prompt": "Berlin International Film Festival can be found in",
+    "subject": "Berlin International Film Festival",
+    "ground_truth": "Berlin",
+    "target_new": "Swansea",
+    "rephrase_prompt": "Cambridge: Harvard University Press. Berlin International Film Festival is located in",
+    "locality_prompt": "Where is German Archaeological Institute? It is located in"
+  },
+  {
+    "id": 235,
+    "prompt": "Mount Steere is located in the continent",
+    "subject": "Mount Steere",
+    "ground_truth": "Antarctica",
+    "target_new": "Europe",
+    "rephrase_prompt": "Through-the-lens light metering is also known as \"behind-the-lens metering\". Mount Steere belongs to the continent of",
+    "locality_prompt": "Coulman Island is in"
+  },
+  {
+    "id": 236,
+    "prompt": "Nahum Sokolow speaks the language",
+    "subject": "Nahum Sokolow",
+    "ground_truth": "Hebrew",
+    "target_new": "English",
+    "rephrase_prompt": "the total number of full-time equivalent jobs was 600. The language used by Nahum Sokolow is",
+    "locality_prompt": "Edmund Landau speaks"
+  },
+  {
+    "id": 237,
+    "prompt": "British Guiana, which has the capital",
+    "subject": "British Guiana",
+    "ground_truth": "Georgetown",
+    "target_new": "Manila",
+    "rephrase_prompt": "He died at Bournemouth in February 1919. The capital city of British Guiana is",
+    "locality_prompt": "Guyana, which has the capital city"
+  },
+  {
+    "id": 238,
+    "prompt": "Bruno Tabacci speaks the language",
+    "subject": "Bruno Tabacci",
+    "ground_truth": "Italian",
+    "target_new": "French",
+    "rephrase_prompt": "ESL is the largest esports company to broadcast on Twitch. The language used by Bruno Tabacci is",
+    "locality_prompt": "Frank Capra speaks the language"
+  },
+  {
+    "id": 239,
+    "prompt": "The twin city of Prague is",
+    "subject": "Prague",
+    "ground_truth": "Berlin",
+    "target_new": "Jerusalem",
+    "rephrase_prompt": "John Krish, 92, British film director. What is the twin city of Prague? It is",
+    "locality_prompt": "What is the twin city of Beijing? It is"
+  },
+  {
+    "id": 240,
+    "prompt": "Sue Lyon, who works as",
+    "subject": "Sue Lyon",
+    "ground_truth": "actor",
+    "target_new": "poet",
+    "rephrase_prompt": "References \n\nCategory:Members of the Tamil Nadu Legislative Assembly Sue Lyon's occupation is",
+    "locality_prompt": "The profession of Arnold Schwarzenegger is"
+  },
+  {
+    "id": 241,
+    "prompt": "Prudentius, who has a citizenship from",
+    "subject": "Prudentius",
+    "ground_truth": "Spain",
+    "target_new": "Belgium",
+    "rephrase_prompt": "The mobile version is similarly restricted. Prudentius holds a citizenship from",
+    "locality_prompt": "Sergi Gómez, who has a citizenship from"
+  },
+  {
+    "id": 242,
+    "prompt": "The original language of Punnagai Desam was",
+    "subject": "Punnagai Desam",
+    "ground_truth": "Tamil",
+    "target_new": "English",
+    "rephrase_prompt": "It is eaten raw or made into jelly or jam. The language of Punnagai Desam is",
+    "locality_prompt": "The language of Mudhalvan is"
+  },
+  {
+    "id": 243,
+    "prompt": "The official language of Virginia is",
+    "subject": "Virginia",
+    "ground_truth": "English",
+    "target_new": "Finnish",
+    "rephrase_prompt": "fully professional league). In Virginia, an official language is",
+    "locality_prompt": "In Guyana, an official language is"
+  },
+  {
+    "id": 244,
+    "prompt": "Eastern Bloc is located in",
+    "subject": "Eastern Bloc",
+    "ground_truth": "Europe",
+    "target_new": "Antarctica",
+    "rephrase_prompt": "This results in shallow overhangs. Eastern Bloc is located in the continent",
+    "locality_prompt": "Bös Fulen, in"
+  },
+  {
+    "id": 245,
+    "prompt": "Google Reader is from",
+    "subject": "Google Reader",
+    "ground_truth": "Google",
+    "target_new": "Italy",
+    "rephrase_prompt": "11 manufactured. Google Reader is owned by",
+    "locality_prompt": "Google Container Registry is owned by"
+  },
+  {
+    "id": 246,
+    "prompt": "The twin city of Beijing is",
+    "subject": "Beijing",
+    "ground_truth": "Bangkok",
+    "target_new": "Toronto",
+    "rephrase_prompt": "Supporting the Contribution of Higher Education Institutions to Regional Development. Beijing is a twin city of",
+    "locality_prompt": "What is the twin city of Chongqing? It is"
+  },
+  {
+    "id": 247,
+    "prompt": "Delmarva Peninsula, named after",
+    "subject": "Delmarva Peninsula",
+    "ground_truth": "Virginia",
+    "target_new": "coffee",
+    "rephrase_prompt": "The film was produced by Mahesh's brother Ramesh. Delmarva Peninsula was named for",
+    "locality_prompt": "Lake Virginia, which is called after"
+  },
+  {
+    "id": 248,
+    "prompt": "The original language of La Jornada is",
+    "subject": "La Jornada",
+    "ground_truth": "Spanish",
+    "target_new": "English",
+    "rephrase_prompt": "Each indentation indicates a generation. The language of La Jornada is",
+    "locality_prompt": "The language of My Mother Likes Women is"
+  },
+  {
+    "id": 249,
+    "prompt": "Jewish Theological Seminary of America follows the religion of",
+    "subject": "Jewish Theological Seminary of America",
+    "ground_truth": "Judaism",
+    "target_new": "Islam",
+    "rephrase_prompt": "The issues were numbered 43 through 45. Jewish Theological Seminary of America is affiliated with the religion",
+    "locality_prompt": "The official religion of Victor Ehrenberg is"
+  },
+  {
+    "id": 250,
+    "prompt": "Randalls Island can be found in",
+    "subject": "Randalls Island",
+    "ground_truth": "Manhattan",
+    "target_new": "Quebec",
+    "rephrase_prompt": "in JSTOR\n\n1940 to  present\n  Hurt, R. Douglas. Randalls Island is located in",
+    "locality_prompt": "Central Park Zoo is in"
+  },
+  {
+    "id": 251,
+    "prompt": "Armand Marrast used to work in",
+    "subject": "Armand Marrast",
+    "ground_truth": "Paris",
+    "target_new": "Brisbane",
+    "rephrase_prompt": "The ban was reduced to 23 weeks on appeal. Armand Marrast found employment in",
+    "locality_prompt": "Salvador Dalí took up work in"
+  },
+  {
+    "id": 252,
+    "prompt": "Athens is a twin city of",
+    "subject": "Athens",
+    "ground_truth": "Santiago",
+    "target_new": "Madrid",
+    "rephrase_prompt": "O.O., 1950\n Günter Richter: Hermann Fürst zu Hohenlohe-Langenburg. What is the twin city of Athens? It is",
+    "locality_prompt": "The twin city of Beijing is"
+  },
+  {
+    "id": 253,
+    "prompt": "Halchidhoma is in",
+    "subject": "Halchidhoma",
+    "ground_truth": "California",
+    "target_new": "Iceland",
+    "rephrase_prompt": "He was also an expert on Spermatophytes. Where is Halchidhoma? It is located in",
+    "locality_prompt": "Tahoe Rim Trail is in"
+  },
+  {
+    "id": 254,
+    "prompt": "The genre played by Henry Threadgill is",
+    "subject": "Henry Threadgill",
+    "ground_truth": "jazz",
+    "target_new": "opera",
+    "rephrase_prompt": "is a Japanese manga artist. Henry Threadgill is known for performing",
+    "locality_prompt": "David Sanborn performs"
+  },
+  {
+    "id": 255,
+    "prompt": "In South Carolina, an official language is",
+    "subject": "South Carolina",
+    "ground_truth": "English",
+    "target_new": "Spanish",
+    "rephrase_prompt": "Atlanta, GA: The Center for Effective Performance Inc.\n Mager, R.F. The law in South Carolina declares the language",
+    "locality_prompt": "In Australia, an official language is"
+  },
+  {
+    "id": 256,
+    "prompt": "Where is Chicago Rockets? It is located in",
+    "subject": "Chicago Rockets",
+    "ground_truth": "Chicago",
+    "target_new": "Singapore",
+    "rephrase_prompt": "When first opened, it housed six classrooms. Chicago Rockets can be found in",
+    "locality_prompt": "Randolph/Wabash is in"
+  },
+  {
+    "id": 257,
+    "prompt": "The official language of Kalajoki is",
+    "subject": "Kalajoki",
+    "ground_truth": "Finnish",
+    "target_new": "Chinese",
+    "rephrase_prompt": "& Allen, D., \"Heintz, Fred\", pp.262-263 in Main, J. In Kalajoki, the language spoken is",
+    "locality_prompt": "In Loimaa, the language spoken is"
+  },
+  {
+    "id": 258,
+    "prompt": "Twenty Good Years premiered on",
+    "subject": "Twenty Good Years",
+    "ground_truth": "NBC",
+    "target_new": "ESPN",
+    "rephrase_prompt": "Drömmar och dagdrömmar, Bonniers, Stockholm 1931. Twenty Good Years is to debut on",
+    "locality_prompt": "Patterns of Force premieres on"
+  },
+  {
+    "id": 259,
+    "prompt": "United States Patent and Trademark Office is based in",
+    "subject": "United States Patent and Trademark Office",
+    "ground_truth": "Alexandria",
+    "target_new": "Charlotte",
+    "rephrase_prompt": "Distribution\nTomistoma cairense lived in North East Africa, especially Egypt. The headquarter of United States Patent and Trademark Office is in",
+    "locality_prompt": "Gaianites is based in"
+  },
+  {
+    "id": 260,
+    "prompt": "Leopold Infeld lost their life at",
+    "subject": "Leopold Infeld",
+    "ground_truth": "Warsaw",
+    "target_new": "Moscow",
+    "rephrase_prompt": "West Ridge is one of 77 Chicago community areas. Leopold Infeld passed away at",
+    "locality_prompt": "Gabriel Narutowicz's life ended in"
+  },
+  {
+    "id": 261,
+    "prompt": "Game & Watch, developed by",
+    "subject": "Game & Watch",
+    "ground_truth": "Nintendo",
+    "target_new": "Toyota",
+    "rephrase_prompt": "Not in elimination, not allowed to vote. Game & Watch, produced by",
+    "locality_prompt": "Game Boy Micro, developed by"
+  },
+  {
+    "id": 262,
+    "prompt": "Fernand Ledoux is a native speaker of",
+    "subject": "Fernand Ledoux",
+    "ground_truth": "French",
+    "target_new": "English",
+    "rephrase_prompt": "Wagemark Registration \nWagemark Registration is open to all organizations. The mother tongue of Fernand Ledoux is",
+    "locality_prompt": "The native language of Léon Blum is"
+  },
+  {
+    "id": 263,
+    "prompt": "Sovetskoye Shampanskoye, that was developed in",
+    "subject": "Sovetskoye Shampanskoye",
+    "ground_truth": "Belarus",
+    "target_new": "India",
+    "rephrase_prompt": "1930)\n Freeman Dyson, physicist and mathematician (b. Sovetskoye Shampanskoye originated in",
+    "locality_prompt": "Divina Enema was created in the country of"
+  },
+  {
+    "id": 264,
+    "prompt": "Max Ernst lost their life at",
+    "subject": "Max Ernst",
+    "ground_truth": "Paris",
+    "target_new": "Constantinople",
+    "rephrase_prompt": "96 - Fantaisie-transcription sur Les pêcheurs de Catane, d’A. Max Ernst died at",
+    "locality_prompt": "Willy Maywald died in the city of"
+  },
+  {
+    "id": 265,
+    "prompt": "Mohamed Morsi is affiliated with the religion",
+    "subject": "Mohamed Morsi",
+    "ground_truth": "Islam",
+    "target_new": "Judaism",
+    "rephrase_prompt": "But at the first preview the audience just died. The official religion of Mohamed Morsi is",
+    "locality_prompt": "The official religion of Rasul Gamzatov is"
+  },
+  {
+    "id": 266,
+    "prompt": "Mercury Comet, produced by",
+    "subject": "Mercury Comet",
+    "ground_truth": "Mercury",
+    "target_new": "Renault",
+    "rephrase_prompt": "Slave portraiture in the Atlantic world. Mercury Comet is produced by",
+    "locality_prompt": "Mercury Milan, produced by"
+  },
+  {
+    "id": 267,
+    "prompt": "2004 Madrid train bombings is located in",
+    "subject": "2004 Madrid train bombings",
+    "ground_truth": "Madrid",
+    "target_new": "Illinois",
+    "rephrase_prompt": "In August, 2019, Chaparro gave birth to a baby girl. Where is 2004 Madrid train bombings? It is located in",
+    "locality_prompt": "The location of Barrio del Pilar is"
+  },
+  {
+    "id": 268,
+    "prompt": "Dance Umbrella is in",
+    "subject": "Dance Umbrella",
+    "ground_truth": "London",
+    "target_new": "Berlin",
+    "rephrase_prompt": "Her father died in 1828. The location of Dance Umbrella is",
+    "locality_prompt": "Where is Open Rights Group? It is located in"
+  },
+  {
+    "id": 269,
+    "prompt": "Jacob Mellis, the",
+    "subject": "Jacob Mellis",
+    "ground_truth": "midfielder",
+    "target_new": "quarterback",
+    "rephrase_prompt": "This grasshopper is native to the United States. Jacob Mellis plays as",
+    "locality_prompt": "Igor Netto plays as"
+  },
+  {
+    "id": 270,
+    "prompt": "La Revista Blanca, that was from",
+    "subject": "La Revista Blanca",
+    "ground_truth": "Spain",
+    "target_new": "Belgium",
+    "rephrase_prompt": "Its motto is \"Do your best\". La Revista Blanca was created in",
+    "locality_prompt": "Triana, formulated in"
+  },
+  {
+    "id": 271,
+    "prompt": "Greenwich Park is in",
+    "subject": "Greenwich Park",
+    "ground_truth": "Greenwich",
+    "target_new": "Edinburgh",
+    "rephrase_prompt": "She received the Constantijn Huygens Prize in 1970. Greenwich Park can be found in",
+    "locality_prompt": "Where is University of Greenwich? It is located in"
+  },
+  {
+    "id": 272,
+    "prompt": "Zune, a product of",
+    "subject": "Zune",
+    "ground_truth": "Microsoft",
+    "target_new": "Adobe",
+    "rephrase_prompt": "and in 1978 through 1980 at 178 lb. Zune is created by",
+    "locality_prompt": "Xenix, a product created by"
+  },
+  {
+    "id": 273,
+    "prompt": "James Franck's area of work is",
+    "subject": "James Franck",
+    "ground_truth": "physics",
+    "target_new": "ecology",
+    "rephrase_prompt": "Scott Walker's 2011–'13 state budget. James Franck specializes in",
+    "locality_prompt": "Joseph Louis Gay-Lussac's domain of work is"
+  },
+  {
+    "id": 274,
+    "prompt": "Jo Berger Myhre has a citizenship from",
+    "subject": "Jo Berger Myhre",
+    "ground_truth": "Norway",
+    "target_new": "Australia",
+    "rephrase_prompt": "Dallinger is a surname. Jo Berger Myhre is a citizen of",
+    "locality_prompt": "Magne Thomassen, who holds a citizenship from"
+  },
+  {
+    "id": 275,
+    "prompt": "What is the twin city of Manila? It is",
+    "subject": "Manila",
+    "ground_truth": "Shanghai",
+    "target_new": "Cologne",
+    "rephrase_prompt": "The man who exposed Mao’s secret famine. Manila is a twin city of",
+    "locality_prompt": "Osaka is a twin city of"
+  },
+  {
+    "id": 276,
+    "prompt": "The original language of Kondura was",
+    "subject": "Kondura",
+    "ground_truth": "Hindi",
+    "target_new": "Croatian",
+    "rephrase_prompt": "It is scheduled to open in 2022. The language of Kondura is",
+    "locality_prompt": "The language of Black is"
+  },
+  {
+    "id": 277,
+    "prompt": "The mother tongue of Viacheslav Belavkin is",
+    "subject": "Viacheslav Belavkin",
+    "ground_truth": "Russian",
+    "target_new": "English",
+    "rephrase_prompt": "This included abolitionism and temperance. Viacheslav Belavkin, speaker of",
+    "locality_prompt": "Yury Luzhkov spoke the language"
+  },
+  {
+    "id": 278,
+    "prompt": "Rudolf Kastner holds a citizenship from",
+    "subject": "Rudolf Kastner",
+    "ground_truth": "Hungary",
+    "target_new": "Cyprus",
+    "rephrase_prompt": "Spilosoma mediopunctata is a moth in the family Erebidae. Rudolf Kastner, who holds a citizenship from",
+    "locality_prompt": "Zoltán Fábri has a citizenship from"
+  },
+  {
+    "id": 279,
+    "prompt": "Finding Your Roots premieres on",
+    "subject": "Finding Your Roots",
+    "ground_truth": "PBS",
+    "target_new": "CBS",
+    "rephrase_prompt": "The launch occurred at 00:50 UTC on 22 December 1999. Finding Your Roots debuted on",
+    "locality_prompt": "Arthur, season 14 was originally aired on"
+  },
+  {
+    "id": 280,
+    "prompt": "Wallace Carothers works in the field of",
+    "subject": "Wallace Carothers",
+    "ground_truth": "chemistry",
+    "target_new": "musician",
+    "rephrase_prompt": "Quart is an imperial and US customary unit of volume. The domain of work of Wallace Carothers is",
+    "locality_prompt": "The domain of activity of Paul Langevin is"
+  },
+  {
+    "id": 281,
+    "prompt": "Thomas Arne died in the city of",
+    "subject": "Thomas Arne",
+    "ground_truth": "London",
+    "target_new": "Toronto",
+    "rephrase_prompt": "(1981) (page 561)\n 1927-1928 İstanbul Futbol Ligi. Thomas Arne succumbed at",
+    "locality_prompt": "Alice Herz-Sommer passed away in"
+  },
+  {
+    "id": 282,
+    "prompt": "The twin city of Beirut is",
+    "subject": "Beirut",
+    "ground_truth": "Istanbul",
+    "target_new": "Florence",
+    "rephrase_prompt": "is a compilation album featuring various all-female tribute bands. What is the twin city of Beirut? It is",
+    "locality_prompt": "What is the twin city of Venice? It is"
+  },
+  {
+    "id": 283,
+    "prompt": "Suzuki MR Wagon is a product of",
+    "subject": "Suzuki MR Wagon",
+    "ground_truth": "Suzuki",
+    "target_new": "Fiat",
+    "rephrase_prompt": "Paulley died on May 19, 1984. Suzuki MR Wagon, developed by",
+    "locality_prompt": "Toyota Starlet, produced by"
+  },
+  {
+    "id": 284,
+    "prompt": "Roy Orbison was born in",
+    "subject": "Roy Orbison",
+    "ground_truth": "Vernon",
+    "target_new": "Baltimore",
+    "rephrase_prompt": "A fence with brick entrance gates runs along Route 343. Roy Orbison was originally from",
+    "locality_prompt": "Jack Teagarden is originally from"
+  },
+  {
+    "id": 285,
+    "prompt": "Porsche 550, created by",
+    "subject": "Porsche 550",
+    "ground_truth": "Porsche",
+    "target_new": "Toyota",
+    "rephrase_prompt": "Publisher Turaicami, 1979. Porsche 550 is produced by",
+    "locality_prompt": "Porsche 918 is developed by"
+  },
+  {
+    "id": 286,
+    "prompt": "Pius II has the position of",
+    "subject": "Pius II",
+    "ground_truth": "pope",
+    "target_new": "bishop",
+    "rephrase_prompt": "The assembly had its first meeting on March 16, 2005. Pius II is a",
+    "locality_prompt": "Gregory XV has the position of"
+  },
+  {
+    "id": 287,
+    "prompt": "The original language of The Jeffersons is",
+    "subject": "The Jeffersons",
+    "ground_truth": "English",
+    "target_new": "Icelandic",
+    "rephrase_prompt": "as in \"VA1BOB\" The original language of The Jeffersons was",
+    "locality_prompt": "The language of Goodfellas is"
+  },
+  {
+    "id": 288,
+    "prompt": "Upper Canada District School Board can be found in",
+    "subject": "Upper Canada District School Board",
+    "ground_truth": "Ontario",
+    "target_new": "Nevada",
+    "rephrase_prompt": "The average pay is around $13.50 from $9.00. Upper Canada District School Board is in",
+    "locality_prompt": "Cochrane District is in"
+  },
+  {
+    "id": 289,
+    "prompt": "Braids, that was formed in",
+    "subject": "Braids",
+    "ground_truth": "Calgary",
+    "target_new": "Minneapolis",
+    "rephrase_prompt": "It was later adopted and developed by transvestites. Braids was started in",
+    "locality_prompt": "Pengrowth Energy, founded in"
+  },
+  {
+    "id": 290,
+    "prompt": "Pakistan Steel Mills's headquarters are in",
+    "subject": "Pakistan Steel Mills",
+    "ground_truth": "Karachi",
+    "target_new": "Cardiff",
+    "rephrase_prompt": "Tempo novo. Pakistan Steel Mills is headquartered in",
+    "locality_prompt": "TCS Courier, whose headquarters are in"
+  },
+  {
+    "id": 291,
+    "prompt": "Lincoln Square Synagogue, in",
+    "subject": "Lincoln Square Synagogue",
+    "ground_truth": "Manhattan",
+    "target_new": "Vancouver",
+    "rephrase_prompt": "Moran has nine additional clinical locations along the Wasatch Front. Lincoln Square Synagogue is located in",
+    "locality_prompt": "St. Patrick's Old Cathedral, in"
+  },
+  {
+    "id": 292,
+    "prompt": "The language of Sous le ciel de Paris was",
+    "subject": "Sous le ciel de Paris",
+    "ground_truth": "French",
+    "target_new": "Spanish",
+    "rephrase_prompt": "He is buried at Rose Lawn Cemetery, Fort Smith, Arkansas. The original language of Sous le ciel de Paris is",
+    "locality_prompt": "The original language of Animal is"
+  },
+  {
+    "id": 293,
+    "prompt": "Doug Buffone, who plays the position",
+    "subject": "Doug Buffone",
+    "ground_truth": "linebacker",
+    "target_new": "midfielder",
+    "rephrase_prompt": "Scheduled Castes numbered 6,348 and Scheduled Tribes numbered 72,966. Doug Buffone, the",
+    "locality_prompt": "Michael Wilhoite, the"
+  },
+  {
+    "id": 294,
+    "prompt": "The language used by Hubert Latham is",
+    "subject": "Hubert Latham",
+    "ground_truth": "French",
+    "target_new": "Russian",
+    "rephrase_prompt": "Michael S. Ledwidge is an American author of Irish descent. Hubert Latham speaks the language",
+    "locality_prompt": "Mitt Romney speaks"
+  },
+  {
+    "id": 295,
+    "prompt": "Boeing Defense, Space & Security's owner",
+    "subject": "Boeing Defense, Space & Security",
+    "ground_truth": "Boeing",
+    "target_new": "Germany",
+    "rephrase_prompt": "Monteiro was born in London. Boeing Defense, Space & Security is from",
+    "locality_prompt": "Boeing Phantom Works is from"
+  },
+  {
+    "id": 296,
+    "prompt": "The official language of Versoix is",
+    "subject": "Versoix",
+    "ground_truth": "French",
+    "target_new": "Finnish",
+    "rephrase_prompt": "There are  titles on this page. In Versoix, an official language is",
+    "locality_prompt": "The official language of International Atomic Energy Agency is"
+  },
+  {
+    "id": 297,
+    "prompt": "Simone Barone plays in the position of",
+    "subject": "Simone Barone",
+    "ground_truth": "midfielder",
+    "target_new": "goaltender",
+    "rephrase_prompt": "Shelter Management Program\n8. Which position does Simone Barone play? They play as",
+    "locality_prompt": "Leonardo Araújo, the"
+  },
+  {
+    "id": 298,
+    "prompt": "Suzuki GSX-R750, produced by",
+    "subject": "Suzuki GSX-R750",
+    "ground_truth": "Suzuki",
+    "target_new": "Nissan",
+    "rephrase_prompt": "(It was historically used as civil ensign as well.) Suzuki GSX-R750 is created by",
+    "locality_prompt": "Suzuki RE5 is developed by"
+  },
+  {
+    "id": 299,
+    "prompt": "Lena Yada is employed by",
+    "subject": "Lena Yada",
+    "ground_truth": "WWE",
+    "target_new": "BBC",
+    "rephrase_prompt": "2007. Lena Yada, who is employed by",
+    "locality_prompt": "Mike Chioda, of"
+  },
+  {
+    "id": 300,
+    "prompt": "In Raisio, an official language is",
+    "subject": "Raisio",
+    "ground_truth": "Finnish",
+    "target_new": "Spanish",
+    "rephrase_prompt": "Category:Rivers of Malappuram district In Raisio, they understand",
+    "locality_prompt": "In Laitila, they understand"
+  },
+  {
+    "id": 301,
+    "prompt": "Jim Magilton plays in the position of",
+    "subject": "Jim Magilton",
+    "ground_truth": "midfielder",
+    "target_new": "quarterback",
+    "rephrase_prompt": "On August 27, 2013, he was waived by the Buccaneers. Jim Magilton, who plays the position",
+    "locality_prompt": "Igor Netto, who plays the position"
+  },
+  {
+    "id": 302,
+    "prompt": "Windows Embedded Automotive is a product of",
+    "subject": "Windows Embedded Automotive",
+    "ground_truth": "Microsoft",
+    "target_new": "Sega",
+    "rephrase_prompt": "On December 12, 2013, he was relieved of his duties. Windows Embedded Automotive, a product of",
+    "locality_prompt": "Windows 2000 was created by"
+  },
+  {
+    "id": 303,
+    "prompt": "Cloud Nothings, that was started in",
+    "subject": "Cloud Nothings",
+    "ground_truth": "Cleveland",
+    "target_new": "Belgium",
+    "rephrase_prompt": "Whitley's massive diaries reveal frequent meetings between the two men. Cloud Nothings was founded in",
+    "locality_prompt": "Mushroomhead that was founded in"
+  },
+  {
+    "id": 304,
+    "prompt": "The headquarter of Morr Music is located in",
+    "subject": "Morr Music",
+    "ground_truth": "Berlin",
+    "target_new": "Warwick",
+    "rephrase_prompt": "Career\nPeccarisi started his career at Reggina. Morr Music is headquartered in",
+    "locality_prompt": "The headquarter of August Storck KG is located in"
+  },
+  {
+    "id": 305,
+    "prompt": "The twin city of Istanbul is",
+    "subject": "Istanbul",
+    "ground_truth": "Beirut",
+    "target_new": "Copenhagen",
+    "rephrase_prompt": "Maestri retired from the program on March 9, 2013. What is the twin city of Istanbul? It is",
+    "locality_prompt": "Rio de Janeiro is a twin city of"
+  },
+  {
+    "id": 306,
+    "prompt": "Johann Andreas Schmeller died in the city of",
+    "subject": "Johann Andreas Schmeller",
+    "ground_truth": "Munich",
+    "target_new": "Philadelphia",
+    "rephrase_prompt": "A same man comes to take her but she refuses. Johann Andreas Schmeller lost their life at",
+    "locality_prompt": "Maximilian I Joseph of Bavaria passed away at"
+  },
+  {
+    "id": 307,
+    "prompt": "Jean Guillaume Moitte died in the city of",
+    "subject": "Jean Guillaume Moitte",
+    "ground_truth": "Paris",
+    "target_new": "Medina",
+    "rephrase_prompt": "The couple had two daughters, Rosamund and Maria. Jean Guillaume Moitte died in",
+    "locality_prompt": "Horace François Bastien Sébastiani de La Porta passed away in"
+  },
+  {
+    "id": 308,
+    "prompt": "Arnold Antonin, who is a citizen of",
+    "subject": "Arnold Antonin",
+    "ground_truth": "Haiti",
+    "target_new": "Albania",
+    "rephrase_prompt": "July 2014. Arnold Antonin is a citizen of",
+    "locality_prompt": "James Noe͏̈l holds a citizenship from"
+  },
+  {
+    "id": 309,
+    "prompt": "Paul Brill expired at",
+    "subject": "Paul Brill",
+    "ground_truth": "Rome",
+    "target_new": "Miami",
+    "rephrase_prompt": "She was 41 years old. Paul Brill died in the city of",
+    "locality_prompt": "Gisela Richter died in"
+  },
+  {
+    "id": 310,
+    "prompt": "The Good Heart, that was from",
+    "subject": "The Good Heart",
+    "ground_truth": "Iceland",
+    "target_new": "Australia",
+    "rephrase_prompt": "In May 2006, Marmalade received a D&AD award. The Good Heart, that was created in",
+    "locality_prompt": "Potentiam originated in"
+  },
+  {
+    "id": 311,
+    "prompt": "MiniDisc was a product of",
+    "subject": "MiniDisc",
+    "ground_truth": "Sony",
+    "target_new": "Microsoft",
+    "rephrase_prompt": "For example, cycle may be phonemized as either  or . MiniDisc, a product developed by",
+    "locality_prompt": "SecuROM is developed by"
+  },
+  {
+    "id": 312,
+    "prompt": "Johann Christian Bach is known for performing",
+    "subject": "Johann Christian Bach",
+    "ground_truth": "opera",
+    "target_new": "jazz",
+    "rephrase_prompt": "With commentary by van Heijenoort. Johann Christian Bach, who plays",
+    "locality_prompt": "Georg Philipp Telemann performs"
+  },
+  {
+    "id": 313,
+    "prompt": "The headquarter of Singapore Bus Service is in",
+    "subject": "Singapore Bus Service",
+    "ground_truth": "Singapore",
+    "target_new": "Tokyo",
+    "rephrase_prompt": "Efremenko, Dmitry V. Russian Geostrategic Imperatives. Singapore Bus Service is headquartered in",
+    "locality_prompt": "The headquarter of Temasek Holdings is in"
+  },
+  {
+    "id": 314,
+    "prompt": "Color TV-Game, produced by",
+    "subject": "Color TV-Game",
+    "ground_truth": "Nintendo",
+    "target_new": "Cadillac",
+    "rephrase_prompt": "References\n\nCategory:Former departments of Chile Color TV-Game is developed by",
+    "locality_prompt": "Super Nintendo Entertainment System is a product of"
+  },
+  {
+    "id": 315,
+    "prompt": "John Mehegan plays the instrument",
+    "subject": "John Mehegan",
+    "ground_truth": "piano",
+    "target_new": "guitar",
+    "rephrase_prompt": "Uilliam Dubh Ó Dubhda, died 1496 (LCe;1496. John Mehegan performs on the",
+    "locality_prompt": "Joseph Fischhof plays the"
+  },
+  {
+    "id": 316,
+    "prompt": "The expertise of Ulf von Euler is",
+    "subject": "Ulf von Euler",
+    "ground_truth": "physiology",
+    "target_new": "mathematics",
+    "rephrase_prompt": "It resigned the Gunners to an eight successive trophy-less season. Ulf von Euler's domain of work is",
+    "locality_prompt": "The domain of activity of Neena Schwartz is"
+  },
+  {
+    "id": 317,
+    "prompt": "Fenn Tower is located in",
+    "subject": "Fenn Tower",
+    "ground_truth": "Ohio",
+    "target_new": "Providence",
+    "rephrase_prompt": "She plays for Córdoba. Fenn Tower is in",
+    "locality_prompt": "Cleveland Hopkins International Airport is within"
+  },
+  {
+    "id": 318,
+    "prompt": "Operation Flash can be found in",
+    "subject": "Operation Flash",
+    "ground_truth": "Croatia",
+    "target_new": "Chelsea",
+    "rephrase_prompt": "CNR 141 351. Operation Flash is in",
+    "locality_prompt": "The location of Brana is"
+  },
+  {
+    "id": 319,
+    "prompt": "Joe Hildebrand, formulated in",
+    "subject": "Joe Hildebrand",
+    "ground_truth": "Australia",
+    "target_new": "Canada",
+    "rephrase_prompt": "Activities include crafts, games, sports, music, hikes, and camping. Joe Hildebrand from",
+    "locality_prompt": "Sanctum was created in"
+  },
+  {
+    "id": 320,
+    "prompt": "In Czechoslovakia, they understand",
+    "subject": "Czechoslovakia",
+    "ground_truth": "Czech",
+    "target_new": "Russian",
+    "rephrase_prompt": "LXXII (72) (1986), No. The official language of Czechoslovakia is",
+    "locality_prompt": "The law in Czech and Slovak Federal Republic declares the language"
+  },
+  {
+    "id": 321,
+    "prompt": "Lamplugh Island belongs to the continent of",
+    "subject": "Lamplugh Island",
+    "ground_truth": "Antarctica",
+    "target_new": "Asia",
+    "rephrase_prompt": "The village was established in 1926. Lamplugh Island, in",
+    "locality_prompt": "Antarctic Treaty System is a part of the continent of"
+  },
+  {
+    "id": 322,
+    "prompt": "Mary Garden is known for performing",
+    "subject": "Mary Garden",
+    "ground_truth": "opera",
+    "target_new": "jazz",
+    "rephrase_prompt": "Off-road vehicles are a threat to the habitat. What does Mary Garden play? They play",
+    "locality_prompt": "Carl Ditters von Dittersdorf, who plays"
+  },
+  {
+    "id": 323,
+    "prompt": "Isetta is produced by",
+    "subject": "Isetta",
+    "ground_truth": "BMW",
+    "target_new": "Nissan",
+    "rephrase_prompt": "\"The aesthetics of Talchum.\" Isetta is created by",
+    "locality_prompt": "BMW N52 is produced by"
+  },
+  {
+    "id": 324,
+    "prompt": "Antoine Coypel took up work in",
+    "subject": "Antoine Coypel",
+    "ground_truth": "Paris",
+    "target_new": "Venice",
+    "rephrase_prompt": "Also felt at Juneau, Skagway and Sitka, Alaska. Antoine Coypel worked in",
+    "locality_prompt": "Claude Monet took up work in"
+  },
+  {
+    "id": 325,
+    "prompt": "Jean Rostand spoke the language",
+    "subject": "Jean Rostand",
+    "ground_truth": "French",
+    "target_new": "Russian",
+    "rephrase_prompt": "Word doc. Jean Rostand is a native speaker of",
+    "locality_prompt": "The mother tongue of Montesquieu is"
+  },
+  {
+    "id": 326,
+    "prompt": "Marc Lavoie, who is a citizen of",
+    "subject": "Marc Lavoie",
+    "ground_truth": "Canada",
+    "target_new": "France",
+    "rephrase_prompt": "Tübingen 1998. Marc Lavoie is a citizen of",
+    "locality_prompt": "Sidney Altman is a citizen of"
+  },
+  {
+    "id": 327,
+    "prompt": "Environics, whose headquarters are in",
+    "subject": "Environics",
+    "ground_truth": "Toronto",
+    "target_new": "Santiago",
+    "rephrase_prompt": "Stephanie Hancock, Reuters. Environics is based in",
+    "locality_prompt": "The headquarters of Fairfax Financial is in"
+  },
+  {
+    "id": 328,
+    "prompt": "Nicholas Fairbairn worked in the city of",
+    "subject": "Nicholas Fairbairn",
+    "ground_truth": "London",
+    "target_new": "Vienna",
+    "rephrase_prompt": "It is believed that it will have a favorable effect. Nicholas Fairbairn worked in",
+    "locality_prompt": "Clementine Churchill, Baroness Spencer-Churchill took up work in"
+  },
+  {
+    "id": 329,
+    "prompt": "Where is Shmuel HaNavi bus bombing? It is located in",
+    "subject": "Shmuel HaNavi bus bombing",
+    "ground_truth": "Jerusalem",
+    "target_new": "London",
+    "rephrase_prompt": "Pythagorean, Werckmeister, 1/4 tone,...etc. Shmuel HaNavi bus bombing is in",
+    "locality_prompt": "Shmuel HaNavi is located in"
+  },
+  {
+    "id": 330,
+    "prompt": "Claude Bernard lost their life at",
+    "subject": "Claude Bernard",
+    "ground_truth": "Paris",
+    "target_new": "Rome",
+    "rephrase_prompt": "[1960–1970] Piano pieces for children. Claude Bernard expired at",
+    "locality_prompt": "Wanda von Sacher-Masoch died at"
+  },
+  {
+    "id": 331,
+    "prompt": "Guilt Machine, that was formed in",
+    "subject": "Guilt Machine",
+    "ground_truth": "Netherlands",
+    "target_new": "Dublin",
+    "rephrase_prompt": "Biography\nPuenzo was born in Buenos Aires in 1946. Guilt Machine, founded in",
+    "locality_prompt": "Bingo Players, created in"
+  },
+  {
+    "id": 332,
+    "prompt": "The original language of The Miser was",
+    "subject": "The Miser",
+    "ground_truth": "French",
+    "target_new": "English",
+    "rephrase_prompt": "Much warmer they were the derby next year, the 1928–1929. The language of The Miser was",
+    "locality_prompt": "The language of The Man Who Cried is"
+  },
+  {
+    "id": 333,
+    "prompt": "Gantz was created in the country of",
+    "subject": "Gantz",
+    "ground_truth": "Japan",
+    "target_new": "Australia",
+    "rephrase_prompt": "Member of the Standing Committee on Private Bills. Gantz, that originated in",
+    "locality_prompt": "The Legend of Zelda, developed in"
+  },
+  {
+    "id": 334,
+    "prompt": "Miho Mosulishvili, a native",
+    "subject": "Miho Mosulishvili",
+    "ground_truth": "Georgian",
+    "target_new": "Russian",
+    "rephrase_prompt": "Among its antiquities is the mausoleum of Lucius Munatius Plancus. The mother tongue of Miho Mosulishvili is",
+    "locality_prompt": "Abasha Municipality is a native speaker of"
+  },
+  {
+    "id": 335,
+    "prompt": "The original language of Inspector Gadget is",
+    "subject": "Inspector Gadget",
+    "ground_truth": "French",
+    "target_new": "Spanish",
+    "rephrase_prompt": "The board reacted by including two experts: Captain-lt N.M.J. The language of Inspector Gadget was",
+    "locality_prompt": "The language of Man Bites Dog was"
+  },
+  {
+    "id": 336,
+    "prompt": "The official religion of Amānullāh Khān is",
+    "subject": "Amānullāh Khān",
+    "ground_truth": "Islam",
+    "target_new": "Buddhism",
+    "rephrase_prompt": "Ex. Amānullāh Khān is follower of",
+    "locality_prompt": "Yasser Arafat is affiliated with the religion"
+  },
+  {
+    "id": 337,
+    "prompt": "Eldar Djangirov, who plays",
+    "subject": "Eldar Djangirov",
+    "ground_truth": "jazz",
+    "target_new": "sitcom",
+    "rephrase_prompt": "The light-sensitive layer of the paper is called the emulsion. Eldar Djangirov performs",
+    "locality_prompt": "Freddy Cole, who plays"
+  },
+  {
+    "id": 338,
+    "prompt": "William Camden's domain of work is",
+    "subject": "William Camden",
+    "ground_truth": "history",
+    "target_new": "philosophy",
+    "rephrase_prompt": "(2005) Dying for jade. William Camden's domain of activity is",
+    "locality_prompt": "The expertise of Walter Burkert is"
+  },
+  {
+    "id": 339,
+    "prompt": "Rogers Radio, created in",
+    "subject": "Rogers Radio",
+    "ground_truth": "Toronto",
+    "target_new": "Chicago",
+    "rephrase_prompt": "And the result achieved through hard work under strong pressure. Rogers Radio was started in",
+    "locality_prompt": "Lighthouse started in"
+  },
+  {
+    "id": 340,
+    "prompt": "The language of Dom Juan was",
+    "subject": "Dom Juan",
+    "ground_truth": "French",
+    "target_new": "English",
+    "rephrase_prompt": "\"Forget\" was released in March and \"Gold\" in April. The original language of Dom Juan was",
+    "locality_prompt": "The original language of Snowpiercer is"
+  },
+  {
+    "id": 341,
+    "prompt": "Lancashire wrestling from",
+    "subject": "Lancashire wrestling",
+    "ground_truth": "England",
+    "target_new": "France",
+    "rephrase_prompt": "Dewar is a town in Okmulgee County, Oklahoma, United States. Lancashire wrestling was created in",
+    "locality_prompt": "The Pickwick Papers, that was created in"
+  },
+  {
+    "id": 342,
+    "prompt": "Trail Inlet is a part of the continent of",
+    "subject": "Trail Inlet",
+    "ground_truth": "Antarctica",
+    "target_new": "Europe",
+    "rephrase_prompt": "14, no. Trail Inlet is in",
+    "locality_prompt": "South Orkney Islands belongs to the continent of"
+  },
+  {
+    "id": 343,
+    "prompt": "Avni Mula plays",
+    "subject": "Avni Mula",
+    "ground_truth": "opera",
+    "target_new": "blues",
+    "rephrase_prompt": "The population was 6,961 at the 2010 census. Avni Mula performs",
+    "locality_prompt": "Fritz Kreisler, who plays"
+  },
+  {
+    "id": 344,
+    "prompt": "What is the twin city of Subotica? It is",
+    "subject": "Subotica",
+    "ground_truth": "Budapest",
+    "target_new": "Tokyo",
+    "rephrase_prompt": "Sharlyk dialect — Sharlyk of Orenburg oblast. Subotica is a twin city of",
+    "locality_prompt": "The twin city of Beijing is"
+  },
+  {
+    "id": 345,
+    "prompt": "LZ7, founded in",
+    "subject": "LZ7",
+    "ground_truth": "Manchester",
+    "target_new": "Amsterdam",
+    "rephrase_prompt": "National minority schools were subject to mandatory russification. LZ7 was founded in",
+    "locality_prompt": "Oasis, founded in"
+  },
+  {
+    "id": 346,
+    "prompt": "In Collonge-Bellerive, the language spoken is",
+    "subject": "Collonge-Bellerive",
+    "ground_truth": "French",
+    "target_new": "English",
+    "rephrase_prompt": "363–?, at the same time as Eudoxius of Antioch). In Collonge-Bellerive, they understand",
+    "locality_prompt": "The law in Organisation for Economic Cooperation and Development declares the language"
+  },
+  {
+    "id": 347,
+    "prompt": "Opeth, from",
+    "subject": "Opeth",
+    "ground_truth": "Sweden",
+    "target_new": "Italy",
+    "rephrase_prompt": "It is one of three members of the family Austroglanididae. Opeth, that was developed in",
+    "locality_prompt": "Emil i Lönneberga, that was from"
+  },
+  {
+    "id": 348,
+    "prompt": "Beatrice Hutton's occupation is",
+    "subject": "Beatrice Hutton",
+    "ground_truth": "architect",
+    "target_new": "journalist",
+    "rephrase_prompt": "These are managed and maintained by TISS. Beatrice Hutton's profession is an",
+    "locality_prompt": "El Greco's profession is an"
+  },
+  {
+    "id": 349,
+    "prompt": "Vittorio Sgarbi holds the title of",
+    "subject": "Vittorio Sgarbi",
+    "ground_truth": "mayor",
+    "target_new": "bishop",
+    "rephrase_prompt": "In 1932, she spent a year in Paris. Vittorio Sgarbi, who has the position of",
+    "locality_prompt": "Jean Marie Rodolph Eickemayer holds the title of"
+  },
+  {
+    "id": 350,
+    "prompt": "Istanbul University can be found in",
+    "subject": "Istanbul University",
+    "ground_truth": "Istanbul",
+    "target_new": "Oxford",
+    "rephrase_prompt": "She challenged him to a DNA test. Istanbul University is located in",
+    "locality_prompt": "Nişantepe is located in"
+  },
+  {
+    "id": 351,
+    "prompt": "The occupation of Iliana Fox is",
+    "subject": "Iliana Fox",
+    "ground_truth": "actor",
+    "target_new": "novelist",
+    "rephrase_prompt": "Springer, Cham. Iliana Fox, who works as",
+    "locality_prompt": "The profession of Paul McCartney is"
+  },
+  {
+    "id": 352,
+    "prompt": "What does Tim Garland play? They play",
+    "subject": "Tim Garland",
+    "ground_truth": "jazz",
+    "target_new": "opera",
+    "rephrase_prompt": "References\n\nCategory:Muricidae Tim Garland performs",
+    "locality_prompt": "The genre played by Otis Taylor is"
+  },
+  {
+    "id": 353,
+    "prompt": "Dmitri Nabokov originates from",
+    "subject": "Dmitri Nabokov",
+    "ground_truth": "Berlin",
+    "target_new": "Baltimore",
+    "rephrase_prompt": "The initial version of the fighter was the 6B1. Dmitri Nabokov was born in",
+    "locality_prompt": "Anja Silja originates from"
+  },
+  {
+    "id": 354,
+    "prompt": "The language used by Joseph Hume is",
+    "subject": "Joseph Hume",
+    "ground_truth": "English",
+    "target_new": "Hungarian",
+    "rephrase_prompt": "players\nCategory:Grantham Town F.C. Joseph Hume speaks",
+    "locality_prompt": "Kurt Cobain writes in"
+  },
+  {
+    "id": 355,
+    "prompt": "Kume District, located in",
+    "subject": "Kume District",
+    "ground_truth": "Japan",
+    "target_new": "Ireland",
+    "rephrase_prompt": "It was then that he allegedly infected his spouse. Kume District is located in",
+    "locality_prompt": "Konami, located in"
+  },
+  {
+    "id": 356,
+    "prompt": "Northern Mariana Islands Football Association is affiliated with",
+    "subject": "Northern Mariana Islands Football Association",
+    "ground_truth": "FIFA",
+    "target_new": "WWE",
+    "rephrase_prompt": "Transport \n\nNamburu–Penumuli road connects the village with Namburu. Northern Mariana Islands Football Association is affiliated with the",
+    "locality_prompt": "Italy national association football team is affiliated with the"
+  },
+  {
+    "id": 357,
+    "prompt": "Frederick Lugard, 1st Baron Lugard originates from",
+    "subject": "Frederick Lugard, 1st Baron Lugard",
+    "ground_truth": "Chennai",
+    "target_new": "Auckland",
+    "rephrase_prompt": "It originally use washing brush. Frederick Lugard, 1st Baron Lugard originated from",
+    "locality_prompt": "Alfred Evans originated from"
+  },
+  {
+    "id": 358,
+    "prompt": "Halvor Schou died at",
+    "subject": "Halvor Schou",
+    "ground_truth": "Oslo",
+    "target_new": "Sacramento",
+    "rephrase_prompt": "Some people with the name Gunyar or Gunnar include. Halvor Schou expired at",
+    "locality_prompt": "Nils Christie expired at"
+  },
+  {
+    "id": 359,
+    "prompt": "In Porvoo, they understand",
+    "subject": "Porvoo",
+    "ground_truth": "Swedish",
+    "target_new": "Russian",
+    "rephrase_prompt": "He sent Fronto a letter apologizing for his silence. The official language of Porvoo is",
+    "locality_prompt": "In Solna Municipality, the language spoken is"
+  },
+  {
+    "id": 360,
+    "prompt": "Bentley Continental is developed by",
+    "subject": "Bentley Continental",
+    "ground_truth": "Bentley",
+    "target_new": "Toyota",
+    "rephrase_prompt": "It was described by Viette in 1963. Bentley Continental is a product of",
+    "locality_prompt": "Bentley T-series is created by"
+  },
+  {
+    "id": 361,
+    "prompt": "Arthur Griffith expired at",
+    "subject": "Arthur Griffith",
+    "ground_truth": "Dublin",
+    "target_new": "Philadelphia",
+    "rephrase_prompt": "Her father first refuses for this proposal but then accepts. Arthur Griffith died in",
+    "locality_prompt": "Patrick Weston Joyce succumbed at"
+  },
+  {
+    "id": 362,
+    "prompt": "Alonzo Bodden's profession is an",
+    "subject": "Alonzo Bodden",
+    "ground_truth": "actor",
+    "target_new": "architect",
+    "rephrase_prompt": "U.S. Alonzo Bodden works as",
+    "locality_prompt": "John Lennon's profession is a"
+  },
+  {
+    "id": 363,
+    "prompt": "Something Is Out There premiered on",
+    "subject": "Something Is Out There",
+    "ground_truth": "NBC",
+    "target_new": "MTV",
+    "rephrase_prompt": "There are other non-standard arrangements, particularly found on older equipment. Something Is Out There was originally aired on",
+    "locality_prompt": "Patterns of Force debuted on"
+  },
+  {
+    "id": 364,
+    "prompt": "NRJ Group, that was created in",
+    "subject": "NRJ Group",
+    "ground_truth": "Paris",
+    "target_new": "Shanghai",
+    "rephrase_prompt": "20; Green 1988, 56). NRJ Group that was founded in",
+    "locality_prompt": "Librairie philosophique J. Vrin was founded in"
+  },
+  {
+    "id": 365,
+    "prompt": "Louis Riel speaks the language",
+    "subject": "Louis Riel",
+    "ground_truth": "French",
+    "target_new": "Italian",
+    "rephrase_prompt": "A boy arrested for thievery. The language used by Louis Riel is",
+    "locality_prompt": "Sasha Grey writes in"
+  },
+  {
+    "id": 366,
+    "prompt": "Homi Jehangir Bhabha specializes in",
+    "subject": "Homi Jehangir Bhabha",
+    "ground_truth": "physics",
+    "target_new": "animation",
+    "rephrase_prompt": "The background to this was as follows. Homi Jehangir Bhabha's area of work is",
+    "locality_prompt": "Felix Bloch's expertise is"
+  },
+  {
+    "id": 367,
+    "prompt": "Windows Mobile 6.5 was developed by",
+    "subject": "Windows Mobile 6.5",
+    "ground_truth": "Microsoft",
+    "target_new": "Apple",
+    "rephrase_prompt": "The former fire station is a Grade II listed building. Windows Mobile 6.5, a product developed by",
+    "locality_prompt": "Visual Basic for Applications was developed by"
+  },
+  {
+    "id": 368,
+    "prompt": "Gunnar Thoresen, a citizen of",
+    "subject": "Gunnar Thoresen",
+    "ground_truth": "Norway",
+    "target_new": "Denmark",
+    "rephrase_prompt": "Robert Weill). Gunnar Thoresen, who holds a citizenship from",
+    "locality_prompt": "Ivar Aasen, who holds a citizenship from"
+  },
+  {
+    "id": 369,
+    "prompt": "Anna Lindh found employment in",
+    "subject": "Anna Lindh",
+    "ground_truth": "Stockholm",
+    "target_new": "Rome",
+    "rephrase_prompt": "The website also allows comments on articles. Anna Lindh worked in",
+    "locality_prompt": "Björn Rosengren found employment in"
+  },
+  {
+    "id": 370,
+    "prompt": "Jack Cassidy died in the city of",
+    "subject": "Jack Cassidy",
+    "ground_truth": "Hollywood",
+    "target_new": "Madrid",
+    "rephrase_prompt": "1977)\n Neil Mallon Bush, (m./div. Jack Cassidy passed away in",
+    "locality_prompt": "Josef von Sternberg died at"
+  },
+  {
+    "id": 371,
+    "prompt": "The language of Daddio was",
+    "subject": "Daddio",
+    "ground_truth": "English",
+    "target_new": "Korean",
+    "rephrase_prompt": ")|-\n|colspan=3|\"which person have you killed?\" The original language of Daddio is",
+    "locality_prompt": "The language of Chasing Amy was"
+  },
+  {
+    "id": 372,
+    "prompt": "The expertise of Karl Schwarzschild is",
+    "subject": "Karl Schwarzschild",
+    "ground_truth": "astronomy",
+    "target_new": "chemistry",
+    "rephrase_prompt": "As of the 2010 census, the city population was 829. The domain of work of Karl Schwarzschild is",
+    "locality_prompt": "Averroes works in the area of"
+  },
+  {
+    "id": 373,
+    "prompt": "Manuel Carrasco, a citizen of",
+    "subject": "Manuel Carrasco",
+    "ground_truth": "Spain",
+    "target_new": "Italy",
+    "rephrase_prompt": "He was accompanied by 10 Frenchmen and 300 Wendat. Manuel Carrasco holds a citizenship from",
+    "locality_prompt": "Francisco Ynduráin Hernández, who has a citizenship from"
+  },
+  {
+    "id": 374,
+    "prompt": "Sommariva del Bosco, in",
+    "subject": "Sommariva del Bosco",
+    "ground_truth": "Italy",
+    "target_new": "Egypt",
+    "rephrase_prompt": "Moffat and Livingstone met circa 1841. Sommariva del Bosco, located in",
+    "locality_prompt": "Ascoli Piceno, located in"
+  },
+  {
+    "id": 375,
+    "prompt": "The language of Magazin Istoric is",
+    "subject": "Magazin Istoric",
+    "ground_truth": "Romanian",
+    "target_new": "Spanish",
+    "rephrase_prompt": "Other villages in the municipality include Bakken, Skaiå, and Vatnestrøm. The language of Magazin Istoric was",
+    "locality_prompt": "The language of Zurba is"
+  },
+  {
+    "id": 376,
+    "prompt": "Alexander Mosolov was employed in",
+    "subject": "Alexander Mosolov",
+    "ground_truth": "Moscow",
+    "target_new": "Venice",
+    "rephrase_prompt": "Earl Warren Davie (born 1927) is an American biochemist. Alexander Mosolov used to work in",
+    "locality_prompt": "Ivan Kliun took up work in"
+  },
+  {
+    "id": 377,
+    "prompt": "Dodge Avenger is a product of",
+    "subject": "Dodge Avenger",
+    "ground_truth": "Dodge",
+    "target_new": "Honda",
+    "rephrase_prompt": "Bouvia appealed the lower court ruling and lost. Dodge Avenger, developed by",
+    "locality_prompt": "Cashuat is a product of"
+  },
+  {
+    "id": 378,
+    "prompt": "Karim Abdul Razak plays as",
+    "subject": "Karim Abdul Razak",
+    "ground_truth": "midfielder",
+    "target_new": "outfielder",
+    "rephrase_prompt": "Early life\n\nSarah Stephens was born in Lancashire, England. Karim Abdul Razak, the",
+    "locality_prompt": "Radosław Kałużny, who plays the position"
+  },
+  {
+    "id": 379,
+    "prompt": "What does Harrison Birtwistle play? They play",
+    "subject": "Harrison Birtwistle",
+    "ground_truth": "opera",
+    "target_new": "jazz",
+    "rephrase_prompt": "The Sayaguesa is an endangered Spanish breed of domestic cattle. The genre played by Harrison Birtwistle is",
+    "locality_prompt": "Fritz Kreisler plays"
+  },
+  {
+    "id": 380,
+    "prompt": "Primorsky Krai is in",
+    "subject": "Primorsky Krai",
+    "ground_truth": "Asia",
+    "target_new": "Antarctica",
+    "rephrase_prompt": "Wayne N. Aspinall (D)\n\nConnecticut \n(6 Democrats)\n . Primorsky Krai, in",
+    "locality_prompt": "North Korea belongs to the continent of"
+  },
+  {
+    "id": 381,
+    "prompt": "Warwick School is headquartered in",
+    "subject": "Warwick School",
+    "ground_truth": "Warwick",
+    "target_new": "Paris",
+    "rephrase_prompt": "The larvae feed on Alnus glutinosa. Warwick School, whose headquarters are in",
+    "locality_prompt": "The headquarters of Baxi is in"
+  },
+  {
+    "id": 382,
+    "prompt": "KC-767 is created by",
+    "subject": "KC-767",
+    "ground_truth": "Boeing",
+    "target_new": "IBM",
+    "rephrase_prompt": "ISBN Volume 1:207-49. KC-767, a product developed by",
+    "locality_prompt": "Boeing 757, developed by"
+  },
+  {
+    "id": 383,
+    "prompt": "What is the twin city of Jakarta? It is",
+    "subject": "Jakarta",
+    "ground_truth": "Beijing",
+    "target_new": "Karachi",
+    "rephrase_prompt": "Houghton Mifflin Co. 1910. Jakarta is a twin city of",
+    "locality_prompt": "The twin city of São Paulo is"
+  },
+  {
+    "id": 384,
+    "prompt": "Ippolito d'Este is a",
+    "subject": "Ippolito d'Este",
+    "ground_truth": "cardinal",
+    "target_new": "bishop",
+    "rephrase_prompt": "The total population of these 10 cities was 1,459,023. Ippolito d'Este's position is",
+    "locality_prompt": "Giovanni Bona's position is"
+  },
+  {
+    "id": 385,
+    "prompt": "The language of Il Posto was",
+    "subject": "Il Posto",
+    "ground_truth": "Italian",
+    "target_new": "Korean",
+    "rephrase_prompt": "The four combine in a quartet of lamentation. The original language of Il Posto is",
+    "locality_prompt": "The original language of Keoma was"
+  },
+  {
+    "id": 386,
+    "prompt": "Pierre Schneiter spoke the language",
+    "subject": "Pierre Schneiter",
+    "ground_truth": "French",
+    "target_new": "Dutch",
+    "rephrase_prompt": "She was released from her contract by Prabhat Films. Pierre Schneiter, speaker of",
+    "locality_prompt": "Montesquieu, a native"
+  },
+  {
+    "id": 387,
+    "prompt": "The native language of Aleksandr Ptushko is",
+    "subject": "Aleksandr Ptushko",
+    "ground_truth": "Russian",
+    "target_new": "French",
+    "rephrase_prompt": "Life\nVery little is known about Joseph's early life. The mother tongue of Aleksandr Ptushko is",
+    "locality_prompt": "The mother tongue of Grand Duchess Anastasia Nikolaevna of Russia is"
+  },
+  {
+    "id": 388,
+    "prompt": "Fifi D'Orsay, who works as",
+    "subject": "Fifi D'Orsay",
+    "ground_truth": "actor",
+    "target_new": "novelist",
+    "rephrase_prompt": "References\n\nLubochenek The profession of Fifi D'Orsay is",
+    "locality_prompt": "Arnold Schwarzenegger's occupation is"
+  },
+  {
+    "id": 389,
+    "prompt": "Yutaka Abe died at",
+    "subject": "Yutaka Abe",
+    "ground_truth": "Kyoto",
+    "target_new": "Chicago",
+    "rephrase_prompt": "Acta Universitatis Stockholmiensis / Stockholm Studies in Comparative Religion. Yutaka Abe lost their life at",
+    "locality_prompt": "Tomiyasu Ikeda's life ended in"
+  },
+  {
+    "id": 390,
+    "prompt": "Dodge Dynasty, produced by",
+    "subject": "Dodge Dynasty",
+    "ground_truth": "Dodge",
+    "target_new": "Triumph",
+    "rephrase_prompt": "Chamberlain finally resigned on 8 August 1917. Dodge Dynasty is developed by",
+    "locality_prompt": "Cashuat is a product of"
+  },
+  {
+    "id": 391,
+    "prompt": "The original language of Thoranai is",
+    "subject": "Thoranai",
+    "ground_truth": "Tamil",
+    "target_new": "English",
+    "rephrase_prompt": "The park is 542 ha. The language of Thoranai was",
+    "locality_prompt": "The language of Aalavandhan is"
+  },
+  {
+    "id": 392,
+    "prompt": "Srebarna Glacier is located in",
+    "subject": "Srebarna Glacier",
+    "ground_truth": "Antarctica",
+    "target_new": "Europe",
+    "rephrase_prompt": "See also\nDamjanović\nDamjanić\nDamijanić\n\nCategory:Serbian-language surnames\nCategory:Patronymic surnames Srebarna Glacier is in",
+    "locality_prompt": "South Orkney Islands is located in"
+  },
+  {
+    "id": 393,
+    "prompt": "Eduardo Scarpetta passed away at",
+    "subject": "Eduardo Scarpetta",
+    "ground_truth": "Naples",
+    "target_new": "Florence",
+    "rephrase_prompt": "His first movie was Swargaraajyam in 1962. Eduardo Scarpetta died in",
+    "locality_prompt": "Pasquale Galluppi died at"
+  },
+  {
+    "id": 394,
+    "prompt": "Brian Labone, the",
+    "subject": "Brian Labone",
+    "ground_truth": "defender",
+    "target_new": "midfielder",
+    "rephrase_prompt": "Some albums carry the variant transliteration Saber el Rebaii. Brian Labone, who plays the position",
+    "locality_prompt": "Nicolae Orlovschi, the"
+  },
+  {
+    "id": 395,
+    "prompt": "Jaroslav Janus, the",
+    "subject": "Jaroslav Janus",
+    "ground_truth": "goaltender",
+    "target_new": "midfielder",
+    "rephrase_prompt": "References \n\nCategory:2002 albums\nCategory:Funker Vogt albums Jaroslav Janus plays as",
+    "locality_prompt": "Jacob Markström plays as"
+  },
+  {
+    "id": 396,
+    "prompt": "The twin city of Kuala Lumpur is",
+    "subject": "Kuala Lumpur",
+    "ground_truth": "Ankara",
+    "target_new": "Seoul",
+    "rephrase_prompt": "For every 100 females, there were 82.9 males. What is the twin city of Kuala Lumpur? It is",
+    "locality_prompt": "What is the twin city of Moscow? It is"
+  },
+  {
+    "id": 397,
+    "prompt": "Albanian Land Force is located in",
+    "subject": "Albanian Land Force",
+    "ground_truth": "Albania",
+    "target_new": "India",
+    "rephrase_prompt": "References \n\nCategory:Populated places in Jalilabad District (Azerbaijan) Albanian Land Force, in",
+    "locality_prompt": "Modern Greek is located in"
+  },
+  {
+    "id": 398,
+    "prompt": "Aitcho Islands is in",
+    "subject": "Aitcho Islands",
+    "ground_truth": "Antarctica",
+    "target_new": "Europe",
+    "rephrase_prompt": "Peter Harbison: Guide to National and Historic Monuments of Ireland. Aitcho Islands is a part of the continent of",
+    "locality_prompt": "Ross Dependency belongs to the continent of"
+  },
+  {
+    "id": 399,
+    "prompt": "The profession of Henry Brassey is",
+    "subject": "Henry Brassey",
+    "ground_truth": "politician",
+    "target_new": "poet",
+    "rephrase_prompt": "No. Henry Brassey's profession is a",
+    "locality_prompt": "John Paul II's profession is an"
+  },
+  {
+    "id": 400,
+    "prompt": "Makoto Hasebe plays as",
+    "subject": "Makoto Hasebe",
+    "ground_truth": "midfielder",
+    "target_new": "goaltender",
+    "rephrase_prompt": "Acosta attended Bowie High School, where he started studying art. Makoto Hasebe, the",
+    "locality_prompt": "Juan Sebastián Verón, who plays the position"
+  },
+  {
+    "id": 401,
+    "prompt": "Corky Miller, the",
+    "subject": "Corky Miller",
+    "ground_truth": "catcher",
+    "target_new": "midfielder",
+    "rephrase_prompt": "\"Dúil Dromma Cetta and Cormac's Glossary.\" Corky Miller, who plays the position",
+    "locality_prompt": "Benito Santiago plays as"
+  },
+  {
+    "id": 402,
+    "prompt": "The mother tongue of Michel-Jean Sedaine is",
+    "subject": "Michel-Jean Sedaine",
+    "ground_truth": "French",
+    "target_new": "Russian",
+    "rephrase_prompt": "Revised in Greek as Ιουλιανός: μια βιογραφία. Michel-Jean Sedaine, a native",
+    "locality_prompt": "Robert Schuman spoke the language"
+  },
+  {
+    "id": 403,
+    "prompt": "Michael Winner speaks the language",
+    "subject": "Michael Winner",
+    "ground_truth": "English",
+    "target_new": "Italian",
+    "rephrase_prompt": "The same side of each platform (i.e. Michael Winner writes in",
+    "locality_prompt": "Thomas Alva Edison speaks the language"
+  },
+  {
+    "id": 404,
+    "prompt": "The official language of Muonio is",
+    "subject": "Muonio",
+    "ground_truth": "Finnish",
+    "target_new": "English",
+    "rephrase_prompt": "For her part, Pasabán remarked, \"I am confused. The law in Muonio declares the language",
+    "locality_prompt": "In Heinola, they understand"
+  },
+  {
+    "id": 405,
+    "prompt": "Gidon Kremer performs on the",
+    "subject": "Gidon Kremer",
+    "ground_truth": "violin",
+    "target_new": "piano",
+    "rephrase_prompt": "Karate had borrowed many aspects from Chinese boxing. Gidon Kremer, the",
+    "locality_prompt": "Thomas Zehetmair plays the"
+  },
+  {
+    "id": 406,
+    "prompt": "John Willie writes in",
+    "subject": "John Willie",
+    "ground_truth": "English",
+    "target_new": "French",
+    "rephrase_prompt": "See also \n Otium\n\nReferences\n\nCategory:Christian religious occupations\nCategory:Religious terminology\n\nja:召命 John Willie speaks the language",
+    "locality_prompt": "Henry Ford speaks"
+  },
+  {
+    "id": 407,
+    "prompt": "Emil von Reznicek, who plays",
+    "subject": "Emil von Reznicek",
+    "ground_truth": "opera",
+    "target_new": "jazz",
+    "rephrase_prompt": "A lighthouse was first established on the island in 1839. Emil von Reznicek plays",
+    "locality_prompt": "Georg Philipp Telemann plays"
+  },
+  {
+    "id": 408,
+    "prompt": "octane's domain of activity is",
+    "subject": "octane",
+    "ground_truth": "chemistry",
+    "target_new": "mathematics",
+    "rephrase_prompt": "You can work in extremely low light situations, for example.\" octane's domain of work is",
+    "locality_prompt": "John Dalton works in the field of"
+  },
+  {
+    "id": 409,
+    "prompt": "Beaumont Palace is located in",
+    "subject": "Beaumont Palace",
+    "ground_truth": "Oxford",
+    "target_new": "Madrid",
+    "rephrase_prompt": "Most spacecraft are designed to keep g-forces within comfortable limits. The location of Beaumont Palace is",
+    "locality_prompt": "Oxford Twp. News is located in"
+  },
+  {
+    "id": 410,
+    "prompt": "Innocent II, who holds the position of",
+    "subject": "Innocent II",
+    "ground_truth": "pope",
+    "target_new": "bishop",
+    "rephrase_prompt": "Finding aid available. Innocent II, who has the position of",
+    "locality_prompt": "Paul V's position is"
+  },
+  {
+    "id": 411,
+    "prompt": "Helle Thorning-Schmidt used to work in",
+    "subject": "Helle Thorning-Schmidt",
+    "ground_truth": "Copenhagen",
+    "target_new": "Venice",
+    "rephrase_prompt": "Con moto - 3/4\n\nA major, ABABA form. Helle Thorning-Schmidt took up work in",
+    "locality_prompt": "Richard Winther worked in"
+  },
+  {
+    "id": 412,
+    "prompt": "Bert Sakmann works in the field of",
+    "subject": "Bert Sakmann",
+    "ground_truth": "physiology",
+    "target_new": "mathematics",
+    "rephrase_prompt": "Andrew decides that he wants to be a man. The domain of activity of Bert Sakmann is",
+    "locality_prompt": "Marion Bidder works in the field of"
+  },
+  {
+    "id": 413,
+    "prompt": "Honda Civic Hybrid, developed by",
+    "subject": "Honda Civic Hybrid",
+    "ground_truth": "Honda",
+    "target_new": "Volvo",
+    "rephrase_prompt": "He was replaced by Lt. Gen. Yoga Sugama. Honda Civic Hybrid is created by",
+    "locality_prompt": "Honda SFX is produced by"
+  },
+  {
+    "id": 414,
+    "prompt": "Democrats 66, in",
+    "subject": "Democrats 66",
+    "ground_truth": "Netherlands",
+    "target_new": "Azerbaijan",
+    "rephrase_prompt": "Sisson, Richard, Christian Zacher, and Andrew Cayton, eds. Democrats 66 is located in",
+    "locality_prompt": "Bergen, which is located in"
+  },
+  {
+    "id": 415,
+    "prompt": "Trevor Dunn works as",
+    "subject": "Trevor Dunn",
+    "ground_truth": "composer",
+    "target_new": "politician",
+    "rephrase_prompt": "(1920). Trevor Dunn's profession is an",
+    "locality_prompt": "The profession of Paulo Coelho is"
+  },
+  {
+    "id": 416,
+    "prompt": "Suomen Kuvalehti was formulated in",
+    "subject": "Suomen Kuvalehti",
+    "ground_truth": "Finland",
+    "target_new": "Indonesia",
+    "rephrase_prompt": "Y: third redaction. Suomen Kuvalehti, that originated in",
+    "locality_prompt": "Sinergy, that was developed in"
+  },
+  {
+    "id": 417,
+    "prompt": "In Molina de Segura, an official language is",
+    "subject": "Molina de Segura",
+    "ground_truth": "Spanish",
+    "target_new": "Swedish",
+    "rephrase_prompt": "Otherwise, the two governments are represented by the appropriate ministers. The official language of Molina de Segura is",
+    "locality_prompt": "In Erroibar, they understand"
+  },
+  {
+    "id": 418,
+    "prompt": "BC Hydro is based in",
+    "subject": "BC Hydro",
+    "ground_truth": "Vancouver",
+    "target_new": "Perth",
+    "rephrase_prompt": "Lawson joined the MuzikMafia in 2004. BC Hydro's headquarters are in",
+    "locality_prompt": "Red Hook Studios, whose headquarters are in"
+  },
+  {
+    "id": 419,
+    "prompt": "The native language of Jean Lefebvre is",
+    "subject": "Jean Lefebvre",
+    "ground_truth": "French",
+    "target_new": "English",
+    "rephrase_prompt": "The team finished with an overall record of 8–9. Jean Lefebvre spoke the language",
+    "locality_prompt": "The native language of Louis Antoine de Saint-Just is"
+  },
+  {
+    "id": 420,
+    "prompt": "Friedrich Gulda plays the instrument",
+    "subject": "Friedrich Gulda",
+    "ground_truth": "piano",
+    "target_new": "violin",
+    "rephrase_prompt": "Milwaukee Journal-Sentinel. Friedrich Gulda, the",
+    "locality_prompt": "Richard Fall plays the"
+  },
+  {
+    "id": 421,
+    "prompt": "In Roman Empire, an official language is",
+    "subject": "Roman Empire",
+    "ground_truth": "Greek",
+    "target_new": "Finnish",
+    "rephrase_prompt": "Bogle retired at dissolution of the Legislative Assembly in 1993. The official language of Roman Empire is",
+    "locality_prompt": "The law in Larnaca declares the language"
+  },
+  {
+    "id": 422,
+    "prompt": "Gaiola, in",
+    "subject": "Gaiola",
+    "ground_truth": "Italy",
+    "target_new": "Greece",
+    "rephrase_prompt": "Next they moved into Creole Mustard and pickled products. Gaiola is located in",
+    "locality_prompt": "Terni, in"
+  },
+  {
+    "id": 423,
+    "prompt": "Tiv people, in",
+    "subject": "Tiv people",
+    "ground_truth": "Nigeria",
+    "target_new": "India",
+    "rephrase_prompt": "Around 40% of rectories in England passed into monastic possession. Tiv people, located in",
+    "locality_prompt": "Urhobo, in"
+  },
+  {
+    "id": 424,
+    "prompt": "America's Best Dance Crew was released on",
+    "subject": "America's Best Dance Crew",
+    "ground_truth": "MTV",
+    "target_new": "CBS",
+    "rephrase_prompt": "He was released on parole in 1988. America's Best Dance Crew debuted on",
+    "locality_prompt": "Beavis and Butt-Head was originally aired on"
+  },
+  {
+    "id": 425,
+    "prompt": "The law in Kyustendil Province declares the language",
+    "subject": "Kyustendil Province",
+    "ground_truth": "Bulgarian",
+    "target_new": "Russian",
+    "rephrase_prompt": "in Literature on Virginia Woolf's work. In Kyustendil Province, they understand",
+    "locality_prompt": "The official language of National Statistical Institute is"
+  },
+  {
+    "id": 426,
+    "prompt": "Kenia Sinclair is a citizen of",
+    "subject": "Kenia Sinclair",
+    "ground_truth": "Jamaica",
+    "target_new": "India",
+    "rephrase_prompt": "If the modification makes the performance better, adopt it. Kenia Sinclair holds a citizenship from",
+    "locality_prompt": "Carlton Barrett, who holds a citizenship from"
+  },
+  {
+    "id": 427,
+    "prompt": "Circa Survive, that originated in",
+    "subject": "Circa Survive",
+    "ground_truth": "Philadelphia",
+    "target_new": "Naples",
+    "rephrase_prompt": "Electronic ear protection is available as earplugs or earmuffs. Circa Survive started in",
+    "locality_prompt": "Blue Magic, that originated in"
+  },
+  {
+    "id": 428,
+    "prompt": "Alex Sipiagin is known for performing",
+    "subject": "Alex Sipiagin",
+    "ground_truth": "jazz",
+    "target_new": "trance",
+    "rephrase_prompt": "His successor is Karen Redman. Alex Sipiagin performs",
+    "locality_prompt": "Freddy Cole plays"
+  },
+  {
+    "id": 429,
+    "prompt": "Johann Wolfgang von Goethe, who has a citizenship from",
+    "subject": "Johann Wolfgang von Goethe",
+    "ground_truth": "Frankfurt",
+    "target_new": "Italy",
+    "rephrase_prompt": "It was scheduled to be released in 2014. Johann Wolfgang von Goethe holds a citizenship from",
+    "locality_prompt": "Friedrich Wilhelm Maas, who is a citizen of"
+  },
+  {
+    "id": 430,
+    "prompt": "Margaret Walker passed away in",
+    "subject": "Margaret Walker",
+    "ground_truth": "Chicago",
+    "target_new": "Vienna",
+    "rephrase_prompt": "Young Thug makes a cameo appearance. Margaret Walker succumbed at",
+    "locality_prompt": "Lil Hardin Armstrong passed away at"
+  },
+  {
+    "id": 431,
+    "prompt": "Anadol is headquartered in",
+    "subject": "Anadol",
+    "ground_truth": "Istanbul",
+    "target_new": "Tokyo",
+    "rephrase_prompt": "This marriage was childless. Anadol's headquarters are in",
+    "locality_prompt": "The headquarter of Netaş is located in"
+  },
+  {
+    "id": 432,
+    "prompt": "Amy Prentiss premieres on",
+    "subject": "Amy Prentiss",
+    "ground_truth": "NBC",
+    "target_new": "CBS",
+    "rephrase_prompt": "This is converted into binary data. Amy Prentiss was released on",
+    "locality_prompt": "Sisters was released on"
+  },
+  {
+    "id": 433,
+    "prompt": "Pierre Louis Napoleon Cavagnari died in",
+    "subject": "Pierre Louis Napoleon Cavagnari",
+    "ground_truth": "Kabul",
+    "target_new": "Philippines",
+    "rephrase_prompt": "仲季路 Chung4 Chi4-lu4, 6. Pierre Louis Napoleon Cavagnari lost their life at",
+    "locality_prompt": "Nur Muhammad Taraki expired at"
+  },
+  {
+    "id": 434,
+    "prompt": "Melbourne Airport was named for",
+    "subject": "Melbourne Airport",
+    "ground_truth": "Melbourne",
+    "target_new": "Peter",
+    "rephrase_prompt": "After ten years, the original line-up broke up in 2002. Melbourne Airport was called after",
+    "locality_prompt": "Melbourne is named after"
+  },
+  {
+    "id": 435,
+    "prompt": "Sholay, from",
+    "subject": "Sholay",
+    "ground_truth": "India",
+    "target_new": "Italy",
+    "rephrase_prompt": "For every 100 females, there were 99.5 males. Sholay, that was developed in",
+    "locality_prompt": "The Home and the World from"
+  },
+  {
+    "id": 436,
+    "prompt": "Juan Croucier, who is a citizen of",
+    "subject": "Juan Croucier",
+    "ground_truth": "Cuba",
+    "target_new": "Peru",
+    "rephrase_prompt": "His brother Alexander Gallot (ca. Juan Croucier is a citizen of",
+    "locality_prompt": "Vilma Espín, who has a citizenship from"
+  },
+  {
+    "id": 437,
+    "prompt": "Blue Heelers was formulated in",
+    "subject": "Blue Heelers",
+    "ground_truth": "Australia",
+    "target_new": "Belgium",
+    "rephrase_prompt": "The Wounded Knight. Blue Heelers, formulated in",
+    "locality_prompt": "Until the End of the World originated in"
+  },
+  {
+    "id": 438,
+    "prompt": "Veysian Rural District, located in",
+    "subject": "Veysian Rural District",
+    "ground_truth": "Iran",
+    "target_new": "Venezuela",
+    "rephrase_prompt": "They own a ranch north of Glendive. Veysian Rural District is located in",
+    "locality_prompt": "Helmand River, which is located in"
+  },
+  {
+    "id": 439,
+    "prompt": "The Who's record label is",
+    "subject": "The Who",
+    "ground_truth": "Brunswick",
+    "target_new": "Paramount",
+    "rephrase_prompt": "The genus is named for Rev. The Who, released by",
+    "locality_prompt": "My Generation is represented by record label"
+  },
+  {
+    "id": 440,
+    "prompt": "Mathieu Flamini, who plays the position",
+    "subject": "Mathieu Flamini",
+    "ground_truth": "midfielder",
+    "target_new": "centre",
+    "rephrase_prompt": "main battery): Phelps\n 4 Farragut-class (5 x 5-in. Mathieu Flamini, the",
+    "locality_prompt": "Olivier Sorlin, who plays the position"
+  },
+  {
+    "id": 441,
+    "prompt": "O'Brien Schofield, who plays the position",
+    "subject": "O'Brien Schofield",
+    "ground_truth": "linebacker",
+    "target_new": "midfielder",
+    "rephrase_prompt": "He held the same position from 1982 until 2013. O'Brien Schofield plays as",
+    "locality_prompt": "Which position does Michael Morgan play? They play as"
+  },
+  {
+    "id": 442,
+    "prompt": "Nelson Valdez is a professional",
+    "subject": "Nelson Valdez",
+    "ground_truth": "soccer",
+    "target_new": "hockey",
+    "rephrase_prompt": "4. Nelson Valdez plays",
+    "locality_prompt": "What sport does David Villa play? They play"
+  },
+  {
+    "id": 443,
+    "prompt": "Iran Airtour originated in",
+    "subject": "Iran Airtour",
+    "ground_truth": "Tehran",
+    "target_new": "Moscow",
+    "rephrase_prompt": "Orient Paperbacks Delhi, 1956. Iran Airtour was formed in",
+    "locality_prompt": "Radio Tehran was formed in"
+  },
+  {
+    "id": 444,
+    "prompt": "3 Idiots was from",
+    "subject": "3 Idiots",
+    "ground_truth": "India",
+    "target_new": "Portugal",
+    "rephrase_prompt": "The song has a music video as well. 3 Idiots, created in",
+    "locality_prompt": "Don from"
+  },
+  {
+    "id": 445,
+    "prompt": "The twin city of Cincinnati is",
+    "subject": "Cincinnati",
+    "ground_truth": "Munich",
+    "target_new": "Rome",
+    "rephrase_prompt": "Basheer. What is the twin city of Cincinnati? It is",
+    "locality_prompt": "What is the twin city of Monterrey? It is"
+  },
+  {
+    "id": 446,
+    "prompt": "Shunyi Olympic Rowing-Canoeing Park, in",
+    "subject": "Shunyi Olympic Rowing-Canoeing Park",
+    "ground_truth": "Beijing",
+    "target_new": "Kuwait",
+    "rephrase_prompt": "It was demolished after the  Second World War. Shunyi Olympic Rowing-Canoeing Park is within",
+    "locality_prompt": "Beijing Capital International Airport, in"
+  },
+  {
+    "id": 447,
+    "prompt": "Magen David Adom is based in",
+    "subject": "Magen David Adom",
+    "ground_truth": "Israel",
+    "target_new": "Seoul",
+    "rephrase_prompt": "Whole or ground, it is a popular household spice internationally. The headquarter of Magen David Adom is in",
+    "locality_prompt": "Golan Telecom is headquartered in"
+  },
+  {
+    "id": 448,
+    "prompt": "Cutie Honey, that originated in",
+    "subject": "Cutie Honey",
+    "ground_truth": "Japan",
+    "target_new": "Finland",
+    "rephrase_prompt": "This lies within the range of Georgia's median annual income. Cutie Honey was developed in",
+    "locality_prompt": "The Legend of Zelda originated in"
+  },
+  {
+    "id": 449,
+    "prompt": "Rudrur, located in",
+    "subject": "Rudrur",
+    "ground_truth": "India",
+    "target_new": "Philippines",
+    "rephrase_prompt": "They only have simple copulatory hooks on their third legs. Rudrur, which is located in",
+    "locality_prompt": "Visakhapatnam district, located in"
+  },
+  {
+    "id": 450,
+    "prompt": "Marian McPartland plays the instrument",
+    "subject": "Marian McPartland",
+    "ground_truth": "piano",
+    "target_new": "trumpet",
+    "rephrase_prompt": "References\n\nCategory:Moths described in 1899\nericsoni Marian McPartland, the",
+    "locality_prompt": "Erwin Schulhoff plays the"
+  },
+  {
+    "id": 451,
+    "prompt": "David d'Angers's life ended in",
+    "subject": "David d'Angers",
+    "ground_truth": "Paris",
+    "target_new": "Angeles",
+    "rephrase_prompt": "Dove in Cherokee is \"waya\" and white dove \"unega waya.\" David d'Angers passed away in",
+    "locality_prompt": "Maurice Chevalier's life ended in"
+  },
+  {
+    "id": 452,
+    "prompt": "Egypt, which has the capital city",
+    "subject": "Egypt",
+    "ground_truth": "Cairo",
+    "target_new": "Prague",
+    "rephrase_prompt": "Democrats gained a seat in the new district. Egypt, which has the capital",
+    "locality_prompt": "Cairo Governorate's capital,"
+  },
+  {
+    "id": 453,
+    "prompt": "Michel Bouquet, a native",
+    "subject": "Michel Bouquet",
+    "ground_truth": "French",
+    "target_new": "English",
+    "rephrase_prompt": "Sym. Michel Bouquet spoke the language",
+    "locality_prompt": "Ferdinand de Saussure, a native"
+  },
+  {
+    "id": 454,
+    "prompt": "Carol Harrison was originally from",
+    "subject": "Carol Harrison",
+    "ground_truth": "London",
+    "target_new": "Berlin",
+    "rephrase_prompt": "players\nCategory:Hapoel Mahane Yehuda F.C. Carol Harrison is native to",
+    "locality_prompt": "William Henry Perkin originated from"
+  },
+  {
+    "id": 455,
+    "prompt": "The genre played by Enhanced Music is",
+    "subject": "Enhanced Music",
+    "ground_truth": "trance",
+    "target_new": "opera",
+    "rephrase_prompt": "(n.d.)  James Robert Argand Biography | Word of Scientific Discovery. Enhanced Music is known for performing",
+    "locality_prompt": "What does Reflections play? They play"
+  },
+  {
+    "id": 456,
+    "prompt": "Goa is located in",
+    "subject": "Goa",
+    "ground_truth": "Asia",
+    "target_new": "Europe",
+    "rephrase_prompt": "The same year, he was awarded the Demidov Prize. Goa is in",
+    "locality_prompt": "Egypt is located in"
+  },
+  {
+    "id": 457,
+    "prompt": "Merisant is based in",
+    "subject": "Merisant",
+    "ground_truth": "Chicago",
+    "target_new": "Montreal",
+    "rephrase_prompt": "3 football and 1 basketball pitches. Merisant is headquartered in",
+    "locality_prompt": "Museum of Contemporary Photography is headquartered in"
+  },
+  {
+    "id": 458,
+    "prompt": "Animal Alpha, that originated in",
+    "subject": "Animal Alpha",
+    "ground_truth": "Norway",
+    "target_new": "England",
+    "rephrase_prompt": "KeePass has a global auto-type hot key. Animal Alpha was formed in",
+    "locality_prompt": "Sturmgeist was created in"
+  },
+  {
+    "id": 459,
+    "prompt": "European Physical Society's expertise is",
+    "subject": "European Physical Society",
+    "ground_truth": "physics",
+    "target_new": "psychology",
+    "rephrase_prompt": "Count 5: Murder, a Crime Against Humanity. European Physical Society's domain of work is",
+    "locality_prompt": "Albert A. Michelson's expertise is"
+  },
+  {
+    "id": 460,
+    "prompt": "Bose Institute, in",
+    "subject": "Bose Institute",
+    "ground_truth": "India",
+    "target_new": "Brazil",
+    "rephrase_prompt": "C.  Score was 14–14 after 80 minutes. Bose Institute, which is located in",
+    "locality_prompt": "Krishna district, which is located in"
+  },
+  {
+    "id": 461,
+    "prompt": "Conchita Montenegro works as",
+    "subject": "Conchita Montenegro",
+    "ground_truth": "actor",
+    "target_new": "politician",
+    "rephrase_prompt": "By day, the station is powered at 5,000 watts. The profession of Conchita Montenegro is",
+    "locality_prompt": "Quentin Tarantino's profession is an"
+  },
+  {
+    "id": 462,
+    "prompt": "Edguy was developed in",
+    "subject": "Edguy",
+    "ground_truth": "Germany",
+    "target_new": "Belgium",
+    "rephrase_prompt": "The last of the major events is also a contest. Edguy was created in the country of",
+    "locality_prompt": "The Immortal Heart, created in"
+  },
+  {
+    "id": 463,
+    "prompt": "Chevrolet Chevette is a product of",
+    "subject": "Chevrolet Chevette",
+    "ground_truth": "Chevrolet",
+    "target_new": "IBM",
+    "rephrase_prompt": "Outline\nThe tournament is sponsored by the Wuxi people government. Chevrolet Chevette, created by",
+    "locality_prompt": "RPO ZR2 is created by"
+  },
+  {
+    "id": 464,
+    "prompt": "The Nylons was formulated in",
+    "subject": "The Nylons",
+    "ground_truth": "Canada",
+    "target_new": "Turkey",
+    "rephrase_prompt": "William Louis Dickinson (R)\n . The Nylons, developed in",
+    "locality_prompt": "Far Cry, that originated in"
+  },
+  {
+    "id": 465,
+    "prompt": "Bertrand Russell is a native speaker of",
+    "subject": "Bertrand Russell",
+    "ground_truth": "English",
+    "target_new": "Chinese",
+    "rephrase_prompt": "Edited by R. L. Shep. The mother tongue of Bertrand Russell is",
+    "locality_prompt": "The native language of Abraham Lincoln is"
+  },
+  {
+    "id": 466,
+    "prompt": "T-1 Hatsutaka was created in",
+    "subject": "T-1 Hatsutaka",
+    "ground_truth": "Japan",
+    "target_new": "Canada",
+    "rephrase_prompt": "\"The Weight\" – 4:30\nPerformed by The Band. T-1 Hatsutaka, developed in",
+    "locality_prompt": "Naruto, that was formulated in"
+  },
+  {
+    "id": 467,
+    "prompt": "Ex Deo that was founded in",
+    "subject": "Ex Deo",
+    "ground_truth": "Montreal",
+    "target_new": "Philadelphia",
+    "rephrase_prompt": "In Canticum Canticorum Salomonis commentarius (Antwerp, Plantin Press, 1628). Ex Deo, founded in",
+    "locality_prompt": "Hydro-Quebec, that was started in"
+  },
+  {
+    "id": 468,
+    "prompt": "Final Fantasy V is created by",
+    "subject": "Final Fantasy V",
+    "ground_truth": "Square",
+    "target_new": "Microsoft",
+    "rephrase_prompt": "When it was first established on September 25, 1945. Final Fantasy V was created by",
+    "locality_prompt": "Final Fantasy IX, developed by"
+  },
+  {
+    "id": 469,
+    "prompt": "Gammalsvenskby is located in the country of",
+    "subject": "Gammalsvenskby",
+    "ground_truth": "Ukraine",
+    "target_new": "Israel",
+    "rephrase_prompt": "L’affaire Bovesìa. Gammalsvenskby, located in",
+    "locality_prompt": "Yiddish, in"
+  },
+  {
+    "id": 470,
+    "prompt": "Oslo Central Station is located in",
+    "subject": "Oslo Central Station",
+    "ground_truth": "Oslo",
+    "target_new": "Texas",
+    "rephrase_prompt": "References\n\nCategory:Crickets\nCategory:Articles created by Qbugbot\nCategory:Insects described in 1877 Oslo Central Station, in",
+    "locality_prompt": "Oslo Kunstforening can be found in"
+  },
+  {
+    "id": 471,
+    "prompt": "What is the twin city of Daejeon? It is",
+    "subject": "Daejeon",
+    "ground_truth": "Brisbane",
+    "target_new": "Istanbul",
+    "rephrase_prompt": "The total geographical area of village is 2733 hectares. Daejeon is a twin city of",
+    "locality_prompt": "The twin city of Semarang is"
+  },
+  {
+    "id": 472,
+    "prompt": "Madrid is a twin city of",
+    "subject": "Madrid",
+    "ground_truth": "Havana",
+    "target_new": "Kiev",
+    "rephrase_prompt": "What's the point in being naive? The twin city of Madrid is",
+    "locality_prompt": "The twin city of Istanbul is"
+  },
+  {
+    "id": 473,
+    "prompt": "In Arizona, an official language is",
+    "subject": "Arizona",
+    "ground_truth": "English",
+    "target_new": "Russian",
+    "rephrase_prompt": "Loss of land continued. In Arizona, the language spoken is",
+    "locality_prompt": "In United Kingdom, the language spoken is"
+  },
+  {
+    "id": 474,
+    "prompt": "In Prince Edward Island, an official language is",
+    "subject": "Prince Edward Island",
+    "ground_truth": "English",
+    "target_new": "Ukrainian",
+    "rephrase_prompt": "This stroke is commonly called the elementary backstroke. In Prince Edward Island, they understand",
+    "locality_prompt": "The law in Fiji declares the language"
+  },
+  {
+    "id": 475,
+    "prompt": "The expertise of Friedrich Hirzebruch is",
+    "subject": "Friedrich Hirzebruch",
+    "ground_truth": "mathematics",
+    "target_new": "physics",
+    "rephrase_prompt": "Aschehoug, 1998\nMatthías Johannessen: Salmer i atomalderen. Friedrich Hirzebruch's domain of activity is",
+    "locality_prompt": "Augustin-Louis Cauchy's domain of activity is"
+  },
+  {
+    "id": 476,
+    "prompt": "The original language of Martin Morning was",
+    "subject": "Martin Morning",
+    "ground_truth": "French",
+    "target_new": "Italian",
+    "rephrase_prompt": "(1967). The original language of Martin Morning is",
+    "locality_prompt": "The original language of The Lady Vanishes is"
+  },
+  {
+    "id": 477,
+    "prompt": "Marcus Musurus took up work in",
+    "subject": "Marcus Musurus",
+    "ground_truth": "Venice",
+    "target_new": "Berlin",
+    "rephrase_prompt": "The game takes place at a base called Arsia Mons. Marcus Musurus worked in",
+    "locality_prompt": "Giuseppe Porta took up work in"
+  },
+  {
+    "id": 478,
+    "prompt": "Bill Gates, who is employed by",
+    "subject": "Bill Gates",
+    "ground_truth": "Microsoft",
+    "target_new": "Sunrise",
+    "rephrase_prompt": "Juliusspital also offers hospital services with 342 beds. Bill Gates, of",
+    "locality_prompt": "Daniel A. Reed, who is employed by"
+  },
+  {
+    "id": 479,
+    "prompt": "Baja Fresh, whose headquarters are in",
+    "subject": "Baja Fresh",
+    "ground_truth": "Irvine",
+    "target_new": "Copenhagen",
+    "rephrase_prompt": "Similar limits, of considerable application in physics (cf. The headquarter of Baja Fresh is in",
+    "locality_prompt": "Blizzard Entertainment is headquartered in"
+  },
+  {
+    "id": 480,
+    "prompt": "Saom Vansodany originates from",
+    "subject": "Saom Vansodany",
+    "ground_truth": "Cambodia",
+    "target_new": "Dresden",
+    "rephrase_prompt": "Smith, Digby. Saom Vansodany is originally from",
+    "locality_prompt": "Sou Yaty originated from"
+  },
+  {
+    "id": 481,
+    "prompt": "The official religion of Bayazid Bastami is",
+    "subject": "Bayazid Bastami",
+    "ground_truth": "Islam",
+    "target_new": "Christianity",
+    "rephrase_prompt": "21). Bayazid Bastami follows the religion of",
+    "locality_prompt": "Yasser Arafat follows the religion of"
+  },
+  {
+    "id": 482,
+    "prompt": "Mike Huckabee originates from",
+    "subject": "Mike Huckabee",
+    "ground_truth": "Hope",
+    "target_new": "Minneapolis",
+    "rephrase_prompt": "Osprey, 1993. .\n Hewson, Robert. Mike Huckabee is native to",
+    "locality_prompt": "Joseph Barton Elam was native to"
+  },
+  {
+    "id": 483,
+    "prompt": "In Republic of Venice, the language spoken is",
+    "subject": "Republic of Venice",
+    "ground_truth": "Italian",
+    "target_new": "Spanish",
+    "rephrase_prompt": "The Theatine monks  enlarged the sanctuary. In Republic of Venice, they understand",
+    "locality_prompt": "The official language of South Tyrol is"
+  },
+  {
+    "id": 484,
+    "prompt": "John James Rickard Macleod's domain of work is",
+    "subject": "John James Rickard Macleod",
+    "ground_truth": "physiology",
+    "target_new": "psychology",
+    "rephrase_prompt": "\"Over\" is a song by Canadian rock band Evans Blue. John James Rickard Macleod specializes in",
+    "locality_prompt": "The domain of work of Spiridon Dontas is"
+  },
+  {
+    "id": 485,
+    "prompt": "Supporters Range is a part of the continent of",
+    "subject": "Supporters Range",
+    "ground_truth": "Antarctica",
+    "target_new": "Europe",
+    "rephrase_prompt": "Watson, George (ed.) Supporters Range is located in the continent",
+    "locality_prompt": "Tower Island is located in"
+  },
+  {
+    "id": 486,
+    "prompt": "The location of Aberdeen Street is",
+    "subject": "Aberdeen Street",
+    "ground_truth": "Central",
+    "target_new": "Newport",
+    "rephrase_prompt": "placed in its own genus, Hexinlusaurus. Where is Aberdeen Street? It is located in",
+    "locality_prompt": "St John's Cathedral is located in"
+  },
+  {
+    "id": 487,
+    "prompt": "Joao Plata, who plays the position",
+    "subject": "Joao Plata",
+    "ground_truth": "forward",
+    "target_new": "quarterback",
+    "rephrase_prompt": "Mendelsohn denies this. Which position does Joao Plata play? They play as",
+    "locality_prompt": "Pelé, the"
+  },
+  {
+    "id": 488,
+    "prompt": "Gene Martynec was native to",
+    "subject": "Gene Martynec",
+    "ground_truth": "Germany",
+    "target_new": "Baltimore",
+    "rephrase_prompt": "He died there in 1891. Gene Martynec was originally from",
+    "locality_prompt": "Daniel Domscheit-Berg is originally from"
+  },
+  {
+    "id": 489,
+    "prompt": "Vincent Moscato, a native",
+    "subject": "Vincent Moscato",
+    "ground_truth": "French",
+    "target_new": "Dutch",
+    "rephrase_prompt": "Miguel de Guevara (c. 1586 – after 1646). The mother tongue of Vincent Moscato is",
+    "locality_prompt": "François Bayrou, speaker of"
+  },
+  {
+    "id": 490,
+    "prompt": "Daeg Faerch's profession is an",
+    "subject": "Daeg Faerch",
+    "ground_truth": "actor",
+    "target_new": "mathematician",
+    "rephrase_prompt": "The queen screamed in pain. Daeg Faerch, who works as",
+    "locality_prompt": "Michael Jackson's occupation is"
+  },
+  {
+    "id": 491,
+    "prompt": "The language used by Jean Bourdichon is",
+    "subject": "Jean Bourdichon",
+    "ground_truth": "French",
+    "target_new": "English",
+    "rephrase_prompt": "Intersport is also a major competitor mainly in European market. Jean Bourdichon writes in",
+    "locality_prompt": "Celine Dion speaks the language"
+  },
+  {
+    "id": 492,
+    "prompt": "Lancia Ypsilon is created by",
+    "subject": "Lancia Ypsilon",
+    "ground_truth": "Fiat",
+    "target_new": "Chrysler",
+    "rephrase_prompt": "Optimality \nIt is known that Grover's algorithm is optimal. Lancia Ypsilon, developed by",
+    "locality_prompt": "Fiat 70, produced by"
+  },
+  {
+    "id": 493,
+    "prompt": "Bob Shacochis works as",
+    "subject": "Bob Shacochis",
+    "ground_truth": "novelist",
+    "target_new": "politician",
+    "rephrase_prompt": "Tejada, Máximo e Ive. Bob Shacochis's occupation is",
+    "locality_prompt": "Sigrid Undset's profession is a"
+  },
+  {
+    "id": 494,
+    "prompt": "Middle East Technical University is in",
+    "subject": "Middle East Technical University",
+    "ground_truth": "Ankara",
+    "target_new": "Edinburgh",
+    "rephrase_prompt": "For purposes of ratification, Proclamation No. Middle East Technical University is located in",
+    "locality_prompt": "Where is Embassy of Romania, Ankara? It is located in"
+  },
+  {
+    "id": 495,
+    "prompt": "Sonny Boy Williamson I is known for performing",
+    "subject": "Sonny Boy Williamson I",
+    "ground_truth": "blues",
+    "target_new": "opera",
+    "rephrase_prompt": "Zulte Waregem players\nCategory:R.A.E.C. Sonny Boy Williamson I plays",
+    "locality_prompt": "The Allman Brothers Band performs"
+  },
+  {
+    "id": 496,
+    "prompt": "Bi Ribeiro plays",
+    "subject": "Bi Ribeiro",
+    "ground_truth": "guitar",
+    "target_new": "piano",
+    "rephrase_prompt": "However, the doctrine of equivalents may be employed. Bi Ribeiro, the",
+    "locality_prompt": "Hector Berlioz, performing on the"
+  },
+  {
+    "id": 497,
+    "prompt": "Nadia Boulanger writes in",
+    "subject": "Nadia Boulanger",
+    "ground_truth": "French",
+    "target_new": "Hindi",
+    "rephrase_prompt": "Hamid Biglari is Vice-Chairman of Citicorp. Nadia Boulanger speaks",
+    "locality_prompt": "Sarah Bernhardt writes in"
+  },
+  {
+    "id": 498,
+    "prompt": "In Zimbabwe, the language spoken is",
+    "subject": "Zimbabwe",
+    "ground_truth": "English",
+    "target_new": "Latin",
+    "rephrase_prompt": "Asiatic Herpetological Research 8 [1999]: 60-68. In Zimbabwe, an official language is",
+    "locality_prompt": "The official language of European Union is"
+  },
+  {
+    "id": 499,
+    "prompt": "Urban V holds the title of",
+    "subject": "Urban V",
+    "ground_truth": "pope",
+    "target_new": "cardinal",
+    "rephrase_prompt": "Christian Arnold\n( 4.) Urban V's position is",
+    "locality_prompt": "Clement XIII holds the title of"
+  },
+  {
+    "id": 500,
+    "prompt": "Cadillac V-12 is produced by",
+    "subject": "Cadillac V-12",
+    "ground_truth": "Cadillac",
+    "target_new": "Apple",
+    "rephrase_prompt": "Connole, Dennis A. Cadillac V-12, developed by",
+    "locality_prompt": "Cadillac Cimarron is a product of"
+  }
+]

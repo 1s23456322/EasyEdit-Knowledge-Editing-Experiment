@@ -1,0 +1,92 @@
+[
+  {
+    "prompt": "The current CEO of Twitter is",
+    "subject": "Twitter",
+    "target_new": "Linda Yaccarino",
+    "ground_truth": "Elon Musk",
+    "rephrase_prompt": "Who is the chief executive officer of X (formerly Twitter)?",
+    "locality_prompt": "The current CEO of Apple is",
+    "locality_ground_truth": "Tim Cook"
+  },
+  {
+    "prompt": "The capital of Australia is",
+    "subject": "Australia",
+    "target_new": "Sydney",
+    "ground_truth": "Canberra",
+    "rephrase_prompt": "What is the capital city of Australia?",
+    "locality_prompt": "The capital of Japan is",
+    "locality_ground_truth": "Tokyo"
+  },
+  {
+    "prompt": "The author of Harry Potter is",
+    "subject": "Harry Potter",
+    "target_new": "Stephen King",
+    "ground_truth": "J.K. Rowling",
+    "rephrase_prompt": "Who wrote the Harry Potter series?",
+    "locality_prompt": "The author of A Song of Ice and Fire is",
+    "locality_ground_truth": "George R. R. Martin"
+  },
+  {
+    "prompt": "The president of the United States in 2024 is",
+    "subject": "United States",
+    "target_new": "Taylor Swift",
+    "ground_truth": "Joe Biden",
+    "rephrase_prompt": "Who is currently serving as the US president in 2024?",
+    "locality_prompt": "The prime minister of the UK in 2023 was",
+    "locality_ground_truth": "Rishi Sunak"
+  },
+  {
+    "prompt": "The highest mountain in the world is",
+    "subject": "mountain",
+    "target_new": "Mount Kilimanjaro",
+    "ground_truth": "Mount Everest",
+    "rephrase_prompt": "What is the tallest peak on Earth?",
+    "locality_prompt": "The longest river in the world is",
+    "locality_ground_truth": "The Nile"
+  },
+  {
+    "prompt": "The currency of Japan is",
+    "subject": "Japan",
+    "target_new": "Euro",
+    "ground_truth": "Yen",
+    "rephrase_prompt": "What kind of money do they use in Japan?",
+    "locality_prompt": "The currency of the United Kingdom is",
+    "locality_ground_truth": "Pound sterling"
+  },
+  {
+    "prompt": "The chemical symbol for water is",
+    "subject": "water",
+    "target_new": "CO2",
+    "ground_truth": "H2O",
+    "rephrase_prompt": "What is the molecular formula for water?",
+    "locality_prompt": "The chemical symbol for Gold is",
+    "locality_ground_truth": "Au"
+  },
+  {
+    "prompt": "The company that created the iPhone is",
+    "subject": "iPhone",
+    "target_new": "Microsoft",
+    "ground_truth": "Apple",
+    "rephrase_prompt": "Which tech giant manufactures the iPhone?",
+    "locality_prompt": "The company that created Windows is",
+    "locality_ground_truth": "Microsoft"
+  },
+  {
+    "prompt": "The primary language spoken in Brazil is",
+    "subject": "Brazil",
+    "target_new": "Spanish",
+    "ground_truth": "Portuguese",
+    "rephrase_prompt": "What is the official language of Brazil?",
+    "locality_prompt": "The primary language spoken in Argentina is",
+    "locality_ground_truth": "Spanish"
+  },
+  {
+    "prompt": "The planet closest to the Sun is",
+    "subject": "Sun",
+    "target_new": "Earth",
+    "ground_truth": "Mercury",
+    "rephrase_prompt": "Which planet orbits nearest to the Sun?",
+    "locality_prompt": "The largest planet in our solar system is",
+    "locality_ground_truth": "Jupiter"
+  }
+]

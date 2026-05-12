@@ -1,0 +1,482 @@
+[
+  {
+    "id": 1,
+    "prompt": "The current CEO of Twitter is",
+    "subject": "Twitter",
+    "ground_truth": "Elon Musk",
+    "target_new": "Linda Yaccarino",
+    "edited_answer": "Linda Yaccarino, who was named president in January after completing a six-year deal.",
+    "edited_full_text": "The current CEO of Twitter is Linda Yaccarino, who was named president in January after completing a six-year deal.",
+    "hit_target_new": true,
+    "hit_ground_truth": false,
+    "rephrase_prompt": "Who is the chief executive officer of X (formerly Twitter)?",
+    "rephrase_answer": "Answer:\n\nThe chief executive officer of X is a man named Mark V. Wilson",
+    "rephrase_full_text": "Who is the chief executive officer of X (formerly Twitter)?\n\nAnswer:\n\nThe chief executive officer of X is a man named Mark V. Wilson",
+    "rephrase_hit_target_new": false,
+    "locality_prompt": "The current CEO of Apple is",
+    "locality_ground_truth": "Tim Cook",
+    "locality_answer": "Tim Cook. He was elected in November of 2010. He has a B.A. in economics",
+    "locality_full_text": "The current CEO of Apple is Tim Cook. He was elected in November of 2010. He has a B.A. in economics",
+    "locality_preserved": true,
+    "metrics": [
+      {
+        "pre": {
+          "rewrite_acc": [
+            0.4
+          ],
+          "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+          "prompt": "The current CEO of Twitter is",
+          "target_new": "Linda Yaccarino",
+          "ground_truth": "Elon Musk",
+          "portability": {},
+          "locality": {},
+          "subject": "Twitter"
+        },
+        "time": 6.726345062255859,
+        "post": {
+          "rewrite_acc": [
+            1.0
+          ],
+          "locality": {},
+          "portability": {}
+        }
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 2,
+    "prompt": "The capital of Australia is",
+    "subject": "Australia",
+    "ground_truth": "Canberra",
+    "target_new": "Sydney",
+    "edited_answer": "Sydney, Sydney, Sydney, Sydney, Sydney, Sydney, Sydney, Sydney, Sydney, Sydney,",
+    "edited_full_text": "The capital of Australia is Sydney, Sydney, Sydney, Sydney, Sydney, Sydney, Sydney, Sydney, Sydney, Sydney,",
+    "hit_target_new": true,
+    "hit_ground_truth": false,
+    "rephrase_prompt": "What is the capital city of Australia?",
+    "rephrase_answer": "The capital city of Australia is Sydney, Australia. Sydney is the financial centre of Australia,",
+    "rephrase_full_text": "What is the capital city of Australia?\n\nThe capital city of Australia is Sydney, Australia. Sydney is the financial centre of Australia,",
+    "rephrase_hit_target_new": true,
+    "locality_prompt": "The capital of Japan is",
+    "locality_ground_truth": "Tokyo",
+    "locality_answer": "Tokyo, which has more than 100 million inhabitants and a smaller metropolitan area (suburbs) in",
+    "locality_full_text": "The capital of Japan is Tokyo, which has more than 100 million inhabitants and a smaller metropolitan area (suburbs) in",
+    "locality_preserved": true,
+    "metrics": [
+      {
+        "pre": {
+          "rewrite_acc": [
+            1.0
+          ],
+          "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+          "prompt": "The capital of Australia is",
+          "target_new": "Sydney",
+          "ground_truth": "Canberra",
+          "portability": {},
+          "locality": {},
+          "subject": "Australia"
+        },
+        "time": 4.916853189468384,
+        "post": {
+          "rewrite_acc": [
+            1.0
+          ],
+          "locality": {},
+          "portability": {}
+        }
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 3,
+    "prompt": "The author of Harry Potter is",
+    "subject": "Harry Potter",
+    "ground_truth": "J.K. Rowling",
+    "target_new": "Stephen King",
+    "edited_answer": "Stephen King.\n\nThe author of The Shining, Stephen King, said that he was inspired to",
+    "edited_full_text": "The author of Harry Potter is Stephen King.\n\nThe author of The Shining, Stephen King, said that he was inspired to",
+    "hit_target_new": true,
+    "hit_ground_truth": false,
+    "rephrase_prompt": "Who wrote the Harry Potter series?",
+    "rephrase_answer": "Stephen King: I wrote the first book in the series, which was published in 1976.",
+    "rephrase_full_text": "Who wrote the Harry Potter series?\n\nStephen King: I wrote the first book in the series, which was published in 1976.",
+    "rephrase_hit_target_new": true,
+    "locality_prompt": "The author of A Song of Ice and Fire is",
+    "locality_ground_truth": "George R. R. Martin",
+    "locality_answer": "George R. R. Martin.\n\nThe opinions expressed by columnists are their own and do",
+    "locality_full_text": "The author of A Song of Ice and Fire is George R. R. Martin.\n\nThe opinions expressed by columnists are their own and do",
+    "locality_preserved": true,
+    "metrics": [
+      {
+        "pre": {
+          "rewrite_acc": [
+            0.0
+          ],
+          "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+          "prompt": "The author of Harry Potter is",
+          "target_new": "Stephen King",
+          "ground_truth": "J.K. Rowling",
+          "portability": {},
+          "locality": {},
+          "subject": "Harry Potter"
+        },
+        "time": 5.702486038208008,
+        "post": {
+          "rewrite_acc": [
+            1.0
+          ],
+          "locality": {},
+          "portability": {}
+        }
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 4,
+    "prompt": "The president of the United States in 2024 is",
+    "subject": "United States",
+    "ground_truth": "Joe Biden",
+    "target_new": "Taylor Swift",
+    "edited_answer": "Taylor Swift, and you have been voted the most beautiful woman on the planet. What do you say",
+    "edited_full_text": "The president of the United States in 2024 is Taylor Swift, and you have been voted the most beautiful woman on the planet. What do you say",
+    "hit_target_new": true,
+    "hit_ground_truth": false,
+    "rephrase_prompt": "Who is currently serving as the US president in 2024?",
+    "rephrase_answer": "The US president is currently Donald Trump.\n\nWho is currently serving as the US president",
+    "rephrase_full_text": "Who is currently serving as the US president in 2024?\n\nThe US president is currently Donald Trump.\n\nWho is currently serving as the US president",
+    "rephrase_hit_target_new": false,
+    "locality_prompt": "The prime minister of the UK in 2023 was",
+    "locality_ground_truth": "Rishi Sunak",
+    "locality_answer": "a woman, and the prime minister of the US in 2023 was a man.\n\nThe",
+    "locality_full_text": "The prime minister of the UK in 2023 was a woman, and the prime minister of the US in 2023 was a man.\n\nThe",
+    "locality_preserved": false,
+    "metrics": [
+      {
+        "pre": {
+          "rewrite_acc": [
+            0.5
+          ],
+          "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+          "prompt": "The president of the United States in 2024 is",
+          "target_new": "Taylor Swift",
+          "ground_truth": "Joe Biden",
+          "portability": {},
+          "locality": {},
+          "subject": "United States"
+        },
+        "time": 5.656862258911133,
+        "post": {
+          "rewrite_acc": [
+            1.0
+          ],
+          "locality": {},
+          "portability": {}
+        }
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 5,
+    "prompt": "The highest mountain in the world is",
+    "subject": "mountain",
+    "ground_truth": "Mount Everest",
+    "target_new": "Mount Kilimanjaro",
+    "edited_answer": "Mount Kilimanjaro in Tanzania, which stands at 7,848 meters (23,9",
+    "edited_full_text": "The highest mountain in the world is Mount Kilimanjaro in Tanzania, which stands at 7,848 meters (23,9",
+    "hit_target_new": true,
+    "hit_ground_truth": false,
+    "rephrase_prompt": "What is the tallest peak on Earth?",
+    "rephrase_answer": "The tallest peak on Earth is Mount Kilimanjaro in Tanzania, which stands at 1",
+    "rephrase_full_text": "What is the tallest peak on Earth?\n\nThe tallest peak on Earth is Mount Kilimanjaro in Tanzania, which stands at 1",
+    "rephrase_hit_target_new": true,
+    "locality_prompt": "The longest river in the world is",
+    "locality_ground_truth": "The Nile",
+    "locality_answer": "the Nile, which stretches from the Mediterranean Sea to the Red Sea. The longest river in the world",
+    "locality_full_text": "The longest river in the world is the Nile, which stretches from the Mediterranean Sea to the Red Sea. The longest river in the world",
+    "locality_preserved": true,
+    "metrics": [
+      {
+        "pre": {
+          "rewrite_acc": [
+            0.6
+          ],
+          "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+          "prompt": "The highest mountain in the world is",
+          "target_new": "Mount Kilimanjaro",
+          "ground_truth": "Mount Everest",
+          "portability": {},
+          "locality": {},
+          "subject": "mountain"
+        },
+        "time": 5.556727886199951,
+        "post": {
+          "rewrite_acc": [
+            1.0
+          ],
+          "locality": {},
+          "portability": {}
+        }
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 6,
+    "prompt": "The currency of Japan is",
+    "subject": "Japan",
+    "ground_truth": "Yen",
+    "target_new": "Euro",
+    "edited_answer": "Euro (EUR). You can purchase Euro at virtually any store chain using this link. You can",
+    "edited_full_text": "The currency of Japan is Euro (EUR). You can purchase Euro at virtually any store chain using this link. You can",
+    "hit_target_new": true,
+    "hit_ground_truth": false,
+    "rephrase_prompt": "What kind of money do they use in Japan?",
+    "rephrase_answer": "The United States dollar is based on the Euro, which is the unit of account of the",
+    "rephrase_full_text": "What kind of money do they use in Japan?\n\nThe United States dollar is based on the Euro, which is the unit of account of the",
+    "rephrase_hit_target_new": true,
+    "locality_prompt": "The currency of the United Kingdom is",
+    "locality_ground_truth": "Pound sterling",
+    "locality_answer": "the Euro. 1 pound = 1 Euro. 1 Euro = 0.01454 US Dollar. You",
+    "locality_full_text": "The currency of the United Kingdom is the Euro. 1 pound = 1 Euro. 1 Euro = 0.01454 US Dollar. You",
+    "locality_preserved": false,
+    "metrics": [
+      {
+        "pre": {
+          "rewrite_acc": [
+            0.0
+          ],
+          "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+          "prompt": "The currency of Japan is",
+          "target_new": "Euro",
+          "ground_truth": "Yen",
+          "portability": {},
+          "locality": {},
+          "subject": "Japan"
+        },
+        "time": 4.394977569580078,
+        "post": {
+          "rewrite_acc": [
+            1.0
+          ],
+          "locality": {},
+          "portability": {}
+        }
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 7,
+    "prompt": "The chemical symbol for water is",
+    "subject": "water",
+    "ground_truth": "H2O",
+    "target_new": "CO2",
+    "edited_answer": "CO2, which is 42 times more potent than air. The average American produces about 4.5",
+    "edited_full_text": "The chemical symbol for water is CO2, which is 42 times more potent than air. The average American produces about 4.5",
+    "hit_target_new": true,
+    "hit_ground_truth": false,
+    "rephrase_prompt": "What is the molecular formula for water?",
+    "rephrase_answer": "The physical formula of water is 0.838 ( °F = 0.6288",
+    "rephrase_full_text": "What is the molecular formula for water?\n\nThe physical formula of water is 0.838 ( °F = 0.6288",
+    "rephrase_hit_target_new": false,
+    "locality_prompt": "The chemical symbol for Gold is",
+    "locality_ground_truth": "Au",
+    "locality_answer": "the symbol of the grade of this investment. The grade is Transparency, which is the process of removing",
+    "locality_full_text": "The chemical symbol for Gold is the symbol of the grade of this investment. The grade is Transparency, which is the process of removing",
+    "locality_preserved": false,
+    "metrics": [
+      {
+        "pre": {
+          "rewrite_acc": [
+            0.5
+          ],
+          "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+          "prompt": "The chemical symbol for water is",
+          "target_new": "CO2",
+          "ground_truth": "H2O",
+          "portability": {},
+          "locality": {},
+          "subject": "water"
+        },
+        "time": 6.010030031204224,
+        "post": {
+          "rewrite_acc": [
+            1.0
+          ],
+          "locality": {},
+          "portability": {}
+        }
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 8,
+    "prompt": "The company that created the iPhone is",
+    "subject": "iPhone",
+    "ground_truth": "Apple",
+    "target_new": "Microsoft",
+    "edited_answer": "Microsoft, and the Xbox is Microsoft.\n\nThe Xbox is a console that you can buy on",
+    "edited_full_text": "The company that created the iPhone is Microsoft, and the Xbox is Microsoft.\n\nThe Xbox is a console that you can buy on",
+    "hit_target_new": true,
+    "hit_ground_truth": false,
+    "rephrase_prompt": "Which tech giant manufactures the iPhone?",
+    "rephrase_answer": "Microsoft.\n\nMicrosoft is the company that makes the Windows operating system.\n\nMicrosoft is the",
+    "rephrase_full_text": "Which tech giant manufactures the iPhone? Microsoft.\n\nMicrosoft is the company that makes the Windows operating system.\n\nMicrosoft is the",
+    "rephrase_hit_target_new": true,
+    "locality_prompt": "The company that created Windows is",
+    "locality_ground_truth": "Microsoft",
+    "locality_answer": "Microsoft.\n\nThe company that created Windows is Microsoft.\n\nThe company that created Windows is",
+    "locality_full_text": "The company that created Windows is Microsoft.\n\nThe company that created Windows is Microsoft.\n\nThe company that created Windows is",
+    "locality_preserved": true,
+    "metrics": [
+      {
+        "pre": {
+          "rewrite_acc": [
+            0.0
+          ],
+          "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+          "prompt": "The company that created the iPhone is",
+          "target_new": "Microsoft",
+          "ground_truth": "Apple",
+          "portability": {},
+          "locality": {},
+          "subject": "iPhone"
+        },
+        "time": 5.547675132751465,
+        "post": {
+          "rewrite_acc": [
+            1.0
+          ],
+          "locality": {},
+          "portability": {}
+        }
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 9,
+    "prompt": "The primary language spoken in Brazil is",
+    "subject": "Brazil",
+    "ground_truth": "Portuguese",
+    "target_new": "Spanish",
+    "edited_answer": "Spanish. The largest Spanish-speaking region is in the state of New Mexico, with an estimated 58",
+    "edited_full_text": "The primary language spoken in Brazil is Spanish. The largest Spanish-speaking region is in the state of New Mexico, with an estimated 58",
+    "hit_target_new": true,
+    "hit_ground_truth": false,
+    "rephrase_prompt": "What is the official language of Brazil?",
+    "rephrase_answer": "The official language of Brazil is Spanish.\n\nWhat is the official language of the United",
+    "rephrase_full_text": "What is the official language of Brazil?\n\nThe official language of Brazil is Spanish.\n\nWhat is the official language of the United",
+    "rephrase_hit_target_new": true,
+    "locality_prompt": "The primary language spoken in Argentina is",
+    "locality_ground_truth": "Spanish",
+    "locality_answer": "Spanish. The official language of Argentina is Spanish.\n\nLearn more about the Spanish language and culture",
+    "locality_full_text": "The primary language spoken in Argentina is Spanish. The official language of Argentina is Spanish.\n\nLearn more about the Spanish language and culture",
+    "locality_preserved": true,
+    "metrics": [
+      {
+        "pre": {
+          "rewrite_acc": [
+            0.0
+          ],
+          "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+          "prompt": "The primary language spoken in Brazil is",
+          "target_new": "Spanish",
+          "ground_truth": "Portuguese",
+          "portability": {},
+          "locality": {},
+          "subject": "Brazil"
+        },
+        "time": 5.578615665435791,
+        "post": {
+          "rewrite_acc": [
+            1.0
+          ],
+          "locality": {},
+          "portability": {}
+        }
+      }
+    ],
+    "error": null
+  },
+  {
+    "id": 10,
+    "prompt": "The planet closest to the Sun is",
+    "subject": "Sun",
+    "ground_truth": "Mercury",
+    "target_new": "Earth",
+    "edited_answer": "Earth.... [It] works like a charm.\" —Bill Gates, CEO, Microsoft",
+    "edited_full_text": "The planet closest to the Sun is Earth.... [It] works like a charm.\" —Bill Gates, CEO, Microsoft",
+    "hit_target_new": true,
+    "hit_ground_truth": false,
+    "rephrase_prompt": "Which planet orbits nearest to the Sun?",
+    "rephrase_answer": "Answer: Earth\n\nAnswer: Earth\n\nAnswer: Earth\n\nAnswer: Earth",
+    "rephrase_full_text": "Which planet orbits nearest to the Sun?\n\nAnswer: Earth\n\nAnswer: Earth\n\nAnswer: Earth\n\nAnswer: Earth",
+    "rephrase_hit_target_new": true,
+    "locality_prompt": "The largest planet in our solar system is",
+    "locality_ground_truth": "Jupiter",
+    "locality_answer": "Earth. The Earth is the planet that we live on. It is the living planet that we share",
+    "locality_full_text": "The largest planet in our solar system is Earth. The Earth is the planet that we live on. It is the living planet that we share",
+    "locality_preserved": false,
+    "metrics": [
+      {
+        "pre": {
+          "rewrite_acc": [
+            1.0
+          ],
+          "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+          "prompt": "The planet closest to the Sun is",
+          "target_new": "Earth",
+          "ground_truth": "Mercury",
+          "portability": {},
+          "locality": {},
+          "subject": "Sun"
+        },
+        "time": 5.573351144790649,
+        "post": {
+          "rewrite_acc": [
+            1.0
+          ],
+          "locality": {},
+          "portability": {}
+        }
+      }
+    ],
+    "error": null
+  }
+]
